@@ -1,0 +1,99 @@
+<!-- 🔷 LLIÇÓ 1 - MAGNITUDS I PRINCIPIS BÀSICS -->
+<div style="line-height: 1.6;">
+
+    <h2 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Lliçó 1: Magnituds i principis bàsics de l’electricitat</h2>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        En aquesta primera lliçó establirem les bases del funcionament elèctric. Aprendrem a diferenciar les magnituds fonamentals que ens permetran entendre com funciona qualsevol circuit, des d'una simple bombeta fins a la placa base d'un ordinador.
+    </p>
+
+    <div style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(247, 247, 247); padding: 10px; border-left: 4px solid rgb(153, 153, 153); margin: 15px 0px;">
+        🧭 <strong>Durada estimada:</strong> 7 hores
+    </div>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">1.1 Magnituds elèctriques fonamentals</h3>
+    
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Per entendre l'electricitat, cal conèixer tres conceptes clau que es relacionen entre ells:
+    </p>
+
+    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
+        <li><strong>Tensió o Voltatge (V):</strong> És la força que impulsa els electrons a través d'un conductor. Es mesura en <strong>Volts (V)</strong>. Podem imaginar-ho com la pressió de l'aigua en una canonada.</li>
+        <li><strong>Intensitat de corrent (I):</strong> És la quantitat d'electrons que circulen per un punt del circuit en un segon. Es mesura en <strong>Ampers (A)</strong>. Seria equivalent al cabal d'aigua.</li>
+        <li><strong>Resistència (R):</strong> És l'oposició que presenta un material al pas del corrent. Es mesura en <strong>Ohms (Ω)</strong>. Equivaldria a l'amplada de la canonada (més estreta = més resistència).</li>
+    </ul>
+
+    <div style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        ⚡ <strong>Analògia hidràulica:</strong> Si pensem en un riu, el <strong>voltatge</strong> és la diferència d'alçada que fa caure l'aigua, la <strong>intensitat</strong> és la quantitat d'aigua que baixa, i la <strong>resistència</strong> són les roques que frenen el corrent.
+    </div>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">1.2 Tipus de corrent elèctric</h3>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        No tota l'electricitat es comporta igual. En informàtica, conviuen dos tipus de corrent molt importants:
+    </p>
+
+    <table style="width: 100%; border-collapse: collapse; font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; color: rgb(34, 34, 34); margin-bottom: 20px;">
+        <thead>
+            <tr style="background-color: rgb(230, 230, 230);">
+                <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Tipus</th>
+                <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Característiques</th>
+                <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Exemple d'ús</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 12px;"><strong>Corrent Continu (DC)</strong></td>
+                <td style="border: 1px solid #ddd; padding: 12px;">Els electrons flueixen sempre en el mateix sentit. El voltatge és constant en el temps.</td>
+                <td style="border: 1px solid #ddd; padding: 12px;">Bateries, piles, components interns del PC (microprocessador, RAM).</td>
+            </tr>
+            <tr style="background-color: rgb(250, 250, 250);">
+                <td style="border: 1px solid #ddd; padding: 12px;"><strong>Corrent Altern (AC)</strong></td>
+                <td style="border: 1px solid #ddd; padding: 12px;">El sentit dels electrons canvia periòdicament (50 vegades per segon a Europa, 50Hz).</td>
+                <td style="border: 1px solid #ddd; padding: 12px;">Endolls domèstics, xarxa elèctrica general.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(232, 245, 233); padding: 10px; border-left: 4px solid rgb(76, 175, 80); margin: 15px 0px;">
+        🧩 <strong>Dada clau:</strong> L'ordinador es connecta a l'endoll (Corrent Altern), però internament necessita Corrent Continu. L'encarregada de fer aquesta transformació és la <strong>Font d'Alimentació</strong>.
+    </div>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">1.3 La Llei d'Ohm</h3>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        La llei d'Ohm és la fórmula fonamental de l'electrònica. Relaciona les tres magnituds que hem vist abans amb la següent equació:
+    </p>
+
+    <div style="text-align: center; font-size: 1.5rem; font-weight: bold; color: rgb(0, 74, 153); margin: 20px 0;">
+        V = I · R
+    </div>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        On:
+    </p>
+    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
+        <li><strong>V</strong> = Voltatge (Volts)</li>
+        <li><strong>I</strong> = Intensitat (Ampers)</li>
+        <li><strong>R</strong> = Resistència (Ohms)</li>
+    </ul>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        D'aquesta fórmula se'n deriven les altres dues:
+    </p>
+    <p style="text-align: center; color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        <strong>I = V / R</strong> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <strong>R = V / I</strong>
+    </p>
+
+    <div style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        💡 <strong>Activitat pràctica:</strong> Si tenim un circuit amb una pila de 9V i una bombeta que ofereix una resistència de 100Ω, quina intensitat circula pel circuit?<br><br>
+        <em>Solució: I = 9V / 100Ω = 0.09 A = 90 mA.</em>
+    </div>
+
+</div>
+<!-- 🔷 FI LLIÇÓ 1 -->

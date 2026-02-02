@@ -1,0 +1,69 @@
+<!-- 🔷 LLIÇÓ 4 - SAIS (UPS) -->
+<div style="line-height: 1.6;">
+
+    <h2 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Lliçó 4: Sistemes
+        d’Alimentació Ininterrompuda (SAI)</h2>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Un SAI (o UPS en anglès, Uninterruptible Power Supply) és un dispositiu que conté bateries per mantenir
+        l'ordinador encès durant un tall de llum, donant temps a guardar la feina i apagar l'equip correctament. També
+        protegeix de pics de tensió.
+    </p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(247, 247, 247); padding: 10px; border-left: 4px solid rgb(153, 153, 153); margin: 15px 0px;">
+        🧭 <strong>Durada estimada:</strong> 6 hores
+    </div>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">4.1 Tipus de SAI</h3>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Segons com gestionen el corrent, hi ha tres tecnologies principals:
+    </p>
+
+    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
+        <li><strong>Offline (Standby):</strong> És el més bàsic i econòmic. L'ordinador s'alimenta directament de la
+            xarxa. Quan la llum marxa, el SAI commuta a bateria (triga uns mil·lisegons, el "temps de transferència").
+            Adequat per a PC domèstics.</li>
+        <li><strong>Line-Interactive:</strong> Incorpora un regulador de voltatge (AVR) que neteja petites pujades i
+            baixades de tensió sense gastar bateria. És el més recomanat per a petites oficines i workstations.</li>
+        <li><strong>Online (Double Conversion):</strong> L'ordinador sempre s'alimenta de les bateries, i aquestes es
+            carreguen constantment. No hi ha temps de commutació (0 ms) i el corrent de sortida és totalment pur. És car
+            i s'utilitza per a servidors crítics i centres de dades.</li>
+    </ul>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">4.2 Dimensionament d'un
+        SAI</h3>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Com sabem quin SAI necessitem? Hem de calcular la potència dels equips que hi connectarem.
+    </p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        ⚡ <strong>VA vs Watts:</strong> Els fabricants de SAI solen donar la potència en Volt-Ampers (VA), que és la
+        potència aparent. Els ordinadors consumeixen Watts (W), potència real.
+        <br><br>
+        Fórmula aproximada per a equips informàtics: <strong>Watts ≈ VA x 0.6 (o 0.7)</strong>
+    </div>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        <strong>Exemple pràctic:</strong> Tenim un PC i monitor que consumeixen 400W.
+    </p>
+    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
+        <li>Si comprem un SAI de 500VA -> 500 x 0.6 = 300W. <strong>NO SUFICIENT</strong> (el SAI s'apagaria per
+            sobrecàrrega).</li>
+        <li>Si comprem un SAI de 800VA -> 800 x 0.6 = 480W. <strong>CORRECTE</strong> (tenim marge).</li>
+    </ul>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(232, 245, 233); padding: 10px; border-left: 4px solid rgb(76, 175, 80); margin: 15px 0px;">
+        🧩 <strong>Consell:</strong> És millor "sobredimensionar" una mica el SAI. Això no només suporta pics de consum,
+        sinó que allarga l'autonomia en cas de tall (durarà 10-15 minuts en lloc de 2-3).
+    </div>
+
+</div>
+<!-- 🔷 FI LLIÇÓ 4 -->
