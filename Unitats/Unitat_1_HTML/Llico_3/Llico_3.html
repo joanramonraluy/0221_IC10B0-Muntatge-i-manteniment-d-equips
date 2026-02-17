@@ -1,81 +1,34 @@
 <!-- 🔷 LLIÇÓ 3 - FONTS D'ALIMENTACIÓ -->
-<div style="line-height: 1.6;">
+<div style="line-height: 1.6; text-align: justify;">
 
     <h2 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Lliçó 3: Fonts
         d’alimentació i diagnosi</h2>
-    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
-        La Font d'Alimentació (PSU - Power Supply Unit) és el cor de l'ordinador. Converteix el corrent altern de casa
-        (230V AC) en corrent continu de baix voltatge (12V, 5V, 3.3V DC) que necessiten els components.
-    </p>
-
-    <div
-        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(247, 247, 247); padding: 10px; border-left: 4px solid rgb(153, 153, 153); margin: 15px 0px;">
-        🧭 <strong>Durada estimada:</strong> 10 hores
-    </div>
-
-    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
-
-    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">3.1 Els rails de voltatge
-    </h3>
 
     <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
-        Una font ATX moderna subministra principalment tres voltatges diferents, cadascun amb una funció específica:
+        En aquesta lliçó aprofundirem en un dels components més importants d’un equip informàtic: la font d’alimentació.
+        Sense una font que transformi correctament el corrent de la xarxa en les tensions adequades, cap ordinador,
+        portàtil o servidor no podria funcionar amb seguretat ni estabilitat. A més, molts problemes aparentment
+        “misteriosos” —inestabilitat, reinicis, apagades sobtades— tenen sovint l’origen en una font mal dimensionada,
+        envellida o de mala qualitat.
     </p>
-
-    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
-        <li><span style="color: #d32f2f; font-weight: bold;">+12V (Cable groc):</span> És el més important actualment.
-            Alimenta el processador (CPU) i la targeta gràfica (GPU). Motors de discs durs i ventiladors.</li>
-        <li><span style="color: #d32f2f; font-weight: bold;">+5V (Cable vermell):</span> Alimenta electrònica de discs
-            durs (SSD/HDD) i alguns xips de la placa.</li>
-        <li><span style="color: #d32f2f; font-weight: bold;">+3.3V (Cable taronja):</span> Alimenta la memòria RAM i
-            circuits lògics de la placa base (M.2 NVMe).</li>
-    </ul>
-
-    <div
-        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
-        💡 <strong>Què és el cable gris (Power Good)?</strong> És un senyal que envia la font a la placa base per
-        indicar que els voltatges són estables i que l'ordinador pot arrencar. Si aquest senyal falla, el PC no s'encén.
-    </div>
-
-    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
-
-    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">3.2 Format i Eficiència
-    </h3>
 
     <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
-        <strong>Format ATX:</strong> És l'estàndard actual. Assegura que la font encaixi a la caixa i tingui els
-        connectors adequats (24 pins per a la placa, 4/8 pins per a CPU).
+        Fins ara hem treballat les magnituds elèctriques bàsiques (tensió, corrent, resistència i potència), els tipus
+        de corrent (continu i altern) i els riscos associats a la instal·lació elèctrica del taller. A partir d’aquests
+        coneixements, ja es pot entendre com una font commutada pren els 230 V de la xarxa i els converteix en diverses
+        línies de tensió contínua (12 V, 5 V, 3,3 V) que alimenten la placa base, la CPU, la GPU, els discs i la resta
+        de components.
     </p>
-    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
-        <strong>Certificació 80 PLUS:</strong> Garanteix l'eficiència energètica. Una font 80 PLUS Bronze malgasta menys
-        energia (en forma de calor) que una sense certificar. Nivells: White, Bronze, Silver, Gold, Platinum, Titanium.
-    </p>
-
-    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
-
-    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">3.3 Ús del Polímetre
-        (Multímetre)</h3>
 
     <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
-        Per diagnosticar avaries, fem servir el multímetre.
+        Al llarg de la lliçó veurem, en primer lloc, quins tipus de fonts s’utilitzen en informàtica i com reconèixer
+        visualment una font ATX de sobretaula o un carregador de portàtil. Després aprendrem a llegir l’etiqueta tècnica
+        d’una font (tensions, corrents màxims, potència total, certificacions d’eficiència) i a relacionar aquestes
+        dades amb el consum real dels equips i amb la tria d’una potència adequada per a cada cas. Finalment,
+        treballarem amb el multímetre per mesurar de forma segura les tensions de sortida i interpretarem si una font és
+        usable o presenta problemes.
     </p>
 
-    <h4 style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Com mesurar voltatges
-        d'una font (tècnica del "pont"):</h4>
-    <ol style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
-        <li>Desconnectar la font de la placa base.</li>
-        <li>Fer un pont (amb un clip) entre el <strong>cable verd (PS_ON)</strong> i qualsevol <strong>cable negre
-                (Massa)</strong> del connector de 24 pins. Això encén la font manualment.</li>
-        <li>Posar el multímetre en mode <strong>Voltatge DC (V=)</strong>, escala 20V.</li>
-        <li>Posar la punta negra en un contacte negre (massa).</li>
-        <li>Amb la punta vermella, comprovar els grocs (+12V), vermells (+5V) i taronges (+3.3V).</li>
-    </ol>
-
-    <div
-        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(232, 245, 233); padding: 10px; border-left: 4px solid rgb(76, 175, 80); margin: 15px 0px;">
-        🧩 <strong>Tolerància:</strong> Els valors no han de ser exactes, però sí molt propers. Un valor de +11.4V en la
-        línia de 12V es considera massa baix i pot provocar inestabilitat. La tolerància acceptada sol ser del ±5%.
-    </div>
-
+</div>
 </div>
 <!-- 🔷 FI LLIÇÓ 3 -->
