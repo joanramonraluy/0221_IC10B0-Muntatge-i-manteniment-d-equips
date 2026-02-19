@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- category -->
+  <question type="category">
+    <category>
+        <text><![CDATA[$course$/top/Unitat1/Lliçó 3]]></text>
+    </category>
+  </question>
+
+<!-- Pregunta 1: Funció AC/DC -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L3 Q01 Funció de la font]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la funció bàsica d'una font d'alimentació en un ordinador de sobretaula?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Convertir el Corrent Altern (AC) de l'endoll en Corrent Continu (DC) de baix voltatge per als components internals.]]></text>
+      <feedback><![CDATA[Correcte! Transforma els 230V AC en els nivells de DC (+12V, +5V, etc.) que necessita el PC.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Convertir el Corrent Continu (DC) de la bateria interna en Corrent Altern (AC) per al processador.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Augmentar la tensió dels 230V de la xarxa fins als 1000V per millorar el rendiment.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 2: Rails i Tensions (Matching) -->
+  <question type="matching">
+    <name><text><![CDATA[U1 L3 Q02 Rails principals]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona cada tensió de rail amb l'ús principal que se'n fa en un PC modern:</p>]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion><text><![CDATA[+12 V]]></text><answer><text><![CDATA[Alimentació de CPU (EPS) i Targetes Gràfiques (PCI-e)]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[+5 V / +3.3 V]]></text><answer><text><![CDATA[Circuits lògics de la placa base i dispositius SATA]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[+5 VSB (Standby)]]></text><answer><text><![CDATA[Alimentació per permetre l'encesa remota (Wake-on-LAN)]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 3: Connectors (Matching) -->
+  <question type="matching">
+    <name><text><![CDATA[U1 L3 Q03 Identificació Connectors]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona el nom del connector amb el component que acostuma a alimentar:</p>]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion><text><![CDATA[ATX 24 pins]]></text><answer><text><![CDATA[Alimentació general de la Placa Base]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[EPS (4+4 o 8 pins)]]></text><answer><text><![CDATA[Alimentació específica de la CPU]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[PCI-e (6+2 pins)]]></text><answer><text><![CDATA[Alimentació addicional de la Targeta Gràfica]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[SATA]]></text><answer><text><![CDATA[Discs durs i unitats SSD]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 4: Cloze Proteccions -->
+  <question type="cloze">
+    <name><text><![CDATA[U1 L3 Q04 Proteccions Internes]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indica quina protecció de la font s'activa en cada cas:<br />
+      - Si hi ha un sobreconsum en un rail que supera els Amperis permesos, s'activa el {1:MULTICHOICE:=OCP (Over Current)~OVP (Over Voltage)~OTP (Over Temperature)}.<br />
+      - Si la tensió d'entrada o sortida puja per sobre del límit de seguretat, actua l'{1:MULTICHOICE:=OVP (Over Voltage)~OCP (Over Current)~UVP (Under Voltage)}.<br />
+      - Si la temperatura interna de la font puja massa (ex: ventilador parat), actua l'{1:MULTICHOICE:=OTP (Over Temperature)~OPP (Over Power)~SCP (Short Circuit)}.</p>]]></text>
+    </questiontext>
+  </question>
+
+<!-- Pregunta 5: Eficiència 80 PLUS -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L3 Q05 Eficiència 80 PLUS]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què vol dir exactament que una font d'alimentació tingui un certificat <b>80 PLUS Gold</b>?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Que la font aprofita un alt percentatge (més del 80%) de l'energia que consumeix, perdent poca energia en forma de calor.]]></text>
+      <feedback><![CDATA[Correcte! Les fonts eficients estalvien diners i generen menys calor.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Que la font té una garantia de 80 anys gràcies al seu color daurat.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Que la font pot suportar fins a 80 graus de temperatura abans de fondre's.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 6: Fonts Modulars -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L3 Q06 Avantatge de Fonts Modulars]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>L'avantatge principal d'una font <b>modular</b> és que permet connectar només els cables que realment necessitem, millorant l'ordre i el flux d'aire dins la caixa.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Cert. Això evita tenir un "niu de cables" inútils molestant dins l'ordinador.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+<!-- Pregunta 7: Formats ATX -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L3 Q07 Formats de font]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si hem de muntar una font d'alimentació en una caixa de format <b>Mini-ITX</b> molt petita, quin d'aquests estàndards sol ser el més comú?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[SFX.]]></text>
+      <feedback><![CDATA[Correcte! Les fonts SFX són més compactes que les ATX estàndard.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[ATX de 1000W.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[E-ATX industrial.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 8: Potència Teòrica -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L3 Q08 Rail de 12V]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En un ordinador modern (Gaming o Estació de treball), gairebé tota la potència útil de la font prové del rail de <b>+12 V</b>.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Cert. Com que la CPU i la GPU s'alimenten d'aquí, és el rail més important.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+<!-- Pregunta 9: Refrigeració -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L3 Q09 Sentit de l'aire]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En una font d'alimentació convencional amb ventilador gran lateral, quin és el sentit rutinari de l'aire?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[L'aire entra per la cara del ventilador i surt per la reixeta del darrere (on hi ha l'interruptor).]]></text>
+      <feedback><![CDATA[Correcte! Recull aire de la caixa (o de l'exterior) i l'expulsa fora.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[L'aire entra per darrere i bufa cap a la cara del ventilador per escalfar els components.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 10: Símptomes de fallada -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L3 Q10 Diagnòstic fallada font]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin d'aquests símptomes sol indicar clarament que la font d'alimentació està tenint problemes o és insuficient?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Reiniciaments sobtats de l'ordinador quan s'executa una tasca pesada (com un joc o renderització).]]></text>
+      <feedback><![CDATA[Exacte. Si la font no pot mantenir la potència estable, el sistema es reinicia per protecció.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[El ratolí es mou massa ràpid per la pantalla.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Els sons dels altaveus se senten molt baixos.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 11: Manteniment -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L3 Q11 Neteja de la font]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>L'acumulació de pols dins la font d'alimentació pot fer que actuï la protecció <b>OTP</b> i l'ordinador s'apagui sol.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Cert! La pols actua com a aïllant tèrmic i impedeix la refrigeració correcta.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+<!-- Pregunta 12: Select missing words (Gap fill style) -->
+  <question type="cloze">
+    <name><text><![CDATA[U1 L3 Q12 Resum de rails]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Abans de triar una font, hem de mirar l'etiqueta:<br />
+      El rail de {1:MULTICHOICE:=+12V~+99V~-5V} indica els Amperes disponibles per a la targeta gràfica.<br />
+      El certificat {1:MULTICHOICE:=80 PLUS~90 MINUS~USB-C} ens diu si la font és eficient elèctricament.<br />
+      Una font {1:MULTICHOICE:=MODULAR~SOLIDA~LIQUIDA} ens permetrà desconnectar els cables que no fem servir.</p>]]></text>
+    </questiontext>
+  </question>
+
+</quiz>

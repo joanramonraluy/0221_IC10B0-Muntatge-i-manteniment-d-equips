@@ -1,0 +1,30 @@
+ACTUA COM A EXPERT DESENVOLUPADOR MOODLE I PEDAGOG.
+Vull crear un banc de preguntes i necessito que generis una EINA HTML AUTÒNOMA (Single Page Application) per descarregar l'arxiu XML (Moodle XML Format).
+
+--- 1. DADES DEL QÜESTIONARI (EDITA AQUÍ) ---
+TEMA: [Unitat 1 - Lliçó 1]
+TEMARI: Utilitza el contingut del títol per generar les preguntes
+NÚMERO DE PREGUNTES:  [12]
+TIPUS: Variades [Opció múltiple, Vertader/Fals, Aparellament, Resposta breu, Numèrica, Resposta Oberta, Cloze].
+OBLIGATORI: Evitar respostes obertes ja que el qüestionari ha de ser de correcció autmàtica.
+NIVELL: [Mitjà]
+
+--- 2. REQUISITS XML (FORMAT MOODLE) ---
+- Usa l'etiqueta arrel <quiz>.
+- Crea la categoria automàtica: $course$/[NomDelTema].
+- Usa etiquetes <![CDATA[ ... ]]> per a tot el text visible (preguntes, respostes i feedback) per protegir accents i caràcters especials.
+- Puntuació: fraction="100" per a les correctes, fraction="0" per a les incorrectes.
+- Inclou feedback general i específic pedagògicament útil.
+
+--- 3. REQUISIT IMPRESCINDIBLE DE SORTIDA (HTML/JS) ---
+No vull que em mostris només el codi XML. Genera un únic bloc de codi HTML que funcioni com una aplicació completa:
+
+A. INTERFÍCIE I ESTIL:
+- Crea una estructura HTML5 neta i moderna amb Tailwind CSS (estil "targeta").
+- Mostra un resum del qüestionari (tema, nivell, número de preguntes).
+
+B. LÒGICA JAVASCRIPT:
+- Desa tot el codi XML generat dins d'una variable constant de JavaScript (ex: const xmlContent = ...).
+- Inclou un botó gran que digui "DESCARREGAR XML". Programa'l perquè creï un Blob i descarregui el fitxer .xml automàticament.
+
+

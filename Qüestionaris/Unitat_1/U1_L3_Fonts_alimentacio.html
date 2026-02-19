@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarregador de Qüestionari Moodle - Lliçó 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+        }
+
+        .power-glow {
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+        }
+    </style>
+</head>
+
+<body
+    class="bg-gradient-to-br from-slate-900 to-blue-900 min-h-screen flex items-center justify-center p-6 text-slate-100">
+    <div class="max-w-2xl w-full">
+        <!-- Main Card -->
+        <div class="glass bg-slate-800/80 rounded-3xl shadow-2xl overflow-hidden border border-white/10 power-glow">
+            <!-- Header Section -->
+            <div class="bg-gradient-to-r from-blue-600 to-cyan-600 p-8 text-white relative overflow-hidden">
+                <div class="absolute top-0 right-0 -mt-4 -mr-4 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
+                <div class="relative z-10">
+                    <h1 class="text-3xl font-bold mb-2 uppercase tracking-tighter">Fonts d'Alimentació (L3)</h1>
+                    <p class="text-blue-100 text-lg opacity-90">Tensions, Potència i Eficiència Energètica</p>
+                </div>
+            </div>
+
+            <!-- Content Section -->
+            <div class="p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-slate-700/50 p-4 rounded-2xl border border-blue-500/30">
+                        <span class="text-xs font-semibold text-blue-400 uppercase tracking-wider">Preguntes
+                            totals</span>
+                        <p class="text-2xl font-bold">12</p>
+                    </div>
+                    <div class="bg-slate-700/50 p-4 rounded-2xl border border-blue-500/30">
+                        <span class="text-xs font-semibold text-blue-400 uppercase tracking-wider">Formats
+                            Visuals</span>
+                        <p class="text-lg font-bold">Matching / Cloze</p>
+                    </div>
+                </div>
+
+                <div class="space-y-4 mb-8">
+                    <h3 class="text-sm font-semibold text-slate-400 uppercase flex items-center">
+                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                        Contingut del Qüestionari
+                    </h3>
+                    <ul class="text-sm text-slate-300 grid grid-cols-2 gap-y-2">
+                        <li>• Rails de +12V, +5V, +3.3V</li>
+                        <li>• Connectors (ATX, EPS, SATA)</li>
+                        <li>• Certificats 80 PLUS</li>
+                        <li>• Proteccions (OCP, OVP, OTP)</li>
+                        <li>• Fonts Modulars vs Estàndard</li>
+                        <li>• Diagnòstic de fallades</li>
+                    </ul>
+                </div>
+
+                <!-- Download Button -->
+                <button id="downloadBtn"
+                    class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 px-8 rounded-2xl shadow-lg transform transition-all hover:scale-[1.02] active:scale-95 flex items-center justify-center text-lg">
+                    <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                    </svg>
+                    BAIXAR XML LLIÇÓ 3
+                </button>
+
+                <p class="text-center text-slate-500 text-xs mt-6 italic">
+                    Dissenyat per al mòdul de Muntatge i Manteniment d'Equips
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="category"><category><text><![CDATA[$course$/top/Unitat1/Lliçó 3]]></text></category></question>
+  <question type="multichoice"><name><text><![CDATA[U1 L3 Q01 Funció de la font]]></text></name><questiontext format="html"><text><![CDATA[<p>Conversió AC/DC principal?</p>]]></text></questiontext><answer fraction="100"><text><![CDATA[De 230V AC a DC baix voltatge.]]></text></answer></question>
+  <question type="matching"><name><text><![CDATA[U1 L3 Q02 Rails principals]]></text></name><questiontext format="html"><text><![CDATA[<p>Relaciona rail i component:</p>]]></text></questiontext><subquestion><text><![CDATA[+12V]]></text><answer><text><![CDATA[CPU i Gràfica]]></text></answer></subquestion><subquestion><text><![CDATA[+5V/3.3V]]></text><answer><text><![CDATA[Lògica base/SATA]]></text></answer></subquestion></question>
+  <question type="matching"><name><text><![CDATA[U1 L3 Q03 Identificació Connectors]]></text></name><questiontext format="html"><text><![CDATA[<p>Relaciona connector:</p>]]></text></questiontext><subquestion><text><![CDATA[ATX 24 pin]]></text><answer><text><![CDATA[Placa base]]></text></answer></subquestion><subquestion><text><![CDATA[EPS 4+4]]></text><answer><text><![CDATA[CPU]]></text></answer></subquestion></question>
+  <question type="cloze"><name><text><![CDATA[U1 L3 Q04 Proteccions Internes]]></text></name><questiontext format="html"><text><![CDATA[<p>Sobreconsum = {1:MULTICHOICE:=OCP~OVP}. Calor = {1:MULTICHOICE:=OTP~SCP}.</p>]]></text></questiontext></question>
+  <question type="multichoice"><name><text><![CDATA[U1 L3 Q05 Eficiència 80 PLUS]]></text></name><questiontext format="html"><text><![CDATA[<p>Significat Gold?</p>]]></text></questiontext><answer fraction="100"><text><![CDATA[Aprofita més del 80% de l'energia.]]></text></answer></question>
+  <question type="truefalse"><name><text><![CDATA[U1 L3 Q06 Avantatge de Fonts Modulars]]></text></name><questiontext format="html"><text><![CDATA[<p>Connectar només el necessari?</p>]]></text></questiontext><answer fraction="100"><text>true</text></answer></question>
+  <question type="multichoice"><name><text><![CDATA[U1 L3 Q07 Formats de font]]></text></name><questiontext format="html"><text><![CDATA[<p>Format per Mini-ITX?</p>]]></text></questiontext><answer fraction="100"><text><![CDATA[SFX.]]></text></answer></question>
+  <question type="truefalse"><name><text><![CDATA[U1 L3 Q08 Rail de 12V]]></text></name><questiontext format="html"><text><![CDATA[<p>La majoria prové del rail de +12V?</p>]]></text></questiontext><answer fraction="100"><text>true</text></answer></question>
+  <question type="multichoice"><name><text><![CDATA[U1 L3 Q09 Sentit de l'aire]]></text></name><questiontext format="html"><text><![CDATA[<p>Cap on bufa?</p>]]></text></questiontext><answer fraction="100"><text><![CDATA[Entra pel ventilador, surt per darrere.]]></text></answer></question>
+  <question type="multichoice"><name><text><![CDATA[U1 L3 Q10 Diagnòstic fallada font]]></text></name><questiontext format="html"><text><![CDATA[<p>Símptoma clar?</p>]]></text></questiontext><answer fraction="100"><text><![CDATA[Reiniciaments sobtats en càrrega.]]></text></answer></question>
+  <question type="truefalse"><name><text><![CDATA[U1 L3 Q11 Neteja de la font]]></text></name><questiontext format="html"><text><![CDATA[<p>La pols causa OTP?</p>]]></text></questiontext><answer fraction="100"><text>true</text></answer></question>
+  <question type="cloze"><name><text><![CDATA[U1 L3 Q12 Resum de rails]]></text></name><questiontext format="html"><text><![CDATA[<p>Targeta gràfica = {1:MULTICHOICE:=+12V~+5V}. Certificat = {1:MULTICHOICE:=80 PLUS~USB}.</p>]]></text></questiontext></question>
+</quiz>`;
+
+        document.getElementById('downloadBtn').addEventListener('click', () => {
+            const blob = new Blob([xmlContent], { type: 'application/xml' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'Fonts_alimentacio.xml';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+    </script>
+</body>
+
+</html>

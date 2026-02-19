@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarregador de Qüestionari Moodle - Lliçó 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-green-50 to-emerald-100 min-h-screen flex items-center justify-center p-6">
+    <div class="max-w-2xl w-full">
+        <!-- Main Card -->
+        <div class="glass rounded-3xl shadow-2xl overflow-hidden border border-white/20">
+            <!-- Header Section -->
+            <div class="bg-gradient-to-r from-emerald-600 to-green-700 p-8 text-white relative overflow-hidden">
+                <div class="absolute top-0 right-0 -mt-4 -mr-4 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
+                <div class="relative z-10">
+                    <h1 class="text-3xl font-bold mb-2">Eina de Seguretat (L2)</h1>
+                    <p class="text-emerald-100 text-lg opacity-90">Unitat 1: Lliçó 2 - EPIs i Seguretat al Taller</p>
+                </div>
+            </div>
+
+            <!-- Content Section -->
+            <div class="p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white/50 p-4 rounded-2xl border border-emerald-100">
+                        <span class="text-xs font-semibold text-emerald-500 uppercase tracking-wider">Número de
+                            preguntes</span>
+                        <p class="text-2xl font-bold text-gray-800">12</p>
+                    </div>
+                    <div class="bg-white/50 p-4 rounded-2xl border border-emerald-100">
+                        <span class="text-xs font-semibold text-emerald-500 uppercase tracking-wider">Models
+                            interactius</span>
+                        <p class="text-lg font-bold text-gray-800">Cloze / Gap-fill</p>
+                    </div>
+                </div>
+
+                <div class="space-y-4 mb-8">
+                    <h3 class="text-sm font-semibold text-gray-500 uppercase flex items-center">
+                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        Contingut Pedagògic
+                    </h3>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li>• <span class="font-semibold text-emerald-600">Protocols:</span> Ús de "Cloze" per a passos
+                            seqüencials.</li>
+                        <li>• <span class="font-semibold text-emerald-600">Interactiu:</span> Relació d'EPIs amb zona de
+                            risc.</li>
+                        <li>• <span class="font-semibold text-emerald-600">Autocorreció:</span> 100% gestionat per
+                            Moodle.</li>
+                    </ul>
+                </div>
+
+                <!-- Download Button -->
+                <button id="downloadBtn"
+                    class="w-full bg-gradient-to-r from-emerald-600 to-green-700 hover:from-emerald-700 hover:to-green-800 text-white font-bold py-4 px-8 rounded-2xl shadow-lg transform transition-all hover:-translate-y-1 active:scale-95 flex items-center justify-center text-lg">
+                    <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                    </svg>
+                    DESCARREGAR XML (SEGURETAT)
+                </button>
+
+                <p class="text-center text-gray-400 text-xs mt-4">
+                    Fitxer optimitzat per a la Lliçó 2 - Manteniment i Muntatge
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- category -->
+  <question type="category">
+    <category>
+        <text><![CDATA[$course$/top/Unitat1/Lliçó 2]]></text>
+    </category>
+  </question>
+
+<!-- Pregunta 1: Definició EPI -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L2 Q01 Què és un EPI?]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Com es defineix un <b>EPI</b> (Equip de Protecció Individual) segons el material de la lliçó?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Qualsevol dispositiu portat o subjectat per la persona per protegir-la d'un o diversos riscos.]]></text>
+      <feedback><![CDATA[Correcte! És per a ús individual i protecció personal.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Un protocol de seguretat que s'ha de llegir abans d'entrar al taller.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Una eina de tall que s'ha d'utilitzar amb cura.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 2: Guants -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L2 Q02 Manteniment de guants]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Els guants de protecció s'han de mantenir nets de greixos i olis per evitar la seva degradació.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Cert! El greix pot fer malbé el material del guant i reduir la seva adherència i protecció.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+<!-- Pregunta 3: Aparellament EPIs -->
+  <question type="matching">
+    <name><text><![CDATA[U1 L2 Q03 Relació EPI-Risc]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona cada element de protecció amb la seva zona de protecció o funció principal:</p>]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion><text><![CDATA[Sabata amb puntera reforçada]]></text><answer><text><![CDATA[Peus (protecció contra caiguda d'equips)]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Ulleres transparents]]></text><answer><text><![CDATA[Ulls (protecció contra esclats o partícules)]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Guants de poliuretà o nitril]]></text><answer><text><![CDATA[Mans (protecció contra talls i abrasions)]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Polsera antiestàtica (ESD)]]></text><answer><text><![CDATA[Components (protecció contra descàrregues del cos)]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 4: Cloze Protocol -->
+  <question type="cloze">
+    <name><text><![CDATA[U1 L2 Q04 Protocol d'Intervenció]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completa el protocol bàsic abans d'intervenir en un equip:<br />
+      1. Abans de res, cal {1:MULTICHOICE:=desconnectar~encendre~netejar} la font d'alimentació.<br />
+      2. Per evitar danys per electricitat estàtica, ens col·locarem la {1:MULTICHOICE:=polsera ESD~sabata~ullera}.<br />
+      3. Verificarem que lloc de treball estigui {1:MULTICHOICE:=net i ordenat~ple de cables~humit}.</p>]]></text>
+    </questiontext>
+  </question>
+
+<!-- Pregunta 5: Connexió ESD -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L2 Q05 Punt de terra polsera]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On s'ha de connectar la pinça de la polsera antiestàtica per garantir la seva eficàcia?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A un punt de presa de terra o a una superfície ESD connectada a terra.]]></text>
+      <feedback><![CDATA[Molt bé! Ha d'haver-hi un camí cap a la terra física per descarregar l'estàtica.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A qualsevol part de plàstic del xassís de l'ordinador.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Al nostre cinturó per estar còmodes.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 6: Calçat -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L2 Q06 Calçat reforçat]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>L'ús de calçat amb puntera reforçada només és necessari quan treballem amb dispositius molt petits com microchips.</p>]]></text>
+    </questiontext>
+    <answer fraction="0">
+      <text>true</text>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback><![CDATA[Correcte. És necessari sobretot per moure equips pesants (servidors, caixes ATX) o mobiliari de magatzem.]]></feedback>
+    </answer>
+  </question>
+
+<!-- Pregunta 7: Extintors -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L2 Q07 Foc elèctric]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Davant d'un incendi en un equip elèctric connectat, quin tipus d'extintor és el més adequat per no fer malbé l'electrònica i ser segur?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Extintor de CO2 (Nieve carbónica).]]></text>
+      <feedback><![CDATA[Correcte! El CO2 no deixa residus i no és conductor.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Extintor d'aigua a pressió.]]></text>
+      <feedback><![CDATA[PERILL! L'aigua és conductora i pot causar una electrocució.]]></feedback>
+    </answer>
+  </question>
+
+<!-- Pregunta 8: Colors Seguretat (Cloze) -->
+  <question type="cloze">
+    <name><text><![CDATA[U1 L2 Q08 Significat de colors]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indica el significat dels colors en la senyalització del taller:<br />
+      - El color {1:MULTICHOICE:=VERMELL~BLAU~VERB} indica prohibició o perill.<br />
+      - El color {1:MULTICHOICE:=BLAU~GROC~VERD} indica una obligació (com l'ús d'EPIs).<br />
+      - El color {1:MULTICHOICE:=VERD~VERMELL~BLAU} indica salvament o primers auxilis.</p>]]></text>
+    </questiontext>
+  </question>
+
+<!-- Pregunta 9: Ordre -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L2 Q09 Importància de l'ordre]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>L'ordre i la neteja al lloc de treball no influeixen en el número d'accidents laborals, només en l'estètica del taller.</p>]]></text>
+    </questiontext>
+    <answer fraction="0">
+      <text>true</text>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback><![CDATA[Cert. Un lloc desordenat augmenta el risc de caigudes, talls i pèrdua de components.]]></feedback>
+    </answer>
+  </question>
+
+<!-- Pregunta 10: Primers Auxilis -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L2 Q10 Electrocució]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En cas de trobar una persona que s'està electrocutant i encara està en contacte amb el cable, què és el primer que NO hem de fer mai?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Tocar directament la persona amb les nostres mans despullades.]]></text>
+      <feedback><![CDATA[Exacte! Podries quedar-te atrapat tu també. Cal tallar el corrent o usar un aïllant.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Trucar al 112 immediatament.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Cridar algú perquè ens ajudi.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 11: Gestió de Residus -->
+  <question type="matching">
+    <name><text><![CDATA[U1 L2 Q11 On va cada residu?]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona cada residu del taller amb el seu lloc de recollida:</p>]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion><text><![CDATA[Bateries de portàtil o piles]]></text><answer><text><![CDATA[Contenidor de piles/residus perillosos]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Embalatges de cartró de nous equips]]></text><answer><text><![CDATA[Contenidor blau (paper/cartró)]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Plaques base velles o espatllades]]></text><answer><text><![CDATA[Punt net / Reciclatge RAEE (electrònica)]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 12: Eines aïllades -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L2 Q12 Eines aïllades]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Els tornavisos que fem servir al taller han de tenir sempre el mànec aïllat per evitar contactes elèctrics accidentals.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Correcte. És una mesura bàsica en el muntatge d'equips.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+</quiz>`;
+
+        document.getElementById('downloadBtn').addEventListener('click', () => {
+            const blob = new Blob([xmlContent], { type: 'application/xml' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'EPIs_i_seguretat.xml';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+    </script>
+</body>
+
+</html>

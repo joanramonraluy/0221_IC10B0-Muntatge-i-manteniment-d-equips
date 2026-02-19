@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- category -->
+  <question type="category">
+    <category>
+        <text><![CDATA[$course$/top/Unitat1/Lliçó 2]]></text>
+    </category>
+  </question>
+
+<!-- Pregunta 1: Definició EPI -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L2 Q01 Què és un EPI?]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Com es defineix un <b>EPI</b> (Equip de Protecció Individual) segons el material de la lliçó?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Qualsevol dispositiu portat o subjectat per la persona per protegir-la d'un o diversos riscos.]]></text>
+      <feedback><![CDATA[Correcte! És per a ús individual i protecció personal.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Un protocol de seguretat que s'ha de llegir abans d'entrar al taller.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Una eina de tall que s'ha d'utilitzar amb cura.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 2: Guants -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L2 Q02 Manteniment de guants]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Els guants de protecció s'han de mantenir nets de greixos i olis per evitar la seva degradació.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Cert! El greix pot fer malbé el material del guant i reduir la seva adherència i protecció.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+<!-- Pregunta 3: Aparellament EPIs -->
+  <question type="matching">
+    <name><text><![CDATA[U1 L2 Q03 Relació EPI-Risc]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona cada element de protecció amb la seva zona de protecció o funció principal:</p>]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion><text><![CDATA[Sabata amb puntera reforçada]]></text><answer><text><![CDATA[Peus (protecció contra caiguda d'equips)]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Ulleres transparents]]></text><answer><text><![CDATA[Ulls (protecció contra esclats o partícules)]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Guants de poliuretà o nitril]]></text><answer><text><![CDATA[Mans (protecció contra talls i abrasions)]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Polsera antiestàtica (ESD)]]></text><answer><text><![CDATA[Components (protecció contra descàrregues del cos)]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 4: Cloze Protocol -->
+  <question type="cloze">
+    <name><text><![CDATA[U1 L2 Q04 Protocol d'Intervenció]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completa el protocol bàsic abans d'intervenir en un equip:<br />
+      1. Abans de res, cal {1:MULTICHOICE:=desconnectar~encendre~netejar} la font d'alimentació.<br />
+      2. Per evitar danys per electricitat estàtica, ens col·locarem la {1:MULTICHOICE:=polsera ESD~sabata~ullera}.<br />
+      3. Verificarem que el lloc de treball estigui {1:MULTICHOICE:=net i ordenat~ple de cables~humit}.</p>]]></text>
+    </questiontext>
+  </question>
+
+<!-- Pregunta 5: Connexió ESD -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L2 Q05 Punt de terra polsera]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On s'ha de connectar la pinça de la polsera antiestàtica per garantir la seva eficàcia?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A un punt de presa de terra o a una superfície ESD connectada a terra.]]></text>
+      <feedback><![CDATA[Molt bé! Ha d'haver-hi un camí cap a la terra física per descarregar l'estàtica.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A qualsevol part de plàstic del xassís de l'ordinador.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Al nostre cinturó per estar còmodes.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 6: Calçat -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L2 Q06 Calçat reforçat]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>L'ús de calçat amb puntera reforçada només és necessari quan treballem amb dispositius molt petits com microchips.</p>]]></text>
+    </questiontext>
+    <answer fraction="0">
+      <text>true</text>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback><![CDATA[Correcte. És necessari sobretot per moure equips pesants (servidors, caixes ATX) o mobiliari de magatzem.]]></feedback>
+    </answer>
+  </question>
+
+<!-- Pregunta 7: Extintors -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L2 Q07 Foc elèctric]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Davant d'un incendi en un equip elèctric connectat, quin tipus d'extintor és el més adequat per no fer malbé l'electrònica i ser segur?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Extintor de CO2 (Nieve carbónica).]]></text>
+      <feedback><![CDATA[Correcte! El CO2 no deixa residus i no és conductor.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Extintor d'aigua a pressió.]]></text>
+      <feedback><![CDATA[PERILL! L'aigua és conductora i pot causar una electrocució.]]></feedback>
+    </answer>
+  </question>
+
+<!-- Pregunta 8: Colors Seguretat (Cloze) -->
+  <question type="cloze">
+    <name><text><![CDATA[U1 L2 Q08 Significat de colors]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indica el significat dels colors en la senyalització del taller:<br />
+      - El color {1:MULTICHOICE:=VERMELL~BLAU~VERD} indica prohibició o perill.<br />
+      - El color {1:MULTICHOICE:=BLAU~GROC~VERD} indica una obligació (com l'ús d'EPIs).<br />
+      - El color {1:MULTICHOICE:=VERD~VERMELL~BLAU} indica salvament o primers auxilis.</p>]]></text>
+    </questiontext>
+  </question>
+
+<!-- Pregunta 9: Ordre -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L2 Q09 Importància de l'ordre]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>L'ordre i la neteja al lloc de treball no influeixen en el número d'accidents laborals, només en l'estètica del taller.</p>]]></text>
+    </questiontext>
+    <answer fraction="0">
+      <text>true</text>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback><![CDATA[Cert. Un lloc desordenat augmenta el risc de caigudes, talls i pèrdua de components.]]></feedback>
+    </answer>
+  </question>
+
+<!-- Pregunta 10: Primers Auxilis -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L2 Q10 Electrocució]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En cas de trobar una persona que s'està electrocutant i encara està en contacte amb el cable, què és el primer que NO hem de fer mai?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Tocar directament la persona amb les nostres mans despullades.]]></text>
+      <feedback><![CDATA[Exacte! Podries quedar-te atrapat tu també. Cal tallar el corrent o usar un aïllant.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Trucar al 112 immediatament.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Cridar algú perquè ens ajudi.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 11: Gestió de Residus -->
+  <question type="matching">
+    <name><text><![CDATA[U1 L2 Q11 On va cada residu?]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona cada residu del taller amb el seu lloc de recollida:</p>]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion><text><![CDATA[Bateries de portàtil o piles]]></text><answer><text><![CDATA[Contenidor de piles/residus perillosos]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Embalatges de cartró de nous equips]]></text><answer><text><![CDATA[Contenidor blau (paper/cartró)]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Plaques base velles o espatllades]]></text><answer><text><![CDATA[Punt net / Reciclatge RAEE (electrònica)]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 12: Eines aïllades -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L2 Q12 Eines aïllades]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Els tornavisos que fem servir al taller han de tenir sempre el mànec aïllat per evitar contactes elèctrics accidentals.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Correcte. És una mesura bàsica en el muntatge d'equips.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+</quiz>

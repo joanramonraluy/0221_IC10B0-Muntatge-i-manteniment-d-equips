@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- category -->
+  <question type="category">
+    <category>
+        <text><![CDATA[$course$/top/Unitat1/Lliçó 1]]></text>
+    </category>
+  </question>
+
+<!-- Pregunta 1: Fonaments -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L1 Q01 Fonaments de la Tensió]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Dins d'un circuit elèctric, la <b>tensió</b> (voltatge) es pot comparar analògicament amb:</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="100" format="html">
+      <text><![CDATA[La pressió que empeny els electrons a través de la resta de components.]]></text>
+      <feedback><![CDATA[Correcte! La tensió és la força electromotriu.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La quantitat d'electrons que passen per un punt cada segon.]]></text>
+      <feedback><![CDATA[No, això seria la Intensitat.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La dificultat que posa un component al pas del corrent.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 2: Vertader/Fals -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L1 Q02 Seguretat i Resistència]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El cos humà té una resistència elèctrica que pot variar segons si la pell està seca o humida.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Cert. La humitat redueix la resistència i augmenta el perill.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+<!-- Pregunta 3: Aparellament -->
+  <question type="matching">
+    <name><text><![CDATA[U1 L1 Q03 Magnituds i Instruments]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona cada magnitud amb l'instrument de mesura corresponent:</p>]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion><text><![CDATA[Tensió elèctrica]]></text><answer><text><![CDATA[Voltímetre]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Intensitat de corrent]]></text><answer><text><![CDATA[Amperímetre]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Resistència elèctrica]]></text><answer><text><![CDATA[Ohmímetre]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Potència elèctrica]]></text><answer><text><![CDATA[Wattímetre]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 4: Llei d'Ohm -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L1 Q04 Lògica Llei Ohm]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Segons la Llei d'Ohm, si augmentem la <b>resistència</b> d'un component sense canviar la font, què passa amb la intensitat?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[La intensitat disminueix.]]></text>
+      <feedback><![CDATA[Correcte! Més resistència s'oposa més al flux de corrent.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La intensitat augmenta.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 5: Connexió Multímetre -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L1 Q05 Connexió Voltímetre]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per mesurar la <b>tensió</b> entre dos punts d'un circuit, el multímetre s'ha de connectar en:</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Paral·lel.]]></text>
+      <feedback><![CDATA[Correcte. La tensió es mesura col·locant les puntes "al voltant" del component.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Sèrie.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 6: Senyals -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L1 Q06 Senyals Digitals]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la característica principal d'un senyal <b>digital</b> comparat amb un analògic?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Només pot prendre un nombre limitat de valors (com 0 i 1).]]></text>
+      <feedback><![CDATA[Correcte! Són valors discrets.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pot prendre qualsevol valor infinit dins d'un rang.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 7: CC vs CA -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L1 Q07 Aplicació CC]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En quin d'aquests casos utilitzem normalment Corrent Continu (CC)?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Per alimentar els xips interns de la placa base i els ports USB.]]></text>
+      <feedback><![CDATA[Correcte! L'electrònica digital interna funciona amb CC.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Per connectar el monitor directament a l'endoll de paret sense transformador.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 8: Seguretat Tester -->
+  <question type="truefalse">
+    <name><text><![CDATA[U1 L1 Q08 Seguretat Ohmímetre]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per mesurar la resistència d'un component amb un tester, hem d'estar segurs que el circuit NO té corrent.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Correcte. Mesurar ohms amb tensió pot cremar el multímetre.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+<!-- Pregunta 9: Potència -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L1 Q09 Potència Elèctrica]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin d'aquests conceptes defineix millor la <b>Potència elèctrica</b>?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[La rapidesa amb què es transforma l'energia (treball realitzat).]]></text>
+      <feedback><![CDATA[Molt bé!]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[El temps que triga a carregar-se una bateria.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 10: Continuïtat -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L1 Q10 Prova de Continuïtat]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si el multímetre "xiula" en fer la prova de continuïtat d'un cable, significa que:</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[El cable està sencer i el corrent pot passar.]]></text>
+      <feedback><![CDATA[Exacte. Hi ha pas lliure de corrent.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[El cable està tallat i cal substituir-lo.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 11: Curtcircuit -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L1 Q11 El Curtcircuit]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Un <b>curtcircuit</b> es produeix quan la resistència del circuit cau gairebé a zero, provocant:</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Un augment molt perillós de la intensitat i possible escalfament.]]></text>
+      <feedback><![CDATA[Correcte! Per això calen proteccions com els fusibles.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[L'aturada total del flux d'electrons sense cap perill.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 12: Circuit Obert -->
+  <question type="multichoice">
+    <name><text><![CDATA[U1 L1 Q12 El Circuit Obert]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Diem que hi ha un <b>circuit obert</b> quan l'interruptor està apagat o un cable s'ha trencat. En aquest estat:</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[La intensitat de corrent és zero.]]></text>
+      <feedback><![CDATA[Cert. No hi ha camí per als electrons.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La intensitat de corrent és màxima.]]></text>
+    </answer>
+  </question>
+
+</quiz>

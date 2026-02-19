@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarregador de Qüestionari Moodle - Lliçó 4</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .battery-gradient {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .glow-orange {
+            box-shadow: 0 0 30px rgba(245, 158, 11, 0.15);
+        }
+    </style>
+</head>
+
+<body class="bg-[#0f172a] min-h-screen flex items-center justify-center p-6 text-slate-200">
+    <div class="max-w-xl w-full">
+        <!-- Main Container -->
+        <div class="glass-card rounded-[2.5rem] shadow-2xl overflow-hidden glow-orange">
+            <!-- Header -->
+            <div class="battery-gradient p-10 text-white relative">
+                <div class="absolute top-0 right-0 p-8 opacity-20">
+                    <svg class="w-20 h-20" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M16 20H8V6H16M16.67 4H15V2H9V4H7.33C6.6 4 6 4.6 6 5.33V20.67C6 21.4 6.6 22 7.33 22H16.67C17.41 22 18 21.4 18 20.67V5.33C18 4.6 17.41 4 16.67 4Z" />
+                    </svg>
+                </div>
+                <div class="relative z-10">
+                    <h2 class="text-sm font-bold uppercase tracking-[0.2em] mb-2 opacity-80">Unitat 1 / Qüestionari</h2>
+                    <h1 class="text-4xl font-extrabold tracking-tight">Sistemes SAI i Protecció (L4)</h1>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="p-10 space-y-8">
+                <div class="flex items-center justify-between text-sm">
+                    <div
+                        class="flex items-center space-x-2 bg-slate-800/50 px-4 py-2 rounded-full border border-slate-700">
+                        <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+                        <span class="font-medium">12 Preguntes</span>
+                    </div>
+                    <div class="text-slate-400">Nivell: <span class="text-slate-100 font-semibold">Mitjà
+                            Conceptual</span></div>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="flex items-start space-x-4 p-4 rounded-3xl bg-slate-800/30 border border-slate-700/50">
+                        <div class="p-3 bg-amber-500/10 rounded-2xl text-amber-500">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-100">Protecció i Tipus</h4>
+                            <p class="text-sm text-slate-400 leading-relaxed">Avalua la capacitat d'identificar Offline,
+                                Line-Interactive i Online segons el cas d'ús.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4 p-4 rounded-3xl bg-slate-800/30 border border-slate-700/50">
+                        <div class="p-3 bg-blue-500/10 rounded-2xl text-blue-500">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-100">Dimensionament</h4>
+                            <p class="text-sm text-slate-400 leading-relaxed">Càlcul de potència (VA/Watts), marges de
+                                seguretat i factors d'autonomia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action -->
+                <button id="downloadBtn"
+                    class="w-full battery-gradient hover:brightness-110 text-white font-bold py-5 rounded-[2rem] shadow-[0_10px_40px_-10px_rgba(217,119,6,0.3)] transform transition-active active:scale-95 flex items-center justify-center text-xl tracking-tight">
+                    <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                    </svg>
+                    DESCÀRREGA QÜESTIONARI
+                </button>
+
+                <p class="text-center text-slate-500 text-xs font-medium uppercase tracking-widest italic pt-4">
+                    Manteniment d'Equips · Unitat 1 (L4)</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="category"><category><text><![CDATA[$course$/top/Unitat1/Lliçó 4]]></text></category></question>
+  <question type="multichoice"><name><text><![CDATA[U1 L4 Q01 Funció del SAI]]></text></name><questiontext format="html"><text><![CDATA[<p>Bateria interna per autonomia?</p>]]></text></questiontext><answer fraction="100"><text><![CDATA[Sí, permet que el PC no s'apagui.]]></text></answer></question>
+  <question type="truefalse"><name><text><![CDATA[U1 L4 Q02 L'Inversor]]></text></name><questiontext format="html"><text><![CDATA[<p>Converteix de DC a AC?</p>]]></text></questiontext><answer fraction="100"><text>true</text></answer></question>
+  <question type="matching"><name><text><![CDATA[U1 L4 Q03 Tipus de SAI]]></text></name><questiontext format="html"><text><![CDATA[<p>Relaciona tecnologia:</p>]]></text></questiontext><subquestion><text><![CDATA[Offline]]></text><answer><text><![CDATA[Més senzill]]></text></answer></subquestion><subquestion><text><![CDATA[Online]]></text><answer><text><![CDATA[Doble conversió]]></text></answer></subquestion></question>
+  <question type="cloze"><name><text><![CDATA[U1 L4 Q04 Regulació AVR]]></text></name><questiontext format="html"><text><![CDATA[<p>Regulador de tensió = {1:MULTICHOICE:=AVR~OCP}. Estalvia {1:MULTICHOICE:=bateria~espai}.</p>]]></text></questiontext></question>
+  <question type="matching"><name><text><![CDATA[U1 L4 Q05 Problemes elèctrics]]></text></name><questiontext format="html"><text><![CDATA[<p>Relaciona:</p>]]></text></questiontext><subquestion><text><![CDATA[Pic (Spike)]]></text><answer><text><![CDATA[Augment breu fort]]></text></answer></subquestion><subquestion><text><![CDATA[Microtall]]></text><answer><text><![CDATA[Milisegons]]></text></answer></subquestion></question>
+  <question type="truefalse"><name><text><![CDATA[U1 L4 Q06 Marge de seguretat]]></text></name><questiontext format="html"><text><![CDATA[<p>Marge del 20-30% recomanat?</p>]]></text></questiontext><answer fraction="100"><text>true</text></answer></question>
+  <question type="multichoice"><name><text><![CDATA[U1 L4 Q07 Watts vs VA]]></text></name><questiontext format="html"><text><![CDATA[<p>1000VA amb factor 0.6?</p>]]></text></questiontext><answer fraction="100"><text><![CDATA[600 W.]]></text></answer></question>
+  <question type="truefalse"><name><text><![CDATA[U1 L4 Q08 Càrrega i Temps]]></text></name><questiontext format="html"><text><![CDATA[<p>Més equips = menys temps?</p>]]></text></questiontext><answer fraction="100"><text>true</text></answer></question>
+  <question type="multichoice"><name><text><![CDATA[U1 L4 Q09 Protecció tèrmica SAI]]></text></name><questiontext format="html"><text><![CDATA[<p>SAI tancat i calent?</p>]]></text></questiontext><answer fraction="100"><text><![CDATA[S'apaga per protecció tèrmica.]]></text></answer></question>
+  <question type="truefalse"><name><text><![CDATA[U1 L4 Q10 Vida de les bateries]]></text></name><questiontext format="html"><text><![CDATA[<p>Canviar cada 3-5 anys?</p>]]></text></questiontext><answer fraction="100"><text>true</text></answer></question>
+  <question type="multichoice"><name><text><![CDATA[U1 L4 Q11 Programari del SAI]]></text></name><questiontext format="html"><text><![CDATA[<p>Funció del cable USB?</p>]]></text></questiontext><answer fraction="100"><text><![CDATA[Apagada ordenada automàtica del PC.]]></text></answer></question>
+  <question type="cloze"><name><text><![CDATA[U1 L4 Q12 Aplicació del SAI]]></text></name><questiontext format="html"><text><![CDATA[<p>Crític = {1:MULTICHOICE:=Online~Offline}. 400W consum = {1:MULTICHOICE:=500~100}W.</p>]]></text></questiontext></question>
+</quiz>`;
+
+        document.getElementById('downloadBtn').addEventListener('click', () => {
+            const blob = new Blob([xmlContent], { type: 'application/xml' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'U1_L4_SAI_i_proteccio.xml';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+    </script>
+</body>
+
+</html>
