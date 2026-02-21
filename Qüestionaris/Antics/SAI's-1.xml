@@ -1,220 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
-
-<!-- category -->
-  <question type="category">
-    <category>
-        <text><![CDATA[$course$/top/Unitat1/Lliçó 4]]></text>
-    </category>
-  </question>
-
-<!-- Pregunta 1: Funció del SAI -->
-  <question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q01 - Funció del SAI]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Quina és la diferència principal entre un SAI (UPS) i una regleta de protecció convencional?</p>]]></text>
-    </questiontext>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answer fraction="100" format="html">
-      <text><![CDATA[El SAI disposa de bateries internes per mantenir l'equip encès en cas de tall total de corrent.]]></text>
-      <feedback><![CDATA[Correcte! La regleta només filtra pics, però el SAI dóna autonomia.]]></feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[El SAI serveix per augmentar la velocitat d'internet de l'equip connectat.]]></text>
-    </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[La regleta gasta més electricitat perquè no té bateries.]]></text>
-    </answer>
-  </question>
-
-<!-- Pregunta 2: Inversor (V/F) -->
-  <question type="truefalse">
-            <name>
-      <text><![CDATA[U1 L4 Q02 - L'Inversor]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>La funció de l'<b>inversor</b> dins d'un SAI és convertir el Corrent Continu (DC) de les bateries en Corrent Altern (AC) per alimentar els equips.</p>]]></text>
-    </questiontext>
-    <answer fraction="100">
-      <text>true</text>
-      <feedback><![CDATA[Cert! És el component clau que genera els 230V AC a partir de la bateria.]]></feedback>
-    </answer>
-    <answer fraction="0">
-      <text>false</text>
-    </answer>
-  </question>
-
-<!-- Pregunta 3: Tipus de SAI (Matching) -->
-  <question type="matching">
-            <name>
-      <text><![CDATA[U1 L4 Q03 - Tipus de SAI]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Relaciona cada tecnologia de SAI amb la seva característica principal:</p>]]></text>
-    </questiontext>
-    <shuffleanswers>true</shuffleanswers>
-    <subquestion><text><![CDATA[Offline / Standby]]></text><answer><text><![CDATA[El més senzill; només actua quan el corrent cau del tot.]]></text></answer></subquestion>
-    <subquestion><text><![CDATA[Line-Interactive]]></text><answer><text><![CDATA[Inclou un regulador (AVR) per corregir variacions sense gastar bateria.]]></text></answer></subquestion>
-    <subquestion><text><![CDATA[Online (Doble conversió)]]></text><answer><text><![CDATA[El més segur; els equips estan sempre desacoblats de la xarxa.]]></text></answer></subquestion>
-  </question>
-
-<!-- Pregunta 4: AVR (Cloze) -->
+<!-- question: 39995400  -->
   <question type="cloze">
-            <name>
-      <text><![CDATA[U1 L4 Q04 - Regulació AVR]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>En els SAI de tipus <b>Line-Interactive</b>, el component {1:MULTICHOICE:=AVR~CPU~Inversor} s'encarrega d'estabilitzar la tensió quan hi ha pujades o baixades lleugeres. Això permet que el SAI no hagi de recórrer a la {1:MULTICHOICE:=bateria~xarxa~pantalla} constantment, allargant-ne la vida útil.</p>]]></text>
-    </questiontext>
-  </question>
-
-<!-- Pregunta 5: Problemes de xarxa (Matching) -->
-  <question type="matching">
-            <name>
-      <text><![CDATA[U1 L4 Q05 - Problemes elèctrics]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Relaciona el problema elèctric amb la seva definició:</p>]]></text>
-    </questiontext>
-    <shuffleanswers>true</shuffleanswers>
-    <subquestion><text><![CDATA[Pic o sobretensió (Spike)]]></text><answer><text><![CDATA[Augment molt breu i fort de la tensió (ex: llamp llunyà).]]></text></answer></subquestion>
-    <subquestion><text><![CDATA[Microtall]]></text><answer><text><![CDATA[Interrupció de mil·lisegons que pot reiniciar un PC sensible.]]></text></answer></subquestion>
-    <subquestion><text><![CDATA[Soroll elèctric (EMI)]]></text><answer><text><![CDATA[Interferències d'alta freqüència causades per motors o aparells.]]></text></answer></subquestion>
-  </question>
-
-<!-- Pregunta 6: Dimensionament - Marge -->
-  <question type="truefalse">
-            <name>
-      <text><![CDATA[U1 L4 Q06 - Marge de seguretat]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>A l'hora de triar un SAI, és recomanable que la seva potència sigui un 20-30% superior a la suma dels consums dels equips connectats.</p>]]></text>
-    </questiontext>
-    <answer fraction="100">
-      <text>true</text>
-      <feedback><![CDATA[Cert! Aquest marge evita que el SAI treballi al límit i permet futures ampliacions.]]></feedback>
-    </answer>
-    <answer fraction="0">
-      <text>false</text>
-    </answer>
-  </question>
-
-<!-- Pregunta 7: Watts vs VA -->
-  <question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q07 - Watts vs VA]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Si un SAI indica que té 1000 VA i un factor de potència de 0,6, quina és la seva potència real en Watts (W)?</p>]]></text>
-    </questiontext>
-    <single>true</single>
-    <answer fraction="100" format="html">
-      <text><![CDATA[600 W (1000 * 0,6).]]></text>
-      <feedback><![CDATA[Correcte! Els Watts són la potència real que podem aprofitar.]]></feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[1600 W.]]></text>
-    </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[1000 W, són unitats equivalents.]]></text>
-    </answer>
-  </question>
-
-<!-- Pregunta 8: Relació Càrrega/Autonomia -->
-  <question type="truefalse">
-            <name>
-      <text><![CDATA[U1 L4 Q08 - Càrrega i Temps]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Com més equips connectem a un mateix SAI (major % de càrrega), menor serà el temps d'autonomia que ens donaran les bateries.</p>]]></text>
-    </questiontext>
-    <answer fraction="100">
-      <text>true</text>
-      <feedback><![CDATA[Cert. L'energia de la bateria es buida més ràpidament si el consum és elevat.]]></feedback>
-    </answer>
-    <answer fraction="0">
-      <text>false</text>
-    </answer>
-  </question>
-
-<!-- Pregunta 9: Protecció tèrmica -->
-  <question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q09 - Protecció tèrmica SAI]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Què és el més probable que passi si el SAI es troba en un lloc tancat sense ventilació i treballant a molta càrrega?</p>]]></text>
-    </questiontext>
-    <single>true</single>
-    <answer fraction="100" format="html">
-      <text><![CDATA[S'activarà la protecció tèrmica i el SAI s'apagarà per evitar danys interns.]]></text>
-      <feedback><![CDATA[Exacte! La calor és l'enemic principal de l'electrònica i les bateries.]]></feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[El SAI carregarà les bateries més ràpidament amb la calor.]]></text>
-    </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[El SAI augmentarà automàticament la seva potència VA.]]></text>
-    </answer>
-  </question>
-
-<!-- Pregunta 10: Manteniment bateries -->
-  <question type="truefalse">
-            <name>
-      <text><![CDATA[U1 L4 Q10 - Vida de les bateries]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Les bateries d'un SAI s'han de substituir periòdicament (normalment cada 3-5 anys) perquè perden capacitat d'emmagatzematge amb el temps.</p>]]></text>
-    </questiontext>
-    <answer fraction="100">
-      <text>true</text>
-      <feedback><![CDATA[Cert. Si ignorem els avisos, el SAI no aguantarà ni un segon quan hi hagi un tall real.]]></feedback>
-    </answer>
-    <answer fraction="0">
-      <text>false</text>
-    </answer>
-  </question>
-
-<!-- Pregunta 11: Programari de monitoratge -->
-  <question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q11 - Programari del SAI]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Per a què serveix connectar el SAI a l'ordinador mitjançant un cable USB o de xarxa?</p>]]></text>
-    </questiontext>
-    <single>true</single>
-    <answer fraction="100" format="html">
-      <text><![CDATA[Perquè l'ordinador s'apagui sol (ordenadament) quan detecti que la bateria del SAI s'està esgotant.]]></text>
-      <feedback><![CDATA[Molt important! Evita pèrdua de dades si no hi ha ningú davant del PC.]]></feedback>
-    </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Per poder fer servir el SAI com a disc dur extern.]]></text>
-    </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Per carregar el mòbil més ràpidament des de l'ordinador.]]></text>
-    </answer>
-  </question>
-
-<!-- Pregunta 12: Resum de proteccions (Cloze) -->
-  <question type="cloze">
-            <name>
-      <text><![CDATA[U1 L4 Q12 - Aplicació del SAI]]></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Completa la configuració recomanada:<br />
-      - Per a un servidor d'empresa crític, triarem un SAI de tipus {1:MULTICHOICE:=Online~Offline~Modular}.<br />
-      - Si sumem 400W de consum, buscarem un SAI d'uns {1:MULTICHOICE:=500~100~400} Watts.<br />
-      - La protecció contra {1:MULTICHOICE:=Sobretensions~Inundació~Fum} evita que els pics de la xarxa danyin la font d'alimentació.</p>]]></text>
-    </questiontext>
-  </question>
-
-<question type="cloze">
-            <name>
-      <text><![CDATA[U1 L4 Q13 - Obtenció detalls de consum d’una font d’alimentació]]></text>
+    <name>
+      <text>Obtenció detalls de consum d’una font d’alimentació</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p>
@@ -239,10 +28,9 @@ tant, font d’alimentació consumirà:
   </question>
 
 <!-- question: 39995392  -->
-  
-<question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q14 - Adaptador de línia]]></text>
+  <question type="multichoice">
+    <name>
+      <text>Adaptador de línia</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p>Què és un adaptador de línia? <br></p><p>Un adaptador de línia és un aparell que...</p>]]></text>
@@ -288,10 +76,9 @@ tant, font d’alimentació consumirà:
   </question>
 
 <!-- question: 39995393  -->
-  
-<question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q15 - Programar un SAI]]></text>
+  <question type="multichoice">
+    <name>
+      <text>Programar un SAI</text>
     </name>
     <questiontext format="html">
       <text>Programar un SAI ens pot servir per…</text>
@@ -337,10 +124,9 @@ tant, font d’alimentació consumirà:
   </question>
 
 <!-- question: 39995394  -->
-  
-<question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q16 - SAI off-line]]></text>
+  <question type="multichoice">
+    <name>
+      <text>SAI off-line</text>
     </name>
     <questiontext format="html">
       <text>Quina característica té un SAI off-line?</text>
@@ -386,10 +172,9 @@ tant, font d’alimentació consumirà:
   </question>
 
 <!-- question: 39995395  -->
-  
-<question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q17 - SAI: connectors]]></text>
+  <question type="multichoice">
+    <name>
+      <text>SAI:  connectors</text>
     </name>
     <questiontext format="html">
       <text>A la part posterior del SAI hi ha tots els connectors. Podem trobar…</text>
@@ -435,10 +220,9 @@ tant, font d’alimentació consumirà:
   </question>
 
 <!-- question: 39995396  -->
-  
-<question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q18 - SAI: manteniment]]></text>
+  <question type="multichoice">
+    <name>
+      <text>SAI: manteniment</text>
     </name>
     <questiontext format="html">
       <text>Pel que fa al manteniment:</text>
@@ -484,10 +268,9 @@ tant, font d’alimentació consumirà:
   </question>
 
 <!-- question: 39995397  -->
-  
-<question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q19 - SAI.Dimensionament]]></text>
+  <question type="multichoice">
+    <name>
+      <text>SAI.Dimensionament</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p>Per què serveix el dimensionament i càlcul d’un SAI?</p>]]></text>
@@ -533,10 +316,9 @@ tant, font d’alimentació consumirà:
   </question>
 
 <!-- question: 39995398  -->
-  
-<question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q20 - Sobredimensionament d’un SAI]]></text>
+  <question type="multichoice">
+    <name>
+      <text>Sobredimensionament d’un SAI</text>
     </name>
     <questiontext format="html">
       <text>Per què serveix el sobredimensionament d’un SAI?</text>
@@ -582,10 +364,9 @@ tant, font d’alimentació consumirà:
   </question>
 
 <!-- question: 39995399  -->
-  
-<question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q21 - VA càlcul (ampers)]]></text>
+  <question type="multichoice">
+    <name>
+      <text>VA càlcul (ampers)</text>
     </name>
     <questiontext format="html">
       <text>A l’hora de calcular el consum de VA d’un dispositiu, hem de triar els valors…</text>
@@ -631,10 +412,9 @@ tant, font d’alimentació consumirà:
   </question>
 
 <!-- question: 39995391  -->
-  
-<question type="multichoice">
-            <name>
-      <text><![CDATA[U1 L4 Q22 - VA. Valor correcte]]></text>
+  <question type="multichoice">
+    <name>
+      <text>VA. Valor correcte</text>
     </name>
     <questiontext format="html">
       <text>El valor VA no és el mateix que la potència en watts que subministra el SAI. Això seria així si la càrrega fos només resistiva, però els ordinadors no són solament resistius. Respecte les següents dades, quin és el valor correcte de VA?</text>
@@ -660,7 +440,7 @@ tant, font d’alimentació consumirà:
       <text></text>
     </incorrectfeedback>
     <answer fraction="100" format="html">
-      <text>1A * 10V = 10W / 0,8 = 12,5VA.</text>
+      <text>1A * 10V = 10W / 0,7 = 14,29VA.</text>
       <feedback format="html">
         <text></text>
       </feedback>
@@ -678,6 +458,5 @@ tant, font d’alimentació consumirà:
       </feedback>
     </answer>
   </question>
-
 
 </quiz>
