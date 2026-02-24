@@ -1,0 +1,227 @@
+<!-- 🔷 LLIÇÓ 1 - OA3: LLEI D'OHM I POTÈNCIA -->
+<div style="line-height: 1.6; text-align: justify;">
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(247, 247, 247); padding: 10px; border-left: 4px solid rgb(153, 153, 153); margin: 15px 0px;">
+        🧭 <strong>Durada estimada:</strong> 2 hores
+    </div>
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Objectiu</h3>
+    <p>Aplicar la Llei d’Ohm i les fórmules bàsiques de potència per interpretar circuits simples.</p>
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Introducció</h3>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        En aquest objectiu d’aprenentatge treballarem la Llei d’Ohm i les fórmules bàsiques de potència, que són eines
+        indispensables per entendre com funcionen els circuits elèctrics i com es dimensionen correctament els
+        components dels equips informàtics. Aplicant aquestes relacions, podreu interpretar si una font d’alimentació és
+        adequada, estimar el consum d’un dispositiu o detectar situacions de risc per excés de corrent o potència.
+    </p>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Abans d’entrar en la Llei d’Ohm, convé recordar les magnituds elèctriques fonamentals que ja heu vist:
+    </p>
+    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
+        <li>La tensió V es mesura en volts (V) i representa la “força” que empeny els electrons a través del circuit.
+        </li>
+        <li>El corrent I es mesura en ampers (A) i indica la quantitat d’electrons que circulen per un conductor en cada
+            instant.</li>
+        <li>La resistència R es mesura en ohms (Ω) i expressa l’oposició al pas del corrent dins d’un material o
+            component.</li>
+        <li>La potència P es mesura en watts (W) i indica quanta energia per unitat de temps consumeix o transforma un
+            dispositiu.</li>
+    </ul>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Totes aquestes magnituds estan relacionades entre si: la Llei d’Ohm vincula tensió, corrent i resistència,
+        mentre que les fórmules de potència connecten la potència amb la tensió i el corrent. Entendre aquesta xarxa de
+        relacions us permetrà analitzar situacions reals, com el funcionament d’un LED amb la seva resistència, el
+        consum d’un port USB o la càrrega total connectada a una font d’alimentació d’un PC.
+    </p>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Llei d’Ohm</h3>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        La Llei d’Ohm relaciona tres magnituds que sempre es mouen juntes: tensió V, corrent I i resistència R. Aquesta
+        relació es resumeix a:
+    </p>
+
+    <div style="text-align: center; background-color: #f0f4f8; padding: 20px; border-radius: 10px; margin: 20px 0;">
+        <span style="font-size: 2rem; font-weight: bold; color: rgb(0, 74, 153);">V = R · I</span>
+    </div>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Si augmentes la tensió o redueixes la resistència, el corrent que circula pel circuit augmenta, i a l’inrevés.
+    </p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(232, 245, 233); padding: 10px; border-left: 4px solid rgb(76, 175, 80); margin: 15px 0px;">
+        🎯 <strong>Metàfora:</strong> Imagina una ciutat amb trànsit i obstacles:
+        <ul>
+            <li><strong>Tensió V:</strong> és la “pressió” que empeny els electrons, com si fos el pendent d’un carrer
+                que fa baixar els cotxes cap avall.</li>
+            <li><strong>Corrent I:</strong> és el “flux de trànsit”, el nombre de cotxes que passen per minut per aquell
+                carrer.</li>
+            <li><strong>Resistència R:</strong> són els semàfors, rotondes i estrets que dificulten el pas; com més
+                resistència, menys cotxes hi poden passar.</li>
+        </ul>
+        La Llei d’Ohm diu que, si mantens fix el pendent del carrer (tensió) però poses més obstacles (resistència), hi
+        circularan menys cotxes (corrent), i si treus obstacles, el trànsit augmentarà.
+    </div>
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">La fórmula en les tres
+        direccions</h3>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        La Llei d’Ohm permet calcular qualsevol de les magnituds principals d’un element elèctric (V, I, R) si coneixes
+        les dues altres.
+    </p>
+
+    <h4 style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-top: 15px;">
+        Calcular Tensió (V)</h4>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        La tensió (o voltatge) és “quanta força elèctrica” empeny el corrent a través d’una resistència.
+    </p>
+    <p
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; font-weight: bold; text-align: center;">
+        V = R · I</p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        💡 <strong>Exemple:</strong> Si tens una resistència de 5 Ω i un corrent de 2 A, la tensió seria:<br>
+        V = 5 Ω × 2 A = 10 V
+    </div>
+
+    <h4 style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-top: 15px;">
+        Calcular Corrent (I)</h4>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        El corrent és la “quantitat d’electrons” que es mouen pel circuit.
+    </p>
+    <p
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; font-weight: bold; text-align: center;">
+        I = V / R</p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        💡 <strong>Exemple:</strong> Si la tensió aplicada és de 12 V sobre una resistència de 4 Ω, el corrent, la
+        tensió seria:<br>
+        I = 12 V / 4 Ω = 3 A
+    </div>
+
+    <h4 style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-top: 15px;">
+        Calcular Resistència (R)</h4>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        La resistència és "l’obstacle" que frena el pas dels electrons, com una porta al circuit.
+    </p>
+    <p
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; font-weight: bold; text-align: center;">
+        R = V / I</p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        💡 <strong>Exemple:</strong> Si una bombeta funciona amb 6 V i li circula un corrent de 0,5 A, la resistència
+        és:<br>
+        R = 6 V / 0,5 A = 12 Ω
+    </div>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Per recordar com funciona la Llei d’Ohm, sovint es fa servir el triangle d’Ohm: imagina un triangle amb la
+        tensió V a la punta superior i, a la base, el corrent I i la resistència R; només cal tapar amb el dit la
+        magnitud que vols calcular i les altres dues et donen la fórmula correcta — per exemple, si vols saber el
+        corrent, divideixes la tensió per la resistència, i si vols la tensió, multipliques corrent per resistència —
+        així és més fàcil recordar i aplicar la relació V = R · I en qualsevol circuit elèctric senzill.
+    </p>
+
+    <figure style="text-align: center; margin: 20px 0;"><b
+            id="docs-internal-guid-a5be1697-7fff-d8f7-fea0-0ecd6f782a5f"><img
+                src="data:image/png;base64,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"
+                width="548" height="207"></b><br>
+        <figcaption style="font-size: 0.9em; color: #666; margin-top: 5px;">Imatge del triangle de la Llei d’Ohm.
+        </figcaption>
+    </figure>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Potència elèctrica en
+        circuits simples</h3>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        La potència elèctrica ens indica quanta energia consumeix o transforma un dispositiu cada segon. És la magnitud
+        que ens diu realment quant “treball” fa el circuit, sigui il·luminar un LED, moure un ventilador o alimentar una
+        CPU. La seva unitat són els watts (W).
+    </p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(232, 245, 233); padding: 10px; border-left: 4px solid rgb(76, 175, 80); margin: 15px 0px;">
+        🎯 <strong>Metàfora:</strong> Imagina’t que tens una bomba d’aigua (el circuit):
+        <ul>
+            <li>La tensió és la pressió que empeny l’aigua</li>
+            <li>El corrent és la quantitat d’aigua que circula.</li>
+            <li>La potència seria quanta energia gasta la bomba cada segon per mantenir aquell flux, i per això si
+                augmenta la pressió o circula més aigua, la bomba consumeix més energia.</li>
+        </ul>
+    </div>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        La potència es calcula combinant les magnituds que ja coneixes:
+    </p>
+
+    <div
+        style="text-align: center; background-color: #fff3e0; padding: 20px; border-radius: 10px; margin: 20px 0; border: 1px solid #ffe0b2;">
+        <span style="font-size: 2rem; font-weight: bold; color: #e65100;">P = V · I</span>
+    </div>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        A partir de la Llei d’Ohm, podem transformar la fórmula, substituint el corrent o la tensió:
+    </p>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Si coneixes la resistència i el corrent:
+    </p>
+    <p
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; font-weight: bold; text-align: center;">
+        P = I² · R</p>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Si coneixes la resistència i la tensió:
+    </p>
+    <p
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; font-weight: bold; text-align: center;">
+        P = V² / R</p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        💡 <strong>Exemple:</strong> Suposa que vols connectar un ventilador a una font de 12 V, i el ventilador
+        consumeix 0,2 A. La potència elèctrica serà:<br>
+        P = 12 V ⋅ 0,2 A = 2,4 W
+    </div>
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Potència elèctrica en
+        components d’un PC</h3>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Cada component del PC (font ATX, disc dur, GPU, etc.) té una etiqueta amb les principals especificacions
+        elèctriques. Normalment hi trobes:
+    </p>
+    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
+        <li>La tensió de funcionament (V): per exemple, 12 V, 5 V, 3,3 V.</li>
+        <li>El corrent màxim que pot subministrar o consumir (A).</li>
+        <li>La potència nominal total (W).</li>
+    </ul>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        A partir d’aquestes dades pots saber quanta potència necessita cada part del teu ordinador.
+    </p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        💡 <strong>Exemple:</strong> Imagina que a la font d’alimentació ATX l’etiqueta diu:
+        <ul>
+            <li>Rail de 12 V: màxim 20 A</li>
+            <li>Rail de 5 V: màxim 15 A</li>
+        </ul>
+        Si calculem la potència màxima que pot donar cada rail:
+        <ul>
+            <li>Rail de 12 V: P = V ⋅ I = 12 V · 20 A = 240 W</li>
+            <li>Rail de 5 V: P = V ⋅ I = 5 V ⋅ 15 A = 75 W</li>
+        </ul>
+        La font, en total, podria subministrar 240 W + 75 W = 315 W (a part, hi ha uns límits totals de la font que
+        solen ser una mica inferiors per seguretat).
+    </div>
+
+</div>
