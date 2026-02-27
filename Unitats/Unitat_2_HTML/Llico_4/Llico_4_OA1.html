@@ -1,0 +1,201 @@
+<!-- 🔷 LLIÇÓ 4 - OA1: VALIDACIÓ FUNCIONAL I DIAGNÒSTIC (POST) -->
+<div style="line-height: 1.6; text-align: justify;">
+    <div
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; background-color: rgb(247, 247, 247); padding: 10px; border-left: 4px solid rgb(153, 153, 153); margin: 15px 0px;">
+        🧭 <strong>Durada estimada:</strong> 2 hores
+    </div>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 20px;">
+        <strong>Objectiu</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        Interpretar els senyals acústics, visuals i comportamentals de l'equip durant el procés d'autodiagnòstic (POST)
+        per identificar errors de maquinari i aplicar protocols tècnics de resolució d'incidències.
+    </p>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 20px;">
+        <strong>Introducció</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        Un cop finalitzat el muntatge mecànic i el cablejat de l'equip, s'inicia la fase de validació funcional. Aquest
+        procediment és crític, ja que és el primer moment en què el sistema rep corrent elèctric i els components
+        interactuen entre si. L'objectiu no és simplement aconseguir que l'equip s'encengui, sinó verificar la
+        integritat de totes les connexions i la correcta detecció del maquinari instal·lat.
+    </p>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        En aquest OA analitzarem el comportament del sistema durant la seqüència d'arrencada. Aprendrem a interpretar
+        els codis d'error que la placa base emet mitjançant indicadors lluminosos (LEDs) o senyals acústics abans de
+        l'activació de la sortida de vídeo. Aquesta capacitat de diagnòstic és fonamental per diferenciar entre una
+        fallada crítica de maquinari i un error de configuració o muntatge, cosa que permet aplicar la solució
+        correctiva adequada de manera eficient.
+    </p>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 20px;">
+        <strong>Procediment de Verificació Elèctrica Inicial</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        Abans de procedir a l'encesa, és imperatiu realitzar una última comprovació de seguretat per evitar danys
+        elèctrics als components.
+    </p>
+
+    <p
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; font-weight: bold; margin-bottom: 10px;">
+        Protocol de Pre-encesa (Checklist):</p>
+    <ol
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 5px;"><strong>Alimentació:</strong> Verificar la connexió ferma del cable ATX (24
+            pins) i el connector EPS de la CPU (4/8 pins).</li>
+        <li style="margin-bottom: 5px;"><strong>Gràfica:</strong> Assegurar que la targeta gràfica té connectats els
+            cables d'alimentació PCIe corresponents.</li>
+        <li style="margin-bottom: 5px;"><strong>Memòria:</strong> Confirmar que els mòduls RAM estan totalment inserits
+            i els mecanismes de retenció tancats.</li>
+        <li style="margin-bottom: 5px;"><strong>Refrigeració:</strong> Comprovar l'estabilitat mecànica del dissipador
+            sobre la CPU.</li>
+        <li style="margin-bottom: 5px;"><strong>Vídeo:</strong> Verificar que el cable del monitor està connectat a la
+            targeta gràfica dedicada (horitzontal), i no a la placa base (llevat que s'utilitzi gràfica integrada).</li>
+    </ol>
+
+    <p
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; font-weight: bold; margin-bottom: 10px;">
+        Execució de l'encesa:</p>
+    <ol
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 5px;">Connectar el cable d'alimentació i activar l'interruptor de la font (Posició
+            "I"). Observar si s'encenen els LEDs d'estat de la placa base (indicador de corrent en espera o standby).
+        </li>
+        <li style="margin-bottom: 5px;"><strong>Seguretat:</strong> Mantenir l'atenció en la font d'alimentació. En cas
+            de sentir sorolls anòmals (espurneig) o detectar olor de cremat en prémer el botó d'encesa, s'ha
+            d'interrompre el subministrament elèctric immediatament.</li>
+        <li style="margin-bottom: 5px;">Accionar el polsador d'encesa del xassís.</li>
+    </ol>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Seqüència Lògica del POST (Power-On Self-Test)</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        En iniciar l'equip, el microprogramari (BIOS/UEFI) executa una rutina d'autodiagnòstic seqüencial. És vital
+        conèixer l'ordre d'aquesta seqüència per identificar en quin punt s'atura el sistema:
+    </p>
+
+    <ol
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 5px;"><strong>Verificació de CPU:</strong> La placa valida la presència i l'estat del
+            processador.</li>
+        <li style="margin-bottom: 5px;"><strong>Verificació de DRAM:</strong> El sistema inicialitza i comprova la
+            memòria RAM. Nota: Aquesta fase és la més propensa a errors de contacte o incompatibilitat.</li>
+        <li style="margin-bottom: 5px;"><strong>Verificació de VGA:</strong> Es detecta i inicialitza el dispositiu de
+            sortida de vídeo.</li>
+        <li style="margin-bottom: 5px;"><strong>Verificació de BOOT:</strong> Es cerquen dispositius d'emmagatzematge
+            amb sectors d'arrencada vàlids.</li>
+    </ol>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        Si el sistema supera aquestes quatre etapes, emetrà un senyal de confirmació (habitualment un xiulet curt) i
+        mostrarà imatge en pantalla.
+    </p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; background-color: rgb(255, 243, 205); padding: 10px; border-left: 4px solid rgb(255, 193, 7); margin: 15px 0px;">
+        🧰 <strong>Consell pràctic sobre DDR5:</strong> En equips d'última generació, la fase de verificació de DRAM pot
+        demorar-se diversos minuts durant la primera arrencada a causa del procés d'entrenament de memòria (Memory
+        Training). No s'ha de reiniciar l'equip durant aquest procés.
+    </div>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Sistemes de Diagnòstic Integrats</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        En cas d'error abans de la sortida de vídeo, la placa base comunica la incidència a través de dos mètodes
+        principals:
+    </p>
+
+    <div style="margin-bottom: 20px;">
+        <p
+            style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; font-weight: bold; margin-bottom: 10px;">
+            A) Indicadors de Depuració (EZ Debug LEDs):</p>
+        <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 10px;">
+            Panell de 4 LEDs situat generalment a la vora dreta de la placa base (etiquetats: CPU, DRAM, VGA, BOOT).
+        </p>
+        <ul
+            style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+            <li style="margin-bottom: 5px;"><strong>Funcionament:</strong> S'il·luminen seqüencialment durant el test.
+                Si un LED roman encès de forma fixa, indica el component que ha fallat i atura la seqüència.</li>
+            <li style="margin-bottom: 5px;"><strong>CPU Fix:</strong> Error crític de processador o alimentació EPS
+                absent.</li>
+            <li style="margin-bottom: 5px;"><strong>DRAM Fix:</strong> Error de memòria. Mòdul mal inserit o
+                incompatible.</li>
+            <li style="margin-bottom: 5px;"><strong>VGA Fix:</strong> Error de targeta gràfica o absència de monitor
+                detectat.</li>
+            <li style="margin-bottom: 5px;"><strong>BOOT Fix:</strong> No s'ha trobat sistema operatiu (comportament
+                normal en discs nous).</li>
+        </ul>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+        <p
+            style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; font-weight: bold; margin-bottom: 10px;">
+            B) Codis Acústics (Beep Codes):</p>
+        <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 10px;">
+            Requereix un altaveu de sistema (buzzer) connectat al panell frontal. Tot i que els codis varien segons el
+            fabricant, els més comuns són:
+        </p>
+        <ul
+            style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+            <li style="margin-bottom: 5px;"><strong>1 Bip Curt:</strong> POST correcte.</li>
+            <li style="margin-bottom: 5px;"><strong>Bips llargs/repetitius:</strong> Error de memòria RAM.</li>
+            <li style="margin-bottom: 5px;"><strong>1 llarg + 3 curts:</strong> Error de targeta gràfica.</li>
+            <li style="margin-bottom: 5px;"><strong>5 Bips curts:</strong> Error de processador.</li>
+        </ul>
+    </div>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Diagnòstic i Resolució d'Incidències Bàsiques</strong>
+    </h4>
+
+    <div style="margin-bottom: 20px;">
+        <p
+            style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; font-weight: bold; margin-bottom: 5px;">
+            CAS A: Absència total de resposta elèctrica</p>
+        <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 10px;">L'equip no
+            mostra cap activitat (ventiladors aturats, sense llums).</p>
+        <ul
+            style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 10px; margin-left: 20px;">
+            <li style="margin-bottom: 5px;"><strong>Verificació:</strong> Comprovar l'interruptor de la font, el cable
+                de paret i la connexió ATX de 24 pins.</li>
+            <li style="margin-bottom: 5px;"><strong>Procediment tècnic:</strong> Desconnectar els cables del panell
+                frontal i realitzar un pont momentani amb un tornavís entre els dos pins "PWR_SW" de la placa. Si
+                l'equip arrenca, el defecte resideix en el botó del xassís.</li>
+        </ul>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+        <p
+            style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; font-weight: bold; margin-bottom: 5px;">
+            CAS B: Cicles de reinici continu (Boot Loop)</p>
+        <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 10px;">L'equip
+            s'encén, opera uns segons, s'apaga i torna a iniciar-se indefinidament.</p>
+        <ul
+            style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 10px; margin-left: 20px;">
+            <li style="margin-bottom: 5px;"><strong>Diagnòstic:</strong> El sistema de protecció s'activa per un error
+                crític o curtcircuit.</li>
+            <li style="margin-bottom: 5px;"><strong>Acció:</strong> Reinstal·lar els mòduls de RAM. Verificar que no hi
+                hagi separadors metàl·lics innecessaris sota la placa base fent contacte amb el circuit.</li>
+        </ul>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+        <p
+            style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; font-weight: bold; margin-bottom: 5px;">
+            CAS C: Sistema actiu sense senyal de vídeo (No Signal)</p>
+        <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 10px;">L'equip
+            sembla operar correctament, però el monitor no rep senyal.</p>
+        <ul
+            style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 10px; margin-left: 20px;">
+            <li style="margin-bottom: 5px;"><strong>Acció:</strong> Assegurar-se que el monitor està connectat
+                directament a la targeta gràfica dedicada. Si es connecta a la placa base tenint una GPU instal·lada, el
+                port de la placa queda inhabilitat.</li>
+            <li style="margin-bottom: 5px;"><strong>Acció secundària:</strong> Provar amb un altre cable de vídeo o
+                monitor.</li>
+        </ul>
+    </div>
+
+</div>

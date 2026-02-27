@@ -1,0 +1,87 @@
+<!-- 🔷 RESUM PRÀCTIC - UNITAT 2: MUNTATGE I CONFIGURACIÓ -->
+<div style="line-height: 1.6; text-align: justify;">
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 20px;">
+        <strong>Arquitectura i Blocs Funcionals</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        L'ordinador es basa en l'<strong>Arquitectura de Von Neumann</strong>, que divideix el sistema en tres parts:
+        CPU (processament), Memòria (emmagatzematge temporal) i Entrada/Sortida, totes connectades per busos.
+    </p>
+
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 20px; margin-left: 20px;">
+        <li style="margin-bottom: 8px;"><strong>Bloc de Processament:</strong> Inclou la CPU (cervell que executa
+            instruccions) i la GPU (especialitzada en càlcul paral·lel i imatges).</li>
+        <li style="margin-bottom: 8px;"><strong>Bloc de Memòria:</strong> Dividit en Volàtil (RAM, d'accés ultraràpid) i
+            Persistent (Discs SSD/HDD per guardar dades a llarg termini).</li>
+        <li style="margin-bottom: 8px;"><strong>Bloc d'Interconnexió:</strong> La Placa Base, que actua com a esquelet i
+            sistema nerviós central.</li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>El Nucli: Placa Base, CPU i RAM</strong>
+    </h4>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 20px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            <strong>Placa Base:</strong> El seu <i>Factor de Forma</i> (ATX, Micro-ATX, Mini-ITX) determina la mida i
+            compatibilitat amb la caixa. El <i>Chipset</i> controla la comunicació amb els components, i el Sòcol
+            (Socket) és on s'instal·la la CPU (LGA per a Intel/AMD nous, PGA per a AMD antics).
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Processador (CPU):</strong> Es defineix per la seva freqüència (GHz), el nombre de nuclis i fils
+            (threads), i la memòria Caché. Requereix un sistema de refrigeració (aire o líquida) i pasta tèrmica per
+            evitar el <i>thermal throttling</i>.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Memòria RAM:</strong> És la memòria de treball. Per optimitzar el rendiment, s'han d'instal·lar
+            mòduls en parelles per activar el <strong>Dual Channel</strong>.
+        </li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Emmagatzematge i Gràfics</strong>
+    </h4>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 20px; margin-left: 20px;">
+        <li style="margin-bottom: 8px;">
+            <strong>GPU:</strong> Pot ser Integrada (dins la CPU, per a ofimàtica) o Dedicada (targeta independent amb
+            la seva pròpia VRAM, per a gaming o disseny).
+        </li>
+        <li style="margin-bottom: 8px;">
+            <strong>Discs:</strong> Els SSD NVMe (M.2) són l'estàndard actual per velocitat, connectats directament a la
+            placa base. Els HDD (mecànics) s'usen per a grans volums de dades pel seu baix cost.
+        </li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>El Procés de Muntatge (Punts Crítics)</strong>
+    </h4>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 20px; margin-left: 20px;">
+        <li style="margin-bottom: 8px;"><strong>Seguretat:</strong> Abans de tocar res, utilitzar una polsera
+            antiestàtica (ESD) per no danyar els xips.</li>
+        <li style="margin-bottom: 8px;"><strong>Premuntatge:</strong> Instal·lar CPU, RAM i M.2 a la placa base a sobre
+            de la seva caixa de cartró (superfície aïllant) abans de ficar-la al xassís.</li>
+        <li style="margin-bottom: 8px;"><strong>Separadors (Standoffs):</strong> Vital comprovar que la placa base no
+            toqui directament el metall de la caixa per evitar curtcircuits.</li>
+        <li style="margin-bottom: 8px;"><strong>Pasta Tèrmica:</strong> Aplicar només la mida d'un pèsol; l'excés pot
+            ser contraproduent.</li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Verificació i BIOS/UEFI</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        Un cop muntat, el sistema executa el <strong>POST (Power-On Self-Test)</strong>. Si alguna cosa falla, la placa
+        avisa amb <i>Beep Codes</i> (xiulets) o <i>Debug LEDs</i>.
+    </p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; background-color: rgb(247, 247, 247); padding: 10px; border-left: 4px solid rgb(0, 74, 153); margin: 15px 0px;">
+        Dins la <strong>UEFI</strong>, és obligatori activar el perfil <strong>XMP/EXPO</strong> perquè la RAM funcioni
+        a la seva velocitat real i configurar la seqüència d'arrencada (<i>Boot Priority</i>).
+    </div>
+
+</div>

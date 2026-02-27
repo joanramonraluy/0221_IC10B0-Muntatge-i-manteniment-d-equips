@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 39995508  -->
+  <question type="matching">
+    <name>
+      <text>Dispositiu a triar per assegurar el subministrament</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin dispositiu triaríeu per assegurar el subministrament de corrent elèctric de...<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>La teva resposta és correcta.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La teva resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La teva resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>Per un electrobisturí i taula de quiròfan<br></p>]]></text>
+      <answer>
+        <text>SAI on-line</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Per un Servidor de dades d’un banc<br></p>]]></text>
+      <answer>
+        <text>SAI on-line</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Per un servidor d’una botiga de te<br></p>]]></text>
+      <answer>
+        <text>SAI off-line</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 39995504  -->
+  <question type="cloze">
+    <name>
+      <text>Configuració aturada automàtica</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Sense l’aturada automàtica configurada, el SAI {1:MULTICHOICE:=podria no tenir utilitat~funciona sense problemes}. <br></p><p>Per exemple, si tenim un ordinador en funcionament sense ningú que el supervisi i hi ha un tall de corrent, el SAI passa a subministrar-li el que li cal per a funcionar. <br></p><p>Després d’algun temps, si l’energia de les bateries del SAI s’esgoten, el SAI {1:MULTICHOICE:segueix funcionant igualment~=s’aturaria}, cosa que fa que l’ordinador {1:MULTICHOICE:=s’aturi de manera abrupta~segueixi funcionant sense problemes}. <br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 39995516  -->
+  <question type="cloze">
+    <name>
+      <text>Obtenció detalls de consum de l’equipament</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per calcular els VA que requereix un equip hem de consultar les dades de consum del dispositiu, que solen estar a una etiqueta del dispositiu. <br>Si apareixen voltatge i corrent, per obtenir els VA cal {1:MULTICHOICE:=multiplicar-los~sumar-los}. <br></p><p>Si mostra diferents valors de volts possibles, agafarem {1:MULTICHOICE:el més baix~=el que correspongui a la nostra xarxa elèctrica}. Per exemple, si apareix 100-240v triarem {1:MULTICHOICE:100~=230~240}<br></p><p>Si mostra més d’un valor d’amperes possible, agafarem {1:MULTICHOICE:=el més gran~el valor mig}. </p><p>Segons això, si tenim una etiqueta que ens mostra que el dispositiu consumeix&nbsp; 230V i 8A/4A, quins serien els VA que necessita?: <br>{2:MCV:230v x 4A = 920VA~230v x 6A = 1380VA ~=230v x 8A = 1840VA}<br></p><p>Finalment, si el que apareix són els watts, cal {1:MULTICHOICE:multiplicar~=dividir} aquest valor per 0,7. <br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 39995509  -->
+  <question type="multichoice">
+    <name>
+      <text>Càlcul VA</text>
+    </name>
+    <questiontext format="html">
+      <text>A l’hora de calcular el consum de VA d’un dispositiu, hem de triar els valors…</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="-33.33333" format="html">
+      <text>que marca el SAI en qualsevol cas</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>que correspongui al subministrament de la nostra xarxa elèctrica. Per exemple, si apareix 100 - 240 V, agafarem 230 V</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>que determina la companyia elèctrica i no el dispositiu</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 39995510  -->
+  <question type="multichoice">
+    <name>
+      <text>SAI ens protegeix de</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Selecciona els problemes elèctrics més habituals a la xarxa dels quals ens protegeix un SAI: <br></p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La teva resposta és correcta.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La teva resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La teva resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="20" format="html">
+      <text><![CDATA[<p>Soroll en la línia.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="20" format="html">
+      <text><![CDATA[<p>Pujades i crestes de voltatge.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="20" format="html">
+      <text><![CDATA[<p>Baixades del voltatge de la línia.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="20" format="html">
+      <text><![CDATA[<p>Tall de corrent.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="20" format="html">
+      <text><![CDATA[<p>Freqüències del senyal diferents dels 50 Hz esperats.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-20" format="html">
+      <text><![CDATA[<p>Accés remot indegut a l’equip per una persona no autoritzada.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-20" format="html">
+      <text><![CDATA[<p>Fallida de la font d’alimentació que deixa d’alimentar els components de l’equip.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 39995511  -->
+  <question type="multichoice">
+    <name>
+      <text>SAI on-line</text>
+    </name>
+    <questiontext format="html">
+      <text>Quina característica té un SAI on-line?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>Que no es produeix cap canvi entre el senyal elèctric provinent de la xarxa elèctrica i el senyal provinent de la bateria quan hi ha una alteració en el subministrament de la xarxa elèctrica que subministra la companyia.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>Que durant els moments (mil·lisegons) en què es fa el canvi entre el senyal elèctric provinent de la xarxa elèctrica i el senyal provinent de la bateria, es produeix una alteració en el senyal que el SAI subministra</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>Que té connexió a Internet.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 39995512  -->
+  <question type="multichoice">
+    <name>
+      <text>SAI: Definició</text>
+    </name>
+    <questiontext format="html">
+      <text>Què és un SAI?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>És un aparell elèctric que subministra energia elèctrica quan la font primària d'electricitat falla.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p></p><p>Es un model de font d’alimentació.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p></p><p>Un aparell per transformar el corrent altern en continu.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 39995513  -->
+  <question type="multichoice">
+    <name>
+      <text>SAI. Correcció</text>
+    </name>
+    <questiontext format="html">
+      <text>Perquè serveixen les funcionalitat correctores d’un SAI?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>Per minimitzar o eliminar els problemes que poden venir mitjançant el subministrament que es rep de la xarxa elèctrica convencional.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>Per corregir els problemes que pot generar la placa base.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>Per controlar els perifèrics de la placa base.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 39995514  -->
+  <question type="multichoice">
+    <name>
+      <text>Supressor de crestes</text>
+    </name>
+    <questiontext format="html">
+      <text>Què és un supressor de pics (o crestes)? És un aparell elèctric que...</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>actua com a fusible entre la línia elèctrica i els equips que volem protegir; per a això, eliminen les crestes de corrent i les pujades de tensió.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>és capaç de mantenir l’alimentació quan es pateix una baixada de tensió o un tall elèctric.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>és capaç de protegir dels talls de corrent de durada molt curta, de mil·lisegons.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 39995515  -->
+  <question type="multichoice">
+    <name>
+      <text>VA. Càlcul</text>
+    </name>
+    <questiontext format="html">
+      <text>Respecte les següents dades, quin és el valor correcte de VA?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>500W / 0,7 = 714,29VA</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>500A / 0,75 = 666,67VA</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>500V * 0,7 =  350VA</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
