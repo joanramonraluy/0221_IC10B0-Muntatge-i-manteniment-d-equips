@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarregador de Qüestionari Moodle - U2 L4</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .tech-gradient {
+            background: linear-gradient(135deg, #d946ef 0%, #a21caf 100%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .glow-fuchsia {
+            box-shadow: 0 0 30px rgba(217, 70, 239, 0.2);
+        }
+    </style>
+</head>
+
+<body class="bg-[#0f172a] min-h-screen flex items-center justify-center p-6 text-slate-200">
+    <div class="max-w-xl w-full">
+        <!-- Main Container -->
+        <div class="glass-card rounded-[2.5rem] shadow-2xl overflow-hidden glow-fuchsia">
+            <!-- Header -->
+            <div class="tech-gradient p-10 text-white relative">
+                <div class="absolute top-0 right-0 p-8 opacity-20">
+                    <svg class="w-20 h-20" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
+                    </svg>
+                </div>
+                <div class="relative z-10">
+                    <h2 class="text-sm font-bold uppercase tracking-[0.2em] mb-2 opacity-80">Unitat 2 / Lliçó 4</h2>
+                    <h1 class="text-4xl font-extrabold tracking-tight">POST, Diagnòstic i BIOS</h1>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="p-10 space-y-8">
+                <div class="flex items-center justify-between text-sm">
+                    <div
+                        class="flex items-center space-x-2 bg-slate-800/50 px-4 py-2 rounded-full border border-slate-700">
+                        <span class="w-2 h-2 rounded-full bg-fuchsia-500 animate-pulse"></span>
+                        <span class="font-medium">25 Preguntes</span>
+                    </div>
+                    <div class="text-slate-400">Nivell: <span class="text-slate-100 font-semibold">Tècnic</span></div>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="flex items-start space-x-4 p-4 rounded-3xl bg-slate-800/30 border border-slate-700/50">
+                        <div class="p-3 bg-fuchsia-500/10 rounded-2xl text-fuchsia-500">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-100">Validació Funcional</h4>
+                            <p class="text-sm text-slate-400 leading-relaxed">Etapes del POST, indicadors EZ Debug LEDs
+                                i Beep Codes.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4 p-4 rounded-3xl bg-slate-800/30 border border-slate-700/50">
+                        <div class="p-3 bg-pink-500/10 rounded-2xl text-pink-500">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z">
+                                </path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-100">Configuració UEFI</h4>
+                            <p class="text-sm text-slate-400 leading-relaxed">XMP/EXPO, Boot Order, Seguretat
+                                (TPM/Secure Boot) i estatus intern.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action -->
+                <a href="U2_L4_POST_i_BIOS.xml" download="U2_L4_POST_i_BIOS.xml"
+                    class="w-full tech-gradient hover:brightness-110 text-white font-bold py-5 rounded-[2rem] shadow-[0_10px_40px_-10px_rgba(217,70,239,0.3)] transform transition-active active:scale-95 flex items-center justify-center text-xl tracking-tight cursor-pointer">
+                    <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                    </svg>
+                    DESCÀRREGA XML U2_L4
+                </a>
+
+                <p class="text-center text-slate-500 text-xs font-medium uppercase tracking-widest italic pt-4">
+                    Manteniment d'Equips · Unitat 2 (L4)</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

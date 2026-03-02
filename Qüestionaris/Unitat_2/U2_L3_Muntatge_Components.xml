@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- Question 1 -->
+  <question type="multichoice">
+    <name>
+      <text>Diferència sòcol LGA i PGA</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la diferència principal entre els sòcols LGA i PGA a l'hora d'instal·lar un processador?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Els sòcols LGA tenen els pins a la placa base, mentre que en els PGA els pins es troben al mateix processador.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Els sòcols PGA tenen els pins a la placa base, mentre que en els LGA els pins es troben al processador.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El sòcol LGA només s'utilitza per a discos M.2, i el PGA per a memòria RAM.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[No hi ha cap diferència estructural, només canvien les velocitats de transferència.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 2 -->
+  <question type="multichoice">
+    <name>
+      <text>Superfície placa base</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què <strong>NO</strong> és recomanable utilitzar l'exterior de la bossa antiestàtica com a base per treballar amb la placa base?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Perquè l'exterior de la bossa pot ser conductor d'electricitat, fet que posa en risc els components.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè pot danyar els components mecànics.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè l'interior és apte però la bossa llisca molt.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè anul·la la garantia del fabricant.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 3 -->
+  <question type="multichoice">
+    <name>
+      <text>Alineació CPU</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina funció té el triangle daurat o marca gravada que trobem en una de les cantonades del processador?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Indicar la posició correcta indicant cap a quina orientació s'ha d'alinear amb la marca corresponent del sòcol.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Marcar per on s'ha d'aplicar la pasta tèrmica en primer lloc.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Indicar quin dels costats tindrà més corrent elèctric.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Assenyalar de quin costat s'ha d'agafar la CPU per evitar danyar els pins.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 4 -->
+  <question type="multichoice">
+    <name>
+      <text>Pasta tèrmica preaplicada</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què s'ha de fer si en intentar instal·lar el dissipador per defecte del processador comprovem que la base ja porta pasta tèrmica grisa preaplicada?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[No cal afegir-ne més. La podem utilitzar directament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Netejar-la amb alcohol i aplicar-ne una de nova i de millor qualitat, és imperatiu.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Afegir-hi unes gotes sobre el processador i unes poques sobre la preaplicada perquè així faci millor contacte.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Aplicar calor primer per estovar l'original abans de posar-la a la placa base.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 5 -->
+  <question type="multichoice">
+    <name>
+      <text>Connector dissipador (CPU_FAN)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A quin connector de la placa base s'ha d'endollar per defecte el ventilador de la CPU que hem muntat sobre ell per facilitar la refrigeració?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[CPU_FAN]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[SYS_FAN]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[AIO_PUMP]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[CHA_FAN]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 6 -->
+  <question type="multichoice">
+    <name>
+      <text>Osca memòria RAM</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Com ens assegurem físicament que estem col·locant un mòdul de memòria RAM en l'orientació correcta a la seva pròpia ranura?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[L'osca de la vora inferior del mòdul RAM ha de coincidir de forma precisa amb el separador de plàstic del sòcol DIMM.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Assegurant-se que les lletres impreses es vegin en la part dreta cap amunt.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[L'osca s'alinea sempre amb la part dreta superior si hi ha condensadors en comptes d'uns altres separadors.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El sòcol acostuma a ser del revés però totes les barres s'introdueixen en diagonal sense comprovar cap osca.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 7 -->
+  <question type="multichoice">
+    <name>
+      <text>Població RAM Dual Channel</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En cas de tenir exactament dos mòduls de memòria RAM idèntics (per exemple 2x8GB) i una placa base que incorpora 4 ranures, quina acostuma ser la recomanació per obtenir l'òptim rendiment <i>Dual Channel</i>?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Col·locar-los a les ranures 2 i 4 (habitualment anomenades A2 i B2) comptant des del processador, permetent que estiguin separades.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Col·locar-los a la ranura 1 i 2, de manera adjacent.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Deixar la 1 lliure, posar a la 2 i la 3, de manera contigua.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Qualsevol configuració a les ranures és bona mentre es faci servir el mòdul a l'interior.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 8 -->
+  <question type="multichoice">
+    <name>
+      <text>Instal·lació prèvia M.2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina peça metàl·lica és <strong>fonamental</strong> assegurar de tenir fixada a la placa base just abans de collar un disc M.2 (si no hi ha cap eina "tool-less")?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Un petit separador d'elevació que manté l'SD paral·lel i evita que l'M.2 pateixi danys mecànics sota pressió o faci un curtcircuit rascant el fons.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El dissipador d'alumini de manera prèvia obligatòriament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Un cargol pla de doble cap i encreuant una esquadra.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[No hi ha res a collar, només polsar l'SD a 45 graus cap avall.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 9 -->
+  <question type="multichoice">
+    <name>
+      <text>Síncronia muntatge d'I/O Shield</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si la teva placa base té l'escut I/O o panell posterior (I/O shield) de dades separat, en quin punt exacte en el procés s'ha de posar?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[S'ha de fixar en el buit posterior del xassís sempre abans d'introduir la placa base.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Mentre s'estar atornillant un costat de la placa base perquè tingui pressió suficient.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Un cop el PC ha sigut gairebé acabat per no ratllar-ne l'exterior.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Ho posarem l'un passat l'altre si podem per facilitar la transferència electromagnètica de dades.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 10 -->
+  <question type="multichoice">
+    <name>
+      <text>Prevenció i ubicació Separadors (Standoffs)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què és el més important si deixes per distracció col·locat un separador (standoff) de llautó a la targeta i cau just darrere de la placa base, sense quadrar amb cap forat d'ancoratge?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[S'ha de treure atès que podria ocasionar un curtcircuit molt greu fregant un punt sensible de connexió.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Cal deixar-lo ja que proporcionarà una major estabilitat a la placa evitant moviments oscil·latoris.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[L'únic que generarà és distorsió en els llums LED frontals i parpellejos asíncrons.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Realment cap efecte; ja està estabilitzada per les altres connexions i cargols perimetrals.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 11 -->
+  <question type="multichoice">
+    <name>
+      <text>Instal·lació Targeta Gràfica</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Típicament a quina ranura hem d'introduir la targeta de vídeo dedicada (GPU) per tal d'oferir els majors avantatges o rendiment?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[A la ranura ranura PCIe superior x16 més propera a la CPU i al sòcol M.2 principal.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A la part més inferior x1 per no obviar sortides addicionals ni molestar l'àudio.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Es recomana situar-les generalment fora del lateral per disminuir de la temperatura la placa ATX completament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Només val posar la principal als sòcols PCI heretats si estan connectables al costat.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 12 -->
+  <question type="multichoice">
+    <name>
+      <text>Alineació correcte Placa Base - I/O Ports</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina tècnica és comuna quan encarem la instal·lació de la placa base al fons del xassís que conté el I/O shield preparat?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[S'entra la placa suaument esbiaixada de costat, empenyent els connectors perquè quadrin pel voltant del marc i d'allà es descendeix cap avall als separadors.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[La inserim horitzontalment caient forta dels cargols centrals cap als exsudadors i després pressionem contínuament el fons del connector d'internet per darrera del tall xassís.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[L'aixequem per la zona central de l'encapsulat del CPU i l'ajustem un cop posat l'escut, atornillant aquest únic.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Només és completament necessari assegurar els dissipadors cap a cada angle oposat dels cargols principals.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 13 -->
+  <question type="multichoice">
+    <name>
+      <text>Cablejat doble als Discos Durs tradicionals</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quins tipus de connectors obligatoris hem d'inserir sempre davant de l'ampliació amb d'un SSD de 2,5" o bé disc dur de 3,5" convencional?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Han de connectar-se tant el de comunicació de ràpid SATA de Dades com el cable llarg pla de SATA que va cap a la Font d'alimentació.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Han de connectar-se només un l'cable llarg i corrent en SATA express com i el general del ventilador si ho demanés.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[SATA de Dades més el cable M.2 d'alta velocitat vinculat normalment pels laterals del dispositiu externament i al hub principal USB.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Satisfer la corrent elèctrica EPS d'1 pins separats pel quadre connectiu al fons més d'una branca PATA antic o Molex cap amunt.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 14 -->
+  <question type="multichoice">
+    <name>
+      <text>Condicional Polaris frontal LEDs i botons</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Del conjunt dels múltiples petits pins connectius JFP1 / F_PANEL del panell frontal, en quin tipus d'elements podem ignorar l'orientació exacte (+ i -) sense risc a no funcionalitat?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Els connectors polsadors Switch, com ara el POWER SW per encendre des de l'inici, que manquen de polaritat en les instruccions.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Cap. Cap petit cable dels de la fila superior ha de posar-se aleatòriament i el llum POWER ressaltarà negatiu a dalt si no.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[En l'indicador del funcionament general (POWER LED) sempre hem de girar comú i evitar posar els pins correctament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[L'avís d'escriptura a l'emmagatzematge massiu d'HDD depèn just de posar-ne i invertir exclusivament sense preocupacions el corrent HDD LED.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 15 -->
+  <question type="multichoice">
+    <name>
+      <text>Connector de Font Més Llarg a Placa Base CPU</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Esmenta quin nom o quantitat acostums a tenir el connector centralitzat principal de l'activitat base del funcionament complet enviat a la placa</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Es tracta del connector enorme o gran cablat de potència ATX general conformat de 24 fins connectat a l'extrem dret normalment.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Aquesta serà part subcorrent a processar gràcies la Font d'alimentació EPS a 8 ranures fins amples al lateral esquerre.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per activar els mòduls un connector llarg d'audio al centre serà suficient gràcies al connector dual de les unitat exteses com el Front Audio gran.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Conegut directament amb un conjunt ample de 14 forats que lliura informació general CPU PC unides i dividides d'energia cap a ranures a baix de CPU d'alt subministrament.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 16 -->
+  <question type="multichoice">
+    <name>
+      <text>Alimentació Targeta de vídeo GPU d'alta resolució requerida d'Extraenergia</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quins connectors de sortida hem de passar si s'equipa l'equipament muntat amb una modern targeta de càlcul o disseny que requereix corrents i energia directes per a la seva estructura?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Connectors de la font d’alimentació de la línia PCIe Power generalment de format mixt combinat (6+2 pins) aplicables en superior del component.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Aquesta només requereix rebre per exclusiu al tipus CPU que portarà el pas connector general EPS a 4+4 sobretot a dalt.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Únicament es necessita del subministrament proporcionat que ve inserit enllaçat del mateix forat ranurat PCI general i els de sata que subratlle de la mare base per rebre-les dades i energia extra.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Un dels connectors del panell principal HD-AUDIO ha d'invertir-ho tot combinant amb el reset per enviar l'energia principal del dispositiu com a xassís en combinació cap avall fins als 8 d'EPS limitats.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 17 -->
+  <question type="multichoice">
+    <name>
+      <text>Acció palanca o braç CPU</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A quin final del procediment digne i perillós a la preparació a camp obert, s'afegeix un component de l'espai de retenció LGA per bloquejar el chip un cop alineat i fixat sobre pins o forats?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Fent abaixar típicament un braç palanca metàl·lic on des de la guia permet la fixació enganxant-lo o apretant fins quedar immobilitzat.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per capçar res primer hi ha un llunyà xip extra i no cal introduir cap fixament a més de les pestanyes o les traves per l'escut l'alt voltant de l'estructura i que fa que caigui directament per la inèrcia en fixament propi.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Polsem directament la pestanya gran inferior i lligant per sempre amb el fil fixador dret cap a l'ancoratge per fixar la seva retenció general al procés superior i evitem una separació lateral si es que hi ha una obertura amb 4 fixacions i gir dels eixos.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A l'últim sempre i el més fàcil només donant la capa un cop ja té el dissipador de plàstic predeterminat es procedí cap avall com a protecció general només de forma final deixant les cantonades d'acer laterals obertes des l'entrada per la mateixa funció que de la marca superior general prèviament o no alineada.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 18 -->
+  <question type="multichoice">
+    <name>
+      <text>Tècnica i motiu de gestió - Cable Management </text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina d'aquestes és pràcticament l'avantatge més important que posa sobre la taula en aconseguir ordenar i amagar a la perfecció, o d'allò millor possible, i fer un Cablejat ("Cable Management") eficient al xassís?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Obre un fluix net deixant de ser destorb de cara a poder lliurar la total acció i corrent d'aire, que a més minimitzarà l'acumulació innecessària de partícules i es preveu reduir rascades en soroll.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Augmenta exponencialment la temperatura elèctrica i que el dissipador s'ompleig així amb més informació, però l'energia circuli al centre i de forma ordenada evitant tot de partícules de xarxa per protegir l'escut.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[En cap fet pot incrementar el seu valor. Únic serveix i fa només que puguis canviar targetes d'expansió com es de la primera d'extreure i més important sense connectar i tindre més presències d'extracció que s'extreguin.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Deixa al voltant directament tots lliures que de banda de les targes els ports a la caixa pugin transmetre fàcilment ràpid tots les característiques o informació dels USB i augmenti el nivell central gràfic limitadament per davant com una opció única de connectables.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 19 -->
+  <question type="multichoice">
+    <name>
+      <text>Precisió Panell Frontal HDD polar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Ens disposem a fer els detalls minúsculs amb l'HDD LED del F_PANEL o similar. Quin serà el resultat si tenim aquest lloc connectat amb inversió pol oposat (menys o més girat)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[No hi ha perill per l'equip si ho poses totalment errat asíncron simplement aquell propi i reduït LED parpellejant no encén ni en fer feina de llegir ni quan està processant tot.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[S'ha de preocupar d'un greu destorb curtcircuit als dos costats on no funciona res per a sempre perquè té la càrrega des la caixa de curt on a fet totalment curt en tot l'interior si fa lectura el disc per tot per tant.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Ens demanarà en tots els moments fer un error ràpid d'anomenat on directament l'arrencada amb l'Interruptor principal POWER Switch quedarà invàlid evitant donar inici normal al PC si el pol està del l'HDD intercanviat a causa de canviar exclusiu això.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Està i serà encès contínua i de manera molesta un tipus d'il·luminació d'inici i estant desbordada una errada o alerta ràdica però res en especial es tallarà de lectura i donaran errades on apareixerà d'exclusivitat sense saber quant fa acció.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 20 -->
+  <question type="multichoice">
+    <name>
+      <text>Acció extracció Seguretat Expansion i gràfiques</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina pràctica inicial d'alliberament per poder tenir el pas clar hi ha anterior a baixar o acoblar i endinsar al final a on tocarà de col·locar la nostra primera gràfica a l'alçada del xassís final?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Cal treure enrere desconnectant total les xapes separadores fixes d'elements tancants o pletines del forat corresponent en el que sortirà just darrere al xassís corresponents.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Tenim d'ignorar i només polsar directament sense la seguretat en traure primer just sobre la part de dalt on hi és ja abans tot només connectar a la caixa tancada sense tocar aquest lloc.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[S'exigeix directament introduir els 2 tancaments oberts ràpids per darrere i ja tot seguit apretarem molt a prop del cargol l'únic i superior un cop connectat el xassís final deixat just amb tancament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Abaixem el clip que l'assegura just i llest traient amb força sense caldre la peça si ha estat d'amunt tancat només d'estress darrere cap amunt com element que queda tapat en el pas just enmig des que es traurà o no directament allà per evitar l'apretada xassís.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 21 -->
+  <question type="multichoice">
+    <name>
+      <text>Orientació visual en polaritats al F_PANEL</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Generalment parlant sobre els petits filferros que enllacen al panell i si hi posem una mica menys d'atenció dels signes sobre la peça i ho hem de reconèixer per una característica general o comú, quin color i el seu signe normal és de considerar Positiu (+)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[En la vasta majoria de les caixes o botons que requereixen d'alguns minúsculs indicatius el cable propi tenyit a algun de cert color ple diferenciant-lo sol fixar-se Positiu (+), i per tant aïlladament s'agafa normalment l'altre si el fons és bàsic i de filament propi elèctric i el de sempre pur i llis color Blanc/Negre representa el Pol Negatiu (-).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per reconèixer tots els pols el Blanc o de presència general del panell front al tipus complet Negre sempre i d'ordre únic fixa general un valor Positiu positiu donant electricitat contínua comú i deixant exclusivitat d'ús que rebin per color els que tindrà Negatius al extrem dret.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[No s'intercanvia en cap comú cas ja que és total al botó POWER quins colors són exclusius a part dels de reiniciar i aquests tenen de Positiu un sol fosc on l'energia baixa pel general on passa Negatiu per rebre-la totalment que per només la meitat dels positius tenen fil Blanc donant un tancament llarg.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[I s'orienta que el cable sencer lliure serà de color pur només sent neutres tots menys en el primer que té indicat una part de polaritat en les instruccions com que passa positiu de colors igualats a la funció del POWER LED i exclusivitat amb enllaç.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 22 -->
+  <question type="multichoice">
+    <name>
+      <text>Encreuament cargols Muntatge Placa general</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina seqüència lògica es recomana seguir amb relació als cargols durant el procés de muntatge per estabilitzar de fons a sobre els petits separadors ("standoffs") una placa ATX convencional dins?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[S'ha de procedir anant posant i ajustant no fent a tope estrenyent o fent màxima força o un per un al final atapeïts o fort cada un completament els d'amunt sinó anar-ho distribuint l'amplitud fent-ho inicialment febles i llavors en tancant progressiu els propers als extrems girant-ho de ser que en un costat abans d'oposats de forma o tècnica del mode l'encreuament fins que finalment els últims o l'acabat quedin forts però lliures d'excés i per evitar una desalineació desproporcionada.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Ens dediquem només primer d'amunt collant al punt d'endarrerir els menys forts primers i baixar en recte deixant d'aplicar molta força on un cop fixats on de cap mode canvia en forçar on només es comença abaix cap dreta recte i on la peça fixa central i tot seguir es va forta al tope primer o recte tota en baixada forçant.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Començarem per sempre al mateix punt interior principal on per fer tope d'entrada fixant la pressió amb molta insistència la mare fixa abans que les demés que els que l'envolten i d'esquemes per fixar al final un forçament on sigui un punt fix un lloc predeterminat i d'on no haurà mes desajustos i els d'exterior amb menys per que hi queden atapeïts directes o en fort mode de dreta fins tancar llista directament esquerra si queda bé de fort.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Aleshores és únic necessari primer posar directament fent-ne una fortada als de cantó al mig deixant als altres cantons per fora de tope forçant tota de cada cop directament per donar només final o només al dret tota per forçat complet de darrere directes on d'una on tota forma es complet al màxim i al cap i fet això canviant primer el fons on només a cada on forçant.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 23 -->
+  <question type="multichoice">
+    <name>
+      <text>Finalitzar Targetes Targeta Fixació</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina peça final de retenció hem d'actuar per alliberar d'arrel correctament l'encaix fix per a que una gran GPU no extregui d'un tir i surti bé sense problemes en desmuntatges si l'hem inserit prèviament total d'haver realitzat un ancoratge profund d'un primer lloc?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Prèviament al desplaçament se li deu polsar la pestanya de fixació enganxada per fi que te l'únic pestell assegurador just sota final en extrems oposats de la tira o final interior fix i ocult que serà lliurat o desactivada quan hi fa un gir on ens donarà sortida o aixecada en cap final i lliure la llargària i extracció permet.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Simplement tirar exclusiu recte l'eix oposat o traient donant forces per a dalt atès que la ranura sempre és simple al centre sense tancar només fixem general traient d'ancoratge per darrere tirada sense desplaçant com general amb el pes fix l'alçada mateix per deixar anar tot i més la pesada com de pestell propi a costat superior donant i lliurant la sortida i on res serà com si n'estira primer des general de forçats atès.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Únic per treure s'obre un passador als dos extremitats oposades front a de gir on girar d'ancoratge superior abans fixar a tope en forçament a on del connector dret fins i extrems recte només traient total deixant sortida on un donant polsant només a un obertura que te i sortint d'ell lliurement del darrere un sol cap i en tot al costat i sortida fora de tir en desmuntatges total obrint fins deixar.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Treure la placa tota de forma contínua general des de en forçar o per només i dades per on s'han obtingut fixaments cap endarrere al principi de tancar-ho o de fora a tope de fora al fons on les giren fixaments als ancoratge tancant d'afixar a on un ha deixat per sota fix a tope un tir on s'està on o la fixada a sota la darrera girant on d'esforç a extregui i la gir extrems on el de pas.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 24 -->
+  <question type="multichoice">
+    <name>
+      <text>Subministrament Específic Font - Energia de Processador</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Identifica adequadament on del sector elèctric s'hi amaga i que proporciona concretament als cables d'energia del que hem deixat la central base dedicades amb un tipus particular designat del cervell general del processament o bé coneguda CPU perquè vagi al pas correcte al PC ple?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Acostuma conformat el principal d'arribar conformat a la targeta des subministrament un cable de l'EPS típic i superior amb tipus format de per 8 o distribució (4+4) pins posats gairebé sempre a dalt la zona i vora costat principal i a l'esquerre central amunt per proveir energia contínua des l'alçada forta base exclusivitat CPU només cap i dedicant d'alimentació forta del connector passat superior base.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Ens aporta i arriba conformat al principal sencer del mig per al llarg on només en tot l'ATX s'amplia connectats fins amb 24 grans l'únic i ple del lateral on d'energia donant en pas i només dedicant d'un costat forta on no exclusivitat dedicant la CPU on a més del dret on per connector on l'extensió per tot al panell per arribat forç d'una sortida a cap superior on de principal.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Aquesta subministrat i a la zona d'exclusiu per la darrera del forta inferior i on rep l'alçada on amb els (6+2) formats PCIe exclusius on passen únic on al del lateral que dona a part un pas de CPU donant de font on de llarg del centre on només posant-lo on de per tot i ple superior a part on l'EPS on que no a dalt de pas donada on per on cap arribat forta o dedicant.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Proporciona un conjunt d'energia SATA en on la d'inferior passat d'on s'amplia i conformat l'únic a part en posat on del a i a l'alt com a on el passat al de centre o cap on l'EPS com on sense 24 grans i on pas i fort donada cap i dedicat a CPU exclusiu per donar en a dalt al del on ple en cap on l'inferior.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 25 -->
+  <question type="multichoice">
+    <name>
+      <text>Estratègia de Muntatge Obert de Targeta - Fonaments Tècnics base i Borsa fora</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Tornant cap en fase preliminars als orígens en què és el primer encertament amb que nosaltres començarem preparant de forma clara la placa per que des de zero hi col·locar el cervell en forats del xassís general quan en treiem només o s'obre dels plàstics preparant en exterior segur d'un camp on del fons només es obert atès abans o en ple entorn primer preparatius?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[La primera i necessària maniobra com a mètode establert correcte només es basa em desempacar i ficar directament damunt el component general cap i orientada a on just de la seva pròpia caixa base ferma de paper i capçal de cartró sent prèviament plana com d'exclusiu camp aïllador inicial fins i deixant de banda de fer base sencer exterior a on del costat extern conductor l'allunyem evitant ficar sobre com a no perjudicial base no de risc.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[S'ha de posar deixant de base exclusiu de risc a l'interior i conductor del cartró on la base ferm no s'obre com on tancats elàstics de risc del pla on un només i fixat ferm com l'exterior fora cap per fer de on de banda en l'extern d'exterior fent primer cap avall l'antiestàtic com base per la plana sencer i del ple plàstic desempacar prenent del forats on directament entorn just d'a on evitant.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Només s'hi ha de deixar l'opció com i previ on el component directament cap dins per fer on damunt del forats xassís i començarem de zero en just on entorn de risc a fora directament d'exclusiu cap a fer aïllador del passat de fora i on base en interior com de preparant per enllà on a on on fora i com on d'evitant just o extern sencer del forat del deixat ferm sobre ple de plàstics.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Hem en tot de banda orientada just tancant d'on de primer posament i a dins d'on ple directament en camp on de base on d'entrada deixant sobre el fons exterior del que plàstic l'interior es fons ferm on d'on deixant conductor en plan propi plàstic forta al final amb risc extrem l'extern on sent del tancat d'exterior a banda i del component de fora no deixant el primer d'on ple sencer d'exterior evitant com de ferm perjudicial del cert en procés l'entrada de paper en plàstic.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+</quiz>
