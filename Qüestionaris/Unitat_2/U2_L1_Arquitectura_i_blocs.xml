@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- category -->
+  <question type="category">
+    <category>
+        <text><![CDATA[$course$/top/Unitat 2/Lliçó 1]]></text>
+    </category>
+  </question>
+
+<!-- Pregunta 1: Model de Von Neumann -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L1 Q01 Model Von Neumann]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Segons l'arquitectura de Von Neumann, quins són els tres blocs principals que componen un ordinador?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="100" format="html">
+      <text><![CDATA[CPU (Processament), Memòria i Entrada/Sortida.]]></text>
+      <feedback><![CDATA[Correcte! Aquests són els pilars de l'arquitectura clàssica que encara fem servir.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pantalla, Teclat i Disc Dur.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Placa base, Font d'alimentació i Ventiladors.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 2: El Bus de Sistema (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L1 Q02 Bus de Sistema]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El <b>Bus de Sistema</b> és el conjunt de línies elèctriques que interconnecten la CPU, la memòria i els perifèrics d'E/S.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Cert! És l'autopista de dades de l'ordinador.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+<!-- Pregunta 3: Registres (Matching) -->
+  <question type="matching">
+    <name><text><![CDATA[U2 L1 Q03 Registres i Memòries]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona cada tipus de memòria amb la seva funció o característica:</p>]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion><text><![CDATA[Registres del processador]]></text><answer><text><![CDATA[Memòries molt petites i extremadament ràpides dins de la CPU.]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Memòria RAM]]></text><answer><text><![CDATA[Memòria temporal on s'emmagatzemen processos en execució.]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Memòria ROM/EEPROM]]></text><answer><text><![CDATA[Memòria no volàtil que es fa servir per a la BIOS/UEFI.]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 4: Freqüència (Multiple Choice) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L1 Q04 Freqüència de Rellotge]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què ens indica principalment la freqüència de rellotge d'un processador (mesurada en GHz)?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[El nombre de cicles d'operació que pot realitzar per segon.]]></text>
+      <feedback><![CDATA[Correcte. És una mesura estimativa de la seva velocitat de processament.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La capacitat d'emmagatzematge del processador.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La temperatura màxima que pot suportar.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 5: Unitats Funcionals (Cloze) -->
+  <question type="cloze">
+    <name><text><![CDATA[U2 L1 Q05 Flux de dades]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completa la definició del flux: La {1:MULTICHOICE:=CPU~RAM~GPU} rep dades des dels dispositius de {1:MULTICHOICE:=Entrada~Sortida}, les processa usant la memòria {1:MULTICHOICE:=RAM~ROM} i finalment n'envia el resultat als perifèrics de {1:MULTICHOICE:=Sortida~Entrada}.</p>]]></text>
+    </questiontext>
+  </question>
+
+<!-- Pregunta 6: Perifèrics de Comunicació (Matching) -->
+  <question type="matching">
+    <name><text><![CDATA[U2 L1 Q06 Tipus de Perifèrics]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Classifica els següents dispositius segons el seu paper en l'arquitectura:</p>]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion><text><![CDATA[Teclat i Escàner]]></text><answer><text><![CDATA[Entrada]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Monitor i Impressora]]></text><answer><text><![CDATA[Sortida]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Targeta de Xarxa i Pantalla Tàctil]]></text><answer><text><![CDATA[Entrada/Sortida (Bidireccional)]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 7: Memòria Virtual -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L1 Q07 Memòria Virtual]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què és la memòria virtual en un sistema informàtic?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Una extensió de la RAM que es crea usant espai del disc dur quan la RAM física està plena.]]></text>
+      <feedback><![CDATA[Correcte! Tot i ser molt més lenta que la RAM, evita que el sistema es bloquegi.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Una memòria que només existeix al núvol (Cloud).]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La memòria interna de la targeta gràfica.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 8: Sockets (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L1 Q08 Els Sockets]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El socket és el connector de la placa base on s'instal·la el processador, i està estandarditzat de manera que qualsevol CPU entra en qualsevol placa base actual.</p>]]></text>
+    </questiontext>
+    <answer fraction="0">
+      <text>true</text>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback><![CDATA[Exacte! Els sockets depenen de la marca (Intel/AMD) i de la generació del processador; no són universals.]]></feedback>
+    </answer>
+  </question>
+
+<!-- Pregunta 9: Connectors Interns (Multiple Choice) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L1 Q09 Connectors Placa]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin d'aquests s'utilitza habitualment per interconnectar dispositius interns (com targetes d'expansió) a la placa base?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100" format="html">
+      <text><![CDATA[PCI Express (PCIe).]]></text>
+      <feedback><![CDATA[Correcte! És l'estàndard actual per a gràfiques i altres targetes internes.]]></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[USB-C.]]></text>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[VGA.]]></text>
+    </answer>
+  </question>
+
+<!-- Pregunta 10: Gràfica Integrada (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L1 Q10 GPU Integrada]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En molts processadors moderns, el circuit dedicat al càlcul gràfic (GPU) es troba dins mateix de l'encapsulat de la CPU.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback><![CDATA[Cert! Això permet tenir sortida de vídeo sense necessitat de comprar una targeta gràfica dedicada.]]></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+    </answer>
+  </question>
+
+<!-- Pregunta 11: Estacionalitat de la dada (Matching) -->
+  <question type="matching">
+    <name><text><![CDATA[U2 L1 Q11 Volatilitat]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona el component amb la persistència de les dades quan apaguem l'ordinador:</p>]]></text>
+    </questiontext>
+    <shuffleanswers>true</shuffleanswers>
+    <subquestion><text><![CDATA[Memòria RAM]]></text><answer><text><![CDATA[Volàtil (les dades es perden).]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Disc Dur (SSD/HDD)]]></text><answer><text><![CDATA[No volàtil (les dades es mantenen).]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Unitat de Control de la CPU]]></text><answer><text><![CDATA[Processament instantani (no guarda dades permanentment).]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 12: Resum arquitectura (Cloze) -->
+  <question type="cloze">
+    <name><text><![CDATA[U2 L1 Q12 Resum Unitat]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En arquitectura de computadors:<br />
+      - El bloque que executa operacions lògiques és la {1:MULTICHOICE:=ALU~Memòria~Bus}.<br />
+      - Els camins físics de dades s'anomenen {1:MULTICHOICE:=Bussos~Rutes~Cables}.<br />
+      - La unitat funcional "imprescindible" per interactuar amb l'usuari és l'{1:MULTICHOICE:=E/S~CPU~Font}.</p>]]></text>
+    </questiontext>
+  </question>
+
+</quiz>

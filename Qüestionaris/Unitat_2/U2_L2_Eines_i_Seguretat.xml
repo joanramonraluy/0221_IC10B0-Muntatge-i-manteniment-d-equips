@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- category -->
+  <question type="category">
+    <category>
+        <text><![CDATA[$course$/top/Unitat 2/Lliçó 2]]></text>
+    </category>
+  </question>
+
+<!-- Pregunta 1: Importància eines (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q01 Filosofia de les eines]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Disposar de l'eina adequada només serveix per treballar més de pressa, però qualsevol eina domèstica fa la mateixa funció física.</p>]]></text>
+    </questiontext>
+    <answer fraction="0"><text>true</text></answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback><![CDATA[Fals. L'eina adequada evita danys irreversibles com plàstics trencats o cargols passats de rosca.]]></feedback>
+    </answer>
+  </question>
+
+<!-- Pregunta 2: Estàndard Philips (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q02 Estàndard de tornavís]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és l'estàndard absolut de tornavís en el muntatge de PCs de sobretaula?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[Tipus Philips (PH)]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Tipus Torx (T)]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Tipus Plà]]></text></answer>
+  </question>
+
+<!-- Pregunta 3: Mides Philips (Matching) -->
+  <question type="matching">
+    <name><text><![CDATA[U2 L2 Q03 Mides Philips]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona la mida de la punta Philips (PH) amb el seu ús principal:</p>]]></text>
+    </questiontext>
+    <subquestion><text><![CDATA[PH2]]></text><answer><text><![CDATA[Mida estàndard (Caixa, font, placa base).]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[PH1]]></text><answer><text><![CDATA[Cargols M.2 o portàtils antics.]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[PH0 / PH00]]></text><answer><text><![CDATA[Precisió (Ultrabooks i telèfons).]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 4: Altres tipus d'eines (Matching) -->
+  <question type="matching">
+    <name><text><![CDATA[U2 L2 Q04 Torx i Hexagonal]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Assigna la forma de l'eina al seu nom:</p>]]></text>
+    </questiontext>
+    <subquestion><text><![CDATA[Forma d'estrella de 6 puntes (HP, Apple)]]></text><answer><text><![CDATA[Tipus Torx (T)]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Connectors de llautó de la placa base]]></text><answer><text><![CDATA[Tipus Hexagonal (Nut Driver)]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 5: Perill Pozidriv (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q05 El Pozidriv (PZ)]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Un tornavís Pozidriv (PZ) es pot fer servir perfectament en cargols Philips (PH) si no en tenim cap altre a mà.</p>]]></text>
+    </questiontext>
+    <answer fraction="0"><text>true</text></answer>
+    <answer fraction="100"><text>false</text><feedback><![CDATA[Fals. Mai no utilitzis PZ en informàtica, "passaràs de rosca" el cargol.]]></feedback></answer>
+  </question>
+
+<!-- Pregunta 6: Conseqüència Pozidriv (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q06 Conseqüència PZ]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què passa visualment si utilitzem la punta PZ en comptes de la PH adequada?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[El cap del cargol es deforma i "es passa de rosca" perquè la punta no encaixa.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Res, funcionen amb un 100% de compatibilitat.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[El cargol genera electricitat estàtica.]]></text></answer>
+  </question>
+
+<!-- Pregunta 7: Magnetisme (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q07 Seguretat del Magnetisme]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Antigament els imants esborraven disquets, però avui en dia els tornavisos imantats no afecten els SSDs moderns i són assegurats d'usar.</p>]]></text>
+    </questiontext>
+    <answer fraction="100"><text>true</text></answer>
+    <answer fraction="0"><text>false</text></answer>
+  </question>
+
+<!-- Pregunta 8: Ús Magnetisme (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q08 Funció Magnetisme]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és el principal risc que s'evita usant tornavisos imantats?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[Evitar que cargols caiguin sota la placa base provocant curtcircuits fatals.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Facilitar la refrigeració de les eines de treball.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Crear camps magnètics que eliminen la pols.]]></text></answer>
+  </question>
+
+<!-- Pregunta 9: Alicates (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q09 Alicates de tall]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Les alicates de tall s'utilitzen habitualment per a retallar les cues sobrants de les brides de plàstic que ordenen els cables.</p>]]></text>
+    </questiontext>
+    <answer fraction="100"><text>true</text></answer>
+    <answer fraction="0"><text>false</text></answer>
+  </question>
+
+<!-- Pregunta 10: Pinces (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q10 Pinces de precisió]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Les pinces de precisió (preferentment corbes) només es fan servir en l'electrònica d'alta soldadura, mai en el muntatge de PCs.</p>]]></text>
+    </questiontext>
+    <answer fraction="0"><text>true</text></answer>
+    <answer fraction="100"><text>false</text><feedback><![CDATA[Són claus per recuperar jumpers petits o connectar cables interns minúsculs.]]></feedback></answer>
+  </question>
+
+<!-- Pregunta 11: Organització Cargols (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q11 Organitzador de cargols]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què hem de fer servir compartiments i NO barrejar els cargols al desmuntar un portàtil?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[Perquè introduir un cargol llarg on hi va un de curt pot foradar completament la placa base o la carcassa.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Simplement és un criteri estètic per l'ordre de la taula.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Per garantir una bona presa de terra.]]></text></answer>
+  </question>
+
+<!-- Pregunta 12: Organització del Taller (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q12 Com a un quiròfan]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina d'aquestes actuacions és pròpia de la mentalitat de "quiròfan" a l'hora de reparar equips?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[Tenir l'espai ben il·luminat i net abans d'obrir res, i no forçar mai cap peça.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Treballar a les fosques i amagar part de les eines.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Muntar els PCs només si portem guants de làtex per quiròfan.]]></text></answer>
+  </question>
+
+<!-- Pregunta 13: Les forces (Cloze) -->
+  <question type="cloze">
+    <name><text><![CDATA[U2 L2 Q13 Sense forçar res]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quan s'ha d'inserir un component o cargol i trobes resistència, la norma d'or diu que {1:MULTICHOICE:=no s'ha de forçar mai~s'ha de pitjar amb coratge}, si no entra, és que {1:MULTICHOICE:=no és l'eina o posició correcta~necesites un tornavís PZ}.</p>]]></text>
+    </questiontext>
+  </question>
+
+<!-- Pregunta 14: Consumibles (Matching) -->
+  <question type="matching">
+    <name><text><![CDATA[U2 L2 Q14 Tipus de consumibles]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona cada material consumible amb la seva funció:</p>]]></text>
+    </questiontext>
+    <subquestion><text><![CDATA[Brides de plàstic o Velcro]]></text><answer><text><![CDATA[Organitzar el cablejat de la caixa.]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Pasta Tèrmica]]></text><answer><text><![CDATA[Especial per asseure correctament el dissipador sobre la CPU.]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Alcohol Isopropílic]]></text><answer><text><![CDATA[Netejar la brutícia i contactes sense deixar residus.]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 15: Neteja (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q15 Opcions de neteja]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Puc netejar la pasta tèrmica vella amb aigua i sabó, o amb alcohol normal de farmàcia (96º)?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[No, l'alcohol de farmàcia o l'aigua poden deixar residus que afectaran el rendiment elèctric i tèrmic.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Sí, qualsevol tipus d'alcohol serveix per a hardware informàtic.]]></text></answer>
+  </question>
+
+<!-- Pregunta 16: Flux d'aire (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q16 Cables i refrigeració]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Un ordinador internament ben lligat amb brides i amb el cablejat enrotllat tindrà seriosos problemes per refrigerar-se adequadament.</p>]]></text>
+    </questiontext>
+    <answer fraction="0"><text>true</text></answer>
+    <answer fraction="100"><text>false</text><feedback><![CDATA[Fals. Just el contrari, ordenar els cables facilita la creació de túnels de ventilació naturals dins la caixa.]]></feedback></answer>
+  </question>
+
+<!-- Pregunta 17: Definició ESD (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q17 L'enemic núm 1 (ESD)]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A què ens referim amb "ESD" en informàtica?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[Descàrrega Electrostàtica.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Equip de Seguretat Definitiu.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Extensió de Socket Dual.]]></text></answer>
+  </question>
+
+<!-- Pregunta 18: Mortal per al xip (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q18 Sensibilitat de l'ESD]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Una "rampa" d'electricitat estàtica imperceptible (que pràcticament no la notes amb les mans) és suficient per a fondre microcomponents interns de l'ordinador.</p>]]></text>
+    </questiontext>
+    <answer fraction="100"><text>true</text></answer>
+    <answer fraction="0"><text>false</text></answer>
+  </question>
+
+<!-- Pregunta 19: Voltatges (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q19 Toleràncies de voltatge]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què els xips són tan sensibles a l'estàtica? A quins voltatges de corrent intern solen treballar els xips físics (RAM, processadors)?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[Entre 1 i 1,5 volts, qualsevol estàtica els sobrepassa.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Als mateixos 230 volts que rep de l'endoll.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Són insensibles al voltatge elèctric directe.]]></text></answer>
+  </question>
+
+<!-- Pregunta 20: El factor potèncial (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q20 Fer Massa]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és l'objectiu principal a l'hora de "fer massa" amb el xassís?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[Estar al mateix potencial elèctric que l'equip per evitar que la tensió viatgi des del teus dits a les peces.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Carregar el teu propi cos per no refredar els components.]]></text></answer>
+  </question>
+
+<!-- Pregunta 21: Elements prevenció ESD (Matching) -->
+  <question type="matching">
+    <name><text><![CDATA[U2 L2 Q21 Elements antiestàtics]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Relaciona cada mecanisme antiestàtic amb l'ús donat:</p>]]></text>
+    </questiontext>
+    <subquestion><text><![CDATA[Polsera antiestàtica]]></text><answer><text><![CDATA[Es lliga al canell i l'altre extrem al metall.]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Estora antiestàtica]]></text><answer><text><![CDATA[Goma conductora sobre la taula on pots descarregar components.]]></text></answer></subquestion>
+    <subquestion><text><![CDATA[Bosses grises (Silver bags)]]></text><answer><text><![CDATA[Específiques per emmagatzemar components en prestatges i evitar atacs ESD externs.]]></text></answer></subquestion>
+  </question>
+
+<!-- Pregunta 22: Bosses antiestàtiques (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q22 Risc amb Bosses Silver]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>És totalment recomanable connectar el corrent a la placa base i engegar-la mentre recolza al damunt d'una bossa antiestàtica per estar 100% protegits.</p>]]></text>
+    </questiontext>
+    <answer fraction="0"><text>true</text></answer>
+    <answer fraction="100"><text>false</text><feedback><![CDATA[L'exterior d'aquestes bosses acostuma a ser material conductor de l'avantsala, pot fer curtcircuit a les soldadures posteriors de la placa encesa!]]></feedback></answer>
+  </question>
+
+<!-- Pregunta 23: On va la pinça (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q23 Ús de la Polsera]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Al final de la polsera antiestàtica, hi ha una pinça tipus cocodril. On l'hem de connectar?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[A una vora d'alumini lliure i no pintada del mateix ordinador o a la presa de terra de la instal·lació.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Al dit índex de l'altra mà oposada.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Als components de plàstic del ventilador CPU.]]></text></answer>
+  </question>
+
+<!-- Pregunta 24: Zones pintades (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q24 Contacte ESD i pintura]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si la carcassa de metall està recoberta de pintura en pols negra o blanca a l'interior, la polsera antiestàtica funcionarà igualment sobre la pintura.</p>]]></text>
+    </questiontext>
+    <answer fraction="0"><text>true</text></answer>
+    <answer fraction="100"><text>false</text><feedback><![CDATA[Fals. La pintura sol actuar com a material aïllant. Fes contacte amb una zona lliure sense revestiment.]]></feedback></answer>
+  </question>
+
+<!-- Pregunta 25: Alternativa sense polsera (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q25 Truc alternatiu ESD]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Com et pots donar "terra" (alliberar-te de l'estàtica) si has d'obrir el PC però no tens una polsera oficial?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[Sosté fermament amb les dues mans una part metàl·lica no pintada de la caixa abans i freqüentment durant l'execució de la reparació.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Passant les mans pel terra de llana del pis.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Utilitzant aigua corrent poc abans de tocar la placa mare.]]></text></answer>
+  </question>
+
+<!-- Pregunta 26: La catifa d'escriptori (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q26 Estores habitacionals]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Treballar i fregar els mitjons al damunt d'una catifa o moqueta abans de muntar un PC ajuda a relaxar la càrrega antiestàtica i és altament aconsellable.</p>]]></text>
+    </questiontext>
+    <answer fraction="0"><text>true</text></answer>
+    <answer fraction="100"><text>false</text><feedback><![CDATA[Absolutament fals. Produir fricció a la llana/catifa augmenta astronòmicament la càrrega electrostàtica del cos (crees un perill de mortalitat per als xips immediatament).]]></feedback></answer>
+  </question>
+
+<!-- Pregunta 27: Resum logístic ESD (Cloze) -->
+  <question type="cloze">
+    <name><text><![CDATA[U2 L2 Q27 Proteccions ESD globals]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completar-ho és essencial per la teva pràctica: S'ha de comptar amb eines adients; Les descàrregues destrueixen xips amb el mecanisme {1:MULTICHOICE:=ESD~EDM}. La polsera va exclusivament a un lloc metàl·lic {1:MULTICHOICE:=no pintat~qualsevol}. Les bosses protectores mai haurien de funcionar de matalàs per una base {1:MULTICHOICE:=activada i encesa~apagada}.</p>]]></text>
+    </questiontext>
+  </question>
+
+<!-- Pregunta 28: Importància logística (V/F) -->
+  <question type="truefalse">
+    <name><text><![CDATA[U2 L2 Q28 Pre-muntatge fonamental]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En el panorama professional, parar una feina en l'últim minut amb un processador obert sobre la taula només perquè s'han oblidat unes alicates, és un error imperdonable de planificació prèvia.</p>]]></text>
+    </questiontext>
+    <answer fraction="100"><text>true</text></answer>
+    <answer fraction="0"><text>false</text></answer>
+  </question>
+
+<!-- Pregunta 29: Agrupar Eines (Cloze) -->
+  <question type="cloze">
+    <name><text><![CDATA[U2 L2 Q29 Divisió d'eines]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Segon apunts de la Unitat 2: Tens 3 grups instrumentals.
+      El primer per collat i desenroscat serien els {1:MULTICHOICE:=Tornavisos~Isopropílics}.
+      El segon dedicat a consolidar components com {1:MULTICHOICE:=Brides i Pinces~Bosses antiestàtiques}.
+      L'últim com instrumental d'assistència/manteniment general conté fluids com {1:MULTICHOICE:=L'alcohol Isopropílic~Oli Tèrmic}.</p>]]></text>
+    </questiontext>
+  </question>
+
+<!-- Pregunta 30: Tornavís i Precisió Final (MC) -->
+  <question type="multichoice">
+    <name><text><![CDATA[U2 L2 Q30 Ultrabooks precisió]]></text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per intervenir un modern portàtil Ultrabook extrafí i obrir la seva coberta inferior extremadament sensible, què seleccionaràs com a millor tornavís de destí?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+    <answer fraction="100"><text><![CDATA[Tornavisos específics Mida PH0 o PH00 si té estrelles creuades, descartant el pesat PH2 del xassís general sobretaula.]]></text></answer>
+    <answer fraction="0"><text><![CDATA[El clàssic Nut Driver (Tornavís Hexagonal).]]></text></answer>
+    <answer fraction="0"><text><![CDATA[Qualsevol mètode sempre i quan utilitzem l'Alcohol sobre els cargols primer.]]></text></answer>
+  </question>
+
+</quiz>
