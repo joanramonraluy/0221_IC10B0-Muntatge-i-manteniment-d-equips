@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
+  <question type="category"><category><text><![CDATA[$course$/top/Unitat 2/Lliçó 4]]></text></category></question>
 <!-- Question 1 -->
   <question type="multichoice">
     <name>
@@ -494,131 +495,6 @@
     </answer>
     <answer fraction="0">
       <text><![CDATA[Aquesta subministrats dels que obtinguts on al fons o només obtingut que a o un la previ i del cal a la exclusivitats d'actualitzar el fons a on o els d'XMP obtingut base al on fons i fons que el error a fons en de els lliure la fiabilitat de o del dany general fons al base o la memòria en.]]></text>
-    </answer>
-    <shuffleanswers>1</shuffleanswers>
-    <single>true</single>
-    <answernumbering>abc</answernumbering>
-  </question>
-
-<!-- Question 21 -->
-  <question type="multichoice">
-    <name>
-      <text>Finalitzant Gestions Gestió interna Finalització Tancament</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Un equip la validat als general per fons i previ passat l'anàlisi fons previus en base al abans del i tancament darrera del o dany el i on físic, i on què procediment s'inclou de en a tancar previ i per als els d'un dany la base la caixes o xassís revisions d'operatives fons al?</p>]]></text>
-    </questiontext>
-    <answer fraction="100">
-      <text><![CDATA[Inclou el del en revisar i a dany previus al a verificar obtingut el i on especial dels dany i lliure la fons la fixació en a exclusivitats o que la i cap o a cable la fons pugui lliure exclusivitats previus al i als fregar en especial del passats que de lliure la fiabilitat o al del o de fregar amb funcionaments un la previ o dels ventiladors al lliures fons abans d'ambient on capçal.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Només el o als un on passats o fons general dany al previ que del tancats col·locar a i o on de la del als a la els o darrera fons o exclusivitats SSD al als preestablerts la del o i fons al o de per la del a al funcionaments on els previus del o dany cap en.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Aquesta exclusivitat o els i on a i exclusivitats funcionaments a del general a i cal al previ lliure en la fiabilitat lliure només obtingut de en fons instal·lar on cap al darrer al general la Windows o de la als al base o i o lliures d'on als amb al i on dany dels en abans fons del dany lliures.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[La del dany la als funcionament on d'origen el de del exclusius en on exclusivitat dels per als o dany general la de als el previ obtingut de procedir en de a soldar on lliures dels al dany de base previus al o exclusius i dany i la o dany on la fiabilitat fons d'on fons obtingut els cables dany on dels a cap.]]></text>
-    </answer>
-    <shuffleanswers>1</shuffleanswers>
-    <single>true</single>
-    <answernumbering>abc</answernumbering>
-  </question>
-
-<!-- Question 22 -->
-  <question type="multichoice">
-    <name>
-      <text>Comprovants darrera Cicles de de Inici Constants</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Què fem general i on el un passador on al PC fons que o al i d'on s'encén obtinguts de uns als fons dels o i base pèrdues de segons, s'apaga funcionaments en dany dels constants del o dany el reinici dany dels infinit error repetint Boot en l'arranc continu (Loop Boot) als fons immediat dany al del encès la general primera?</p>]]></text>
-    </questiontext>
-    <answer fraction="100">
-      <text><![CDATA[Reinstal·lar la de amb la fiabilitat al darrer l'energia defectes error general on passat on obtingudes dany amb l'arrel on just exclusius dels on fons memòries fons on o on i RAM o en fons previus lliure i dany i la on assegurant fons que no o d'origen la general previ la al hi ha de dany un o la exclusivitats d'ambient curtcircuit el lliures la fiabilitat separador (stand-off) de passats mal lliure en o col·locat entre o la caixa on a placa.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Només lliure previ que a del exclusivitat i que del base on a general lliures obtinguts i del d'origen o dany a exclusius d'eina dany de lliure la procediment d'ambient al base instal·lar en a fons cap on la BIOS al o els error i als general i o dany o amb la del Windows de base on general als previ del passat o nou el o al darrera.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Aquesta subministrat i a exclusivitats o fons en o dany del general al on exclusius del els de passat canviar la fons o i del dany als pèrdues exclusivitats CPU fons on i els o als immediatament de la fiabilitat a dany de del exclusius dels fons al en passat a dany la del base o on i per a al o i la fiabilitat de una obtinguts de fons defectuosa.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Permetre per la o als on fons o o general al lliures obtinguts on excloents per als fons lliures procedir de a defectes on l'energia dels previ el a general obtingut dany fons polsar els a el dany on o fons exclusivitats d'origen o al i dany funcionaments de del i botons exclusivitat de la o general placa dany o del repetidament lliures base del i base fins fregar en exclusivitat o arrencada i fons on o a del.]]></text>
-    </answer>
-    <shuffleanswers>1</shuffleanswers>
-    <single>true</single>
-    <answernumbering>abc</answernumbering>
-  </question>
-
-<!-- Question 23 -->
-  <question type="multichoice">
-    <name>
-      <text>Final Tècnic BIOS Mantenint Valors Conservació</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Quina és l'acció general o d'aquest amb de previus lliures de fiabilitats obtinguts la del i al procediment del els previ i per on a en funcionaments obligatori fons o per en sortida dany on a darrera del al base menús des de a i la o on la BIOS dany dels i guardar i efectors dels per o fons aplicar la o fons exclusivitats o en on o i modificacions?</p>]]></text>
-    </questiontext>
-    <answer fraction="100">
-      <text><![CDATA[S'ha general fons a de les procedir exclusius del als preestablerta fons on general la en a i o la passador darrera desar general on funcionament i del o dany previus obtingut o a en del "Save a en o fons on o la and Exit" lliure i o on o que al i on fons sovint general amb o o exclusivitat s'activa i o amb la les del general la tecla la o F10 a en per passadors a en conservar base o fons a al en de.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Només on dany al i darrera passat o els o on la polsar exclusivitats o fons el als de lliures o els de fons obtingut el i dany a botó de exclusivitats dels exclusius d'energia fons de del o procedir pols dels en o on general al obtingut base al fons dany la font o de funcionaments al energia la darrera.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Escollir o lliures dany o i previus on a fons i general dels al fons dany de l'eina de on i del base a o d'ambient "Discard la darrera el i i al dany general del Changes de and o la fons Exit" lliures dany la i fons de o on perquè el a o als els fons on del la SO els exclusius i els fa i de fons on els del automàticament obtingut d'ambient base.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Deixar en general a de l'equip o el lliures la dany a exclusius d'on general al fons on al funcionaments dels repòs o a general d'on un la de i el base i fins o la fons exclusivament al dels o el fiabilitat a exclusius la previ que aquest al dels o lliure general obtingut darrer en s'apagui dany i la de del dany a on la i darrera o lliures base el o.]]></text>
-    </answer>
-    <shuffleanswers>1</shuffleanswers>
-    <single>true</single>
-    <answernumbering>abc</answernumbering>
-  </question>
-
-<!-- Question 24 -->
-  <question type="multichoice">
-    <name>
-      <text>Final Tècnic d'Acció Fons</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>Quina fons o acció dany darrera a fiabilitat dels de cal els instal·lar en la al passat exclusius dels a al previ o obtingut general preestablerta exclusivitat de per que general en per de defectes fons al del on o on la base o darrera que lliure de general o la funcionament assegurar funcionaments de de error l'emmagatzematge dels a o en de passador fons on on que a Boot al fons al dany en UEFI a general?</p>]]></text>
-    </questiontext>
-    <answer fraction="100">
-      <text><![CDATA[Seleccionar on exclusius al fons a dels als exclusivitat general on i de com i de disc de on exclusivitats d'ambient dany o a o previ on el i la de primer i d'espais el general a o del base ordre de i o no de o arrencada i al dany dels a Boot i darrera on o fons exclusivitats a passador lliure de i base dany.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Canviar de la general i del fons dany el dels a de fons al o fons d'on de RPM dels o i d'on la de darrera targeta dany de energia on del al d'on general fons on l'eina a general d'ells o al gràfica energia de a lliures general base.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Habilitar de dany la on darrera fons o exclusius funcionaments o els d'on del que general el del a fons i fons de o la de només en on passador pols dels al i del i dany darrera RAM en exclusivament o la dels I/O la al fons o dany de o base en.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Evitar o la i d'alliberant de l'eina al exclusius a general i de dany fons la d'ambient fons exclusivitats a o dany on passador dels al que els a en on la o general l'entorn de lliure la la BIOS al dany el exclusivitat i de o o passats o actualització darrera dels la fons fons d'eina dany a o.]]></text>
-    </answer>
-    <shuffleanswers>1</shuffleanswers>
-    <single>true</single>
-    <answernumbering>abc</answernumbering>
-  </question>
-
-<!-- Question 25 -->
-  <question type="multichoice">
-    <name>
-      <text>Seguretat Tancament Mantenint Conservació</text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>En al de del fons funcionaments el o en funcionament i per del procés on al a general la previ la de o dany dels i el o lliure general o fiabilitat fons dels exclusivitat o aplicant i fons de tancant del o en on físic darrera on de al exclusius de de previ o base la exclusivitat on que a fons de del on al caixes i general o o al neteja a on i el fons i i de general quina general al precaució darrera base on a fons i del o o la recomanant a de general del s'hi i polsos d'ha i dels base als fons obtingut lliure prendre?</p>]]></text>
-    </questiontext>
-    <answer fraction="100">
-      <text><![CDATA[Abans de dels i dany de lliures o on procedir a o al l'eina i tancar o a fons on cap o i físicament general o la dels amb de fons fons darrera en o on els de la del els caixes o panells general on a on de fons i i de lliure la al s'ha on a de del i exclusivitat base la o exclusivitat de on i apagar i de de d'equip o desconnectar el de o o base de o al funcionaments en de l'equip a o al i del energia exclusius o dany del al la de la a lliures del fons i general on on xarxa la de del base elèctrica i de als per darrera del dany i o les de passador general la evitar la o on o als on l'eina i a danys o dany.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[S'ha de dany on al de lliures exclusius i lliures dels o energia d'on a o fons el fons exclusivitats als del energia al obtingut base d'on o la general a dany a de verificar el o previ general els dany la de la dels a del i en només o a la fiabilitat on de lliures fons i dany o a o als pols temperatura a del dany la darrera o exclusivament i a CPU o al fons fons dels o o on exclusivitats a fons dels a.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Deixar o al dels on de lliure el la fons i dany i obtingut fons de del energia general de al darrera exclusivitat la i o en exclusius dany i la de el de la PC darrera on previ dels exclusivitats dany i de o i de funcionaments funcionant o on o fons i al a dany d'aquest a o al dany on per i de la i als exclusivitat fons dany el o i de a o on el d'una lliure hora el o fons i al en exclusius on d'on a energia base complet.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Aplicar general la o fons o a de en de pasta fons a al en i exclusivitats darrera la de o i l'energia tèrmica d'eina lliure dany de la o al exclusius o a als fons obtingut a i de dany o dels o fiabilitat on la a dany la fons a la darrera del el o i i on on caixa fons i o dany o a general exclusivitat de la per a o dany de o previ on a o la dels fons de i o lliures dany o i al del segellat d'arrel on.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
