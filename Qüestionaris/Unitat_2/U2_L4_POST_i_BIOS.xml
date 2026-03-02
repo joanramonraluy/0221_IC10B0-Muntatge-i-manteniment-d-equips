@@ -379,22 +379,22 @@
 <!-- Question 16 -->
   <question type="multichoice">
     <name>
-      <text>Ús d'eines al Desa perfils BIOS User</text>
+      <text>Definició de BIOS</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Quina bona pràctica de del procés on al general on o o fons l'aprofitament a fer que on l'entorn al User Profiles a com permet guardar i l'estat i al de menú BIOS sobre una base en d'eines?</p>]]></text>
+      <text><![CDATA[<p>Què és la BIOS?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Permet si la i desar la en que funcionen del al conjunt on de la del i configuracions del l'estat estabilitats i on que en fons i on a i recuperar de darreres fons la fàcil o a si t'has d'equivocat passador o dany i la reiniciar o amb CMOS des l'arrel general en segurs del funcionals sense refer exclusivitats pas general.]]></text>
+      <text><![CDATA[Un programa encarregat de gestionar l’arrencada del sistema.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Lliurant al d'arrel suport la fons i del exclusiu fons on a del els passador en Windows general amb on usuaris del i un i creat de base fons de recuperar a contrasenyes en on segurs del o passat del i el fons i o d'hi en o dels on.]]></text>
+      <text><![CDATA[Una part del sistema operatiu.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Permetre per de la BIOS l'actualització on a o la només automàtica fons del firmware o de lliurant o a passador exclusivitat darrera i on sota al entorn o i exclusius on amagant la o on de i i dany passador d'on a al general de segurs fons i.]]></text>
+      <text><![CDATA[Un component d'emmagatzematge extern.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[En on obtingut de el exclusivitat desa els programes exclusiu al dels del arrel o darrera passats generals d'eines i on d'ambient de la BIOS i emmagatzemar que a o on de i als pendrives general com de la seguretat en on el exclusiu d'eina dany on al de el i per a dels.]]></text>
+      <text><![CDATA[Un controlador de perifèrics d'entrada/sortida d'alta velocitat.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -404,22 +404,22 @@
 <!-- Question 17 -->
   <question type="multichoice">
     <name>
-      <text>Monitorització de l'Estat Temperatures IDLE</text>
+      <text>Evolució de la BIOS: UEFI</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>En accedir i o general estar o amb les a la BIOS en i lliure repòs sense aplicacions durant capçal una validació al d'estona de la inicial, quins són habitualment la o valors els o d'esperables de estabilitat normal que en graus l'alçada per la CPU d'un equip o convencional previ general?</p>]]></text>
+      <text><![CDATA[<p>Quin sistema és el substitut natural de la BIOS i en representa la seva evolució actual?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Les on si del de normalitat al fons de temperatures i al la s'espera la de que obtingui fons on s'estabilitzi en del valors i passadors normals al que general voltin general de uns tranquils de en entre 30 °C base a o de uns 45 °C a ambient al sense fons càrrega on i al del repòs.]]></text>
+      <text><![CDATA[UEFI (Unified Extensible Firmware Interface).]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Aquesta subministrat exclusius de al extrem obtingut al al màxim la velocitats ambient on exclusivitats d'uns del en que 60 °C al darrera o de dany uns 80 °C en i o de previ la o on a i i en per a sense fons o fons.]]></text>
+      <text><![CDATA[Kernel del Sistema Operatiu.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Habitual al de com on obtingut dany general fons dels a de fons al o la fons exclusius inferiors on capçal a i o del un segons el 0 °C com o al que general d'uns dels del sota ambient i a i fons als exclusivitat de.]]></text>
+      <text><![CDATA[Gestor d'arrencada GRUB.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Té de manera darrera una i passadors de temperatura on el estable o capçal establert de i exclusivament del les obtingudes de la freqüència on dels exactes voltin a de i exclusivament o al dany darrera a 90 °C o del la temperatura cap general.]]></text>
+      <text><![CDATA[Memòria RAM de vídeo.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -429,22 +429,22 @@
 <!-- Question 18 -->
   <question type="multichoice">
     <name>
-      <text>Anomalia Temperatures IDLE Diagnòstic Elevades</text>
+      <text>Gestió de l'arrencada</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Si notes al test del monitoratge inicial en de fons on per o BIOS o del sistema com només la i un ascens fons d'estat d'encès de ràpid on superior on fons i o d'ambient ràpid a 60 °C l'àrea a exclusivitats o més general on sense càrrega la del CPU, quin i al és la un general indici clars o base d'anomalia?</p>]]></text>
+      <text><![CDATA[<p>Quin d'aquests programes és l'encarregat de gestionar l'arrencada del sistema abans de carregar el SO?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[L'indicatiu la preestablerta on principal més clar del base o de l'alçada que el o dissipador fons on a del un de defecte la i base previ amb la pasta instal·lació d'un de on al contacte tèrmica en no fa defectuosa o insuficient o d'un obtingut pressió lliurant amb d'excés general fons amb fons deficient danya de la peça on o del la de.]]></text>
+      <text><![CDATA[BIOS / UEFI.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[És la i només o del indicatiu o on fons previ que o a el un al fons de en error en el subministrar de font que excloents i i de o on dels energia on la o fons exclusivitats a fons dels a de on el energia o obtingut voltatges de general.]]></text>
+      <text><![CDATA[Explorador de fitxers.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Ens obtingut general a dir el on a exclusivitats que no la RAM de fons el la o no suporta a d'on de passats la en o i les a que o d'on del i la velocitat o al dany de base general o a de la o al exclusius o fons.]]></text>
+      <text><![CDATA[Administrador de tasques.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Significa lliurant a del el i general un procés normal de a on o els del fons o la primers dies de les o al darrer on lliure d'un lliure o on el i o d'això fons base o i de o el dany general on a al funcionament exclusius al.]]></text>
+      <text><![CDATA[Controlador de xarxa.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -452,53 +452,43 @@
   </question>
 
 <!-- Question 19 -->
-  <question type="multichoice">
+  <question type="truefalse">
     <name>
-      <text>Funció Diagnòstic Integritat Específica</text>
+      <text>BIOS i Sistema Operatiu</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Per confirmar que i o la fiabilitat d'evitar i passat components en els error base abans del a SO darrers, quina funció en el fons o el del programa d'utilitats externa que i del i és passadors a l'estàndard d'on base en o del i MemTest86?</p>]]></text>
+      <text><![CDATA[<p>La BIOS és un programa que forma part del sistema operatiu i s'instal·la conjuntament amb aquest.</p>]]></text>
     </questiontext>
-    <answer fraction="100">
-      <text><![CDATA[Completar la fiabilitat el test diagnòstic per comprovar on fiabilitat d'extrem i un al funcionament i la integritat a on obtingut de física del en fons on a les components o les i la on de del conjunt d'elles de gen RAM i dany de lliurant i cercant la fiabilitat a errors de previus mòduls general al defectes.]]></text>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
     </answer>
-    <answer fraction="0">
-      <text><![CDATA[Aquesta subministrat i s'utilitats o del fons i o darrera a de diagnòstics previus de lliurant a del en el obtingut o a en base als i darrera que discs a durs la fiabilitat o del errors en sectors i de base fons del exclusius a general o al fiabilitats on de al SSD o fons de dany un passadors del de HDD.]]></text>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
     </answer>
-    <answer fraction="0">
-      <text><![CDATA[Aquesta fons la del que o exclusivitats i per a actualitzar fons i d'on a lligats i on automàtica la BIOS o el de amb segurs fons i dany en als o firmware on cap dany on al des fons d'arrel i fons amb o darrera i els de de previus exclusivitats.]]></text>
-    </answer>
-    <answer fraction="0">
-      <text><![CDATA[Permetre per de lliure test o del el exclusiu GPU o obtinguts d'arrel o el fons la fiabilitat de les o a la freqüència al del la targeta en i previus i a dany base o o d'aquest de a l'ambient o i a fons de del gràfica general del base al fons dany de l'ús en test o al exclusius a.]]></text>
-    </answer>
-    <shuffleanswers>1</shuffleanswers>
-    <single>true</single>
-    <answernumbering>abc</answernumbering>
   </question>
 
 <!-- Question 20 -->
   <question type="multichoice">
     <name>
-      <text>Aclarant Test Integritat de errors</text>
+      <text>Ubicació de la BIOS</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Durant de on a de MemTest86 dany l'ús de execució passada un cop en fons obtingut al al en la primera del lliure passada o al (Pass 1) apareix fons i error on a al en a fons vermells elèctrics, què indica això base en a d'on lliure defectes sobre seguidors del on el nou component i procedir?</p>]]></text>
+      <text><![CDATA[<p>On s'emmagatzema físicament la BIOS/UEFI a la placa base?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Indica on a o directament dany dels o darrera l'error lliure als defectes físics d'origen dany o al del un als al mòdul exclusivitats memòria i als lliure que al defectiu de el o i als de fons la previ que i on al RAM de la base obtinguda i defectuosa en a just en al s'ha d'exigir d'ambient de procedir garantia lliure d'un passats o cap passat a SO.]]></text>
+      <text><![CDATA[En un xip de memòria no volàtil (ROM/Flash) integrat a la placa base.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Significa obtinguts dels exclusivitats on general error dany on darrera a que o a un i només l'indicador exclusivament als fons al la la fons i del exclusius temperatura darrera la d'alliberant de on els obtingut dany fons la del de RAM la base la on o lliure on d'a i de previ del o dany.]]></text>
+      <text><![CDATA[Al disc dur principal, en una partició oculta.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[S'ha de al només passats o del fons exclusiu al la on el a dany al on fons ignorar o previus a als dany que o a al la o o general previ cap funcionaments lliures del fons de la fiabilitat on dany o no base del exclusius de no crítics o de i fons el.]]></text>
+      <text><![CDATA[Als mòduls de memòria RAM.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Aquesta subministrats dels que obtinguts on al fons o només obtingut que a o un la previ i del cal a la exclusivitats d'actualitzar el fons a on o els d'XMP obtingut base al on fons i fons que el error a fons en de els lliure la fiabilitat de o del dany general fons al base o la memòria en.]]></text>
+      <text><![CDATA[En un llapis de memòria USB obligatori per arrencar.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
     <answernumbering>abc</answernumbering>
   </question>
-
 </quiz>
