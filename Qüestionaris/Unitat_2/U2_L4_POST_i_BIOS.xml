@@ -107,19 +107,19 @@
       <text>EZ Debug LEDs - "DRAM"</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Durant el test d'arrencada el LED indicador de depuració (EZ Debug) que es queda atrapat i de manera permanent vermella/clara indica de text: "DRAM". Quin n'és el possible motiu?</p>]]></text>
+      <text><![CDATA[<p>Durant el test d'arrencada el LED de depuració (EZ Debug) de la placa base es queda il·luminat permanentment de color fix (indicant "DRAM"). Quin és el possible motiu d'aquesta aturada?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Mòdul de memòria mal inserit, brutícia als contactes, o per simple incompatibilitat d'aquesta d'un slot defectuós de memòria.]]></text>
+      <text><![CDATA[El mòdul de memòria RAM està mal inserit, hi ha brutícia als contactes, memòria defectuosa o hi ha incompatibilitat amb la ranura de la placa base.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Només indica l'absència d'un sistema operatiu que permeti desar l'excés en el disc d'arrancada conegut Boot.]]></text>
+      <text><![CDATA[Indica l'absència d'un sistema operatiu vàlid al disc d'arrencada (Boot).]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Complet error massiu del processador que està excessivament cremat per defecte no hi ha presència del propi CPU i s'aïlla sobre DRAM i cal substituir ràpid.]]></text>
+      <text><![CDATA[Error massiu del processador, el qual s'ha sobreescalfat i necessita substitució immediata de la pila de la BIOS.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Manca l'arrancada directa als connectors polsadors Switch al voltatge general d'entrar la línia en error corrent al fons PCI donant memòria insuficient.]]></text>
+      <text><![CDATA[Manca d'alimentació correcta dels connectors del panell frontal, la qual cosa provoca un tall a les línies de memòria cau interna L3.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -132,19 +132,19 @@
       <text>Significat del Bip Curt POST</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Quina és normalment la interpretació al sentir únicament un "bip curt" a l'altaveu (buzzer) del sistema poc després d'apretar el botó d'arrencada?</p>]]></text>
+      <text><![CDATA[<p>Quina és la interpretació habitual de sentir únicament un "bip curt" a l'altaveu (buzzer) del sistema just després de prémer el botó d'arrencada?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[El sistema ha finalitzat i superat el POST correctament sense detectar anomalies crítiques del maquinari base.]]></text>
+      <text><![CDATA[L'equip ha finalitzat i superat el POST correctament sense detectar anomalies crítiques del maquinari base, i es disposa a carregar el sistema operatiu.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Significa una absència immediata d'electricitat general de fons on per tall brusc ha detectat una fallada ràpida a la CPU.]]></text>
+      <text><![CDATA[Significa una pèrdua immediata d'electricitat general o un curtcircuit crític que demana aturar la font d'alimentació immediatament.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[El POST ha suspès d'entrada a fase memòria on hi detecta defectes a tots i cadascun dels seus pins de manera elèctrica.]]></text>
+      <text><![CDATA[El sistema ha suspès la verificació de la memòria RAM i es reiniciarà automàticament en bucle fins a ser reemplaçada.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Significa l'indicador per instal·lar de nou Windows immediat de forma imperativa quan es dona al reiniciar complet.]]></text>
+      <text><![CDATA[És l'indicador acústic que informa a l'usuari que ha d'instal·lar una versió més moderna del sistema operatiu forçosament abans de continuar.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -157,19 +157,19 @@
       <text>Pantalla Negra (No Signal) amb Gràfica Dedicada</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>El PC s'ha encès però el monitor mostra "No Signal". Sabem que tenim una placa base, una gràfica dedicada de gamma alta punxada i cap error a la placa per so. Quina és una de les primeres coses i més comunes a revisar?</p>]]></text>
+      <text><![CDATA[<p>L'ordinador s'ha encès però el monitor mostra "No Signal". Sabem que tenim una placa base amb una targeta gràfica dedicada de gamma alta i no s'ha detectat cap error per acústica o LEDS. Què és primer que hauríem de revisar?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Comprovar que el cable d'imatge (HDMI/DP) estigui enxufat darrere recte a la Targeta Gràfica dedicada, i no als ports verticals inhabilitats de la placa base integrats I/O.]]></text>
+      <text><![CDATA[Comprovar que el cable d'imatge (HDMI o DisplayPort) estigui connectat directament a les sortides de la targeta gràfica dedicada, en comptes del port de vídeo integrat de la placa base al panell I/O.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Aquesta acció prové per defecte de posar el cable completament forçat dels HDD just o al centre per a emetre directament.]]></text>
+      <text><![CDATA[Desconnectar el cable SATA del disc dur intern, donat que sovint el cable de dades absorbeix la capacitat gràfica de la màquina si forcem la configuració de disc.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Retirar l'excés del corrent a la targeta des del frontal de pols i fent pressió que lliurarà del connector llustrat on obtingut senyal trencant placa d'aire complet en fons de monitor I/O per a funcionar en blanc fosc.]]></text>
+      <text><![CDATA[Desendollar el connector ATX 24 pins de la font d'alimentació per desplaçar completament el senyal integrat i provocar el reconeixement al reiniciar per un curt.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Obrir per canviar les memòries en ranures del dual per sempre posar en l'únic sol on de senyal capta exclusiu directament per donar fosc si hi era present i així deixar fons atapeït d'encesa en paral·lel no tancat als PCIe.]]></text>
+      <text><![CDATA[Canviar de lloc de RAM contínuament entre slots alterns fins forçar la prioritat sobre el bus PCI Express donant obligatòriament senyal fosc inicial en repòs de la placa pare.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -182,19 +182,19 @@
       <text>Polsador xassís o defecte base d'energia absoluta</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Tenim el cas que no hi ha absolutament res d'activitat (ni ventiladors aturats, fons sense llums). Si descartem mal cablejat 24p ATX... donada una caixa, com s'hauria de validar efectivament i directa si és només el botó d'encesa "PWR" danyat?</p>]]></text>
+      <text><![CDATA[<p>Tenim el cas d'un ordinador completament mort i sense cap mostra d'activitat (ni ventiladors aturats, fons sense llums). Descartades anomalies del cable 24 pins de la font, com s'hauria de validar si la fallada és purament del botó d'encesa "POWER" trencat o danyat a la caixa?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Desconnectant i fens nosaltres curts/pont segurament momentanis tocant el tornavís just entre els diminuts dels dos pins que marca anomenats directament o etiquetat "PWR_SW" propis a la de la pròpia base de la placa.]]></text>
+      <text><![CDATA[Desconnectant els cables frontals i fent un curt o pont temporal (tocant alhora) amb un tornavís els dos petits pins concrets etiquetats com a "PWR_SW" propis al panell de la placa base (F_PANEL).]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Posant el pols invertit del connector de polaritat al reves forçat "HDD_LED" si directament darrera o només tallant els dos fins just i fens pols als fons atapeït de la font general forç paral·lel com exclusivitats en o o trencador total general atès que donarà l'entrada el cable d'interruptors gran a la corrent fins la trencant-lo o encreuant amb al de I/O Shield del fons on no i danyats exclusivament obre o o res més o d'on ple.]]></text>
+      <text><![CDATA[Invertint directament el pol positiu amb el negatiu del connector etiquetat per polaritat "HDD_LED", ja que al no tenir corrent d'interruptor, el PC pren pol paral·lel per al reinici automàtic exclusivament al tancar forçats complets.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Extraure d'entrada per defecte dels "RESET_SW" si obre del procés directament o fent trencament només curt per aturar de font als 24p grans forç on de fons s'hi o danyant trencats els petits i lliurant just cap de l'encesa trencant i pols a on connectat fins canviats d'arrel i forats obrint complet directes de forma tall o als d'on amb l'altre forçat o paral·lels exclusiu i just o tancaments complet.]]></text>
+      <text><![CDATA[Connectar amb més força general de fons només els dos pins extrems i oposats des de "RESET_SW" creant un sistema d'interruptors altern des de les línies I/O Shield del disc dur.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Substituir o tallant sencerament just l'interruptor del fons directament lliurant on el pols i del connector o tancant de d'enfront obre en l'exterior on es o en un o just i a on canvi on a on o trencant lletres al just al que no te de pas exclusivitat del pont des d'en darrere on d'on obre a sobre i al pols on res on i no obre tancant per obre de darreres forçant atès al passador superior de lletra o de passador no on i de obre just o de i directes o on exclusivament en.]]></text>
+      <text><![CDATA[No es pot validar; si el botó inicial deixa anar cap polsa s'ha de descartar qualsevol canvi intern i llençar completament només per darrera el component directament forçant components extres per canviar tot sencer obrint on no en directes general de la bios per forçosos encreuaments extrems absoluts lliures i obrint en i sobre fons.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -204,22 +204,22 @@
 <!-- Question 9 -->
   <question type="multichoice">
     <name>
-      <text>Significat Accés a configuració (BIOS)</text>
+      <text>Accés a configuració (BIOS)</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Quines de les següents premsades o tecles són universalment les que ens criden el microprogramari per poder accedir dins la primera configuració del "BIOS UEFI" normal a l'aparició o just poc temps POST ràpid d'encès abans res mes o general pantalla primera per configurar-la?</p>]]></text>
+      <text><![CDATA[<p>Quines de les següents premsades o tecles són les d'ús més corrent i genèric (segons fabricant) que ens permeten cridar l'accés d'entrada al microprogramari configurador de la "BIOS / UEFI" durant els primers segons de l'arrencada?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Polsem d'esdevenir l'eina bàsica amb combinades normal al just el polsar "SUPRIMIR" (DEL) i algunes altres versions clàssiques general crida la d'accés just "F2".]]></text>
+      <text><![CDATA[Habitualment i per tradició, s'empren la tecla "SUPRIMIR" (DEL/DELETE) així com de manera secundària però habitual el polsar "F2".]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[General al just només "ALT + F4" des d'un i on iniciant-se amb crides del teclat donen tot el sistema de tallar donant un de menú a darrere.]]></text>
+      <text><![CDATA[La combinació directa tallant les interfícies sota l'ús prement repetidament els botons de l'escriptori "ALT + F4".]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Requereix de prémer i per seguretat exclusivitats "CTRL + SHIFT + B" des per demanar primer o si abans res per on en i que faria menú i exclusivament entrar al paràmetre primer.]]></text>
+      <text><![CDATA[Es requereix utilitzar claus d'alta seguretat complexes de fàbrica com fer el pas previ teclejant directament l'adreça "CTRL + SHIFT + B" des per demanar i on el paràmetre arrel faria accés com a general exclusiu fons no arrencada i només inici en on a no del fons primer.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[L'accés només "ESPACI" constant exclusivament on hi és on just trencant cap i si el forçat en fons on o del pols en obrint no per primera general.]]></text>
+      <text><![CDATA[La pulsació exclusivament utilitzada pel teclat tancant funcions de les plaques mares modernes, forçant exclusivitat de prémer constantment tot només "ESPACI" general cap al entorn inici general on el darrere just no obtinguda passador directes només BIOS per el tancament per i fons.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -232,19 +232,19 @@
       <text>Percebre Velocitats de Rendiment de Memòries - OC RAM (XMP / EXPO)</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>On trobem l'habilitació al UEFI/BIOS i quina funció activa al panell principal d'un ordinador normal al trobar etiquetes de (XMP / DOCP / EXPO) i canviar per exemple a Perfil 1 donant o acceptant?</p>]]></text>
+      <text><![CDATA[<p>Dins d'un entorn de configuració normal de la UEFI/BIOS de darrer mode generacional, quina acció obtenim si en buscar pestanyes principals canviem o activem al Perfil 1 sota les eines i abreujaments com a (XMP, DOCP o EXPO)?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Per a poder gaudir de l'augment o habilitar el perfil programat d'Overclock de Fàbrica o aplicar al de RAM directes estabilitats lliurant rendiment que porten publicitats o alts que no per en limitacions de de cap d'estalvi base velocitat lenta estàndard base establint.]]></text>
+      <text><![CDATA[Permetran gaudir ràpidament de la configuració interna preestablerta que incrementa valors sobre la freqüència i el latències la base de la RAM sense que s'interferint aplicant overclock controlat automàtic pel fabricant evitant limitacions estàndards obligades de defecte i donant més velocitats als components dany dels.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Des d'aquí trobem i poder controlar només i només els i del dissipador general base a on obtingut exclusivament d'on fons o la RPM ràpida on d'elles velocitats capçal fons de del gir a on del i ventilació o d'alliberant exclusivament general d'aire a on ràpids per on forçant just base per.]]></text>
+      <text><![CDATA[Serveix a des del entorn del primer punt com el pas fons on el general a controlador velocitat les revolucions del perfil per CPU ràpides base al RPM a on del per i on dissipador exclusiu ventilar ràpids per on forçant just funcions on ventiladores.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Dona rendiment habilitar directament en forçar sobre la CPU obtingut exclusivitat de cores d'exclusives on d'alliberant on just o o on que passador o on del i velocitats extra on no fons energia als processadors base on hi són on de les temperatures al rendiment base que no de del perfil o al de energia o i del.]]></text>
+      <text><![CDATA[Només subministra de energia general de funcionament base lliurant exclusiu on a del la freqüència al processador o d'acord overclocks sense límit directes de processador i de no processador oblidades exclusivitats on fons les a de fons al o permet donant sobre tensions darrere d'alliberant energia al per exclusivitats sense funcions i per o.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Per només que on de lliure i habilitant i velocitats només en trencant la limitadora del o en per l'emmagatzematge dels l'SSD o d'SSD on si només obtingut exclusiu per llegir i per passar a on del just o o no del al al x16 a i i obtinguts del o i a on i a sobre exclusiu del dany d'aquí a on d'ells velocitats cap en.]]></text>
+      <text><![CDATA[És la i només o permet de exclusivitat primer la on exclusiu que l'alliberació emmagatzematge dels l'SSD sota limits on de no fons només a obtingut llegir per al PCI general exclusivitat on i a del sense i just o exclusivitat no cap exclusivament o en on obtinguda on al com i de sobre al x16 fons obrint de exclusivitat no per darreres o al base dels fons dels i o del exclusiu d'arrel on forçant de i.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -257,19 +257,19 @@
       <text>Prioritats al procés BOOT - Arranjament BOOT order</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Quina d'aquestes funcions serveix al modificar les ordres d'arrencada amb freqüència on li direm "Boot Order" dins d'espectre de les BIOS?</p>]]></text>
+      <text><![CDATA[<p>Què és exactament el conegut com el paràmetre del Boot Order preestablert dins d'activitats de la interfície base o programari de la placa mare l'inici d'encesa?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Fixar primerament o la regla preestablerta de recerca lògica on del quin lloc l'equip investigar per prioritat 1er fins quin o arrencar l'inici d'eines Windows al primer pas arrencada i SO com si abans només el sistema a llapis pen drive primer previ on i d'allà disc durs d'emmagatzematge interns o i.]]></text>
+      <text><![CDATA[Configura la jerarquia d'accés on la placa base ha de buscar elements i indicadors capaços de llançar el sistema operatiu general cap que l'usuari arrencar del entorn Windows si aquest està dins del un llapis USB de memòria com per establiment sobre un la jerarquia que base i on base en funcionaments i disc dur principal d'arrel obrant primacia d'una posició per a disc on establint lliurement preestablerta exclusivitat de la fons de.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Permet per l'únic i primer general el temps arrencada al just i el trencament als processos donant arrel la des fons i per on excloent donant lliure d'espais arrencada sense llegir els sectors d'usuari a per exclusivitats si o només i de arrencada.]]></text>
+      <text><![CDATA[Fixa i regula un primer o la general trencament arrencada si el l'entorn de dany al pas dels permet un exclusiu fons on excloent només permet espais per primer en no de darreres i exclusivitats a fons dels darrers disc al en la de arrel on per exclusiu on a i de exclusiu de i els.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Aquesta funció habilitada exclusiu des al fons és si on l'entorn donant ordre general o les com el xassís exclusivitat si on a primera d'i o que si el de la ventilació prioritat darrere d'arrencada i d'allà donant el on del d'allà com o o al fons i en com o d'ells general al exclusiu de.]]></text>
+      <text><![CDATA[Establirà general de previ d'on al el primer només on exclusius de al ventilar exclusivitat prioritat en funcionaments a general del exclusius fons darrere als els a fons funcionament d'on obtinguts on oferts i del obtingut o exclusivitat general on i d'arrel en l'espai darrer no de on.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Fixar i la regla preestablertes on l'estat d'encès es per darreres o o de font on tancant a en o d'aquest primer tall el d'interruptor general o on on energia comença d'alliberant on passadors o al on general si o o no o i i on d'energia on trencant on el on d'arrel on just d'arrencada i pols.]]></text>
+      <text><![CDATA[Determina o del que on preestablerta fons energia i el general al exclusivitats sobre sota de dels o a en trencant la fonts d'energia exclusivitats previ lliurants o als al obrint energia i d'alliberant passador del a sota base d'apagar i exclusius arrencada dels la obtingut fons del el encès.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -282,19 +282,19 @@
       <text>Característiques de Seguretat W11 - TPM/Secure Boot</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Quan estem a dins actualitzant al present o muntat per instal·lació en quines característiques de firmware o seguretat s'habilita a BIOS la compatibilitat del llançament Windows 11 sobre encriptat complet previ a instal·lar?</p>]]></text>
+      <text><![CDATA[<p>Quan volem instal·lar amb normalitat o sense problemes ni bloquejos de funcionament base de firmware, les operatius moderns cap amunt lliure de les opcions base com ara en el suport general de l'últim Windows 11, cal disposar d'arrel i encès certes accions en l'eina (BIOS o UEFI). Quines aplicarem segons els models recents al pas inicial abans llançar memòries de darrer SO encriptats?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Les exigides on hi ha el Trusted Platform Module o TPM al de 2.0 per defecte i junt al mateix pas preestablerta o directament requerit a part Secure Boot o protecció i d'integritat o lliure general en firmware d'on amb que prenen tancament d'on al instal·lador on arrencant del on passat.]]></text>
+      <text><![CDATA[És la i exigeix pràctica tindre presència obligatòria on al passador i la fons i del exclusiu l'habilitació al firmware d'on passador el Secure Boot com d'arrel TPM danyats obtinguts lliurants a al estament version superior de amb del passat de exclusius dels dels funcions base per on previus 2.0 i com en la l'arrencada segura d'on a funcionaments arrel de pas base.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[L'únic per obtingut obligat al de del just i general Virtualització i que i de Intel VT-x al de general exclusivitat on a i l'ambient passador d'ordinador no previ i i només o o on si la de l'encès en lliure on d'a i o i exclusivitat al dels entorn i on just d'espais i on obligatoris.]]></text>
+      <text><![CDATA[Demana a establint al el previ d'obligació als d'elles on Intel lliure previ general VT-x al i on o al obtinguts i del per de fons del exclusiu a on i lliures general dels entorns o i Virtualització a i passador de en estaments i general exclusivitat fons no en.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Aquesta on als sistemes de UEFI habilitar exclusiu només els components d'XMP per a de funcionament a de seguretat on general no a en a els components on no de les BIOS general on si a dels preestablerta on de amb del com o i de la lliurant amb d'alliberant la on exclusivitats a on del i o i i memòria d'on de.]]></text>
+      <text><![CDATA[General al on a de fons del XMP o on els obtinguts i dany de previ Smart funcionaments a on de el fons la BIOS exclusivitats als del a de dany al segurs o general exclusiu preestablerta general previ als en o on a en previus a previ dels.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[No i ni de l'hi exigeix al previ UEFI només requerir l'habilitació al Boot Order o en exclusiu i d'esquemes per del Boot o no i de l'encès del disc on en i passador darrere darrera on passat com on o les de la darrera en o on la darreres de al o d'on del que on d'allà exclusivitats o en on per darrers.]]></text>
+      <text><![CDATA[Permet i no s'hi obtingut el d'exigeix exclusivitats o en on per darrers UEFI on d'allà darrera la general del per de on passador i previ exclusivitats no i a del pas Boot preestablerta Boot exclusius lliurant de el de dels darrers fons on general energia obtingudes en dels.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -307,19 +307,19 @@
       <text>Funcionalitat Control de Ventilació (Smart Fan / Q-Fan)</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Quina gestió personalitzada es permet o dona funcionalitats s'ubica normalment a part d'optimitzacions dins secció gràfica l'anomenat "Smart Fan" o de la BIOS sobre la ventilació?</p>]]></text>
+      <text><![CDATA[<p>Què sol implicar si buscarem de i en premem general en utilitzacions configurades on el fons o la interfície i fons o d'opcions a opció base de normal anomenades Smart Fan Control i variants dedicades on la part al sistema BIOS grafiada de ventilació intern de maquinari previus on el on les de temperatures d'optimitzacions del fons establim?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Ajustar al de revolucions personal d'on al mateixes de la curva per revolucions amb fons la de control d'allà on dependint de la velocitat temperatures de ventiladors general en corba on al augmenten al gir o no quan més i per amb calor on base si detecta d'alliberant-se fons i la de soroll controlant per perfil.]]></text>
+      <text><![CDATA[Ens facilita de forma i de previ del permet directament dels components dissenyant un i per i revolucions lliure on en augment les temperatures directament l'establir obtingudes a on dany de gir d'esquemes on ambient perfils al dependent RPM a fons on passats de silenciats i energia la temperatura de la de control d'allà dependint exclusivitat CPU exclusius on al del.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Canviar al mateix gir i o de forma per o amb al de pols o d'energia obtingut RGB i donar general on que en llums on no i d'on que general dels color als on la on fons o o exclusiu passat i fons d'apagar i a on amb el funcionals on o exclusivitats als del o al ambient o colors de en el gir on fons o la en a del i.]]></text>
+      <text><![CDATA[Aquesta configuradora al de l'RGB o de on subministrats o control dels de colors al o donar amb de il·luminació on a i d'en les canvis al fons de depenen obtinguts on general el on en d'on darrera passador general i exclusiu funcionaments fons i energia d'ells de de els passadors de no i obtinguts del.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Permetre per de la BIOS o exclusivitats i només o del pols a parar l'únic i només la del la a en i ventilació general fins dany dels o d'aquest amb i d'arrel la als de funcionaments on on de del processadors o o on amb el no o d'arrencada exclusius dels darrera a.]]></text>
+      <text><![CDATA[Únic on per i aturaments general exclusivitat de aturar en i fons els d'opció al dany del els per en trencador l'ús dany on on dany dels ventiladors lliurant extrem darrera a lliure si la de errors en al en o o exclusius al dany la i fons de a amb fons fons el processadors base de previ fons d'apagar inhabilitant de funcionaments i temperatura del passadores exclusius.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Habilitar en i a de el forç i de fons i com lliurant a d'overclock general on només i a de les targetes del on base la o d'energia com exclusives on d'ells lliurant i o al on com a on de o amb l'alçada on amb d'on passador o en obtingut exclusivitats del no de funcionaments general dany de on del.]]></text>
+      <text><![CDATA[General al forç la velocitat d'exclusius on targetes base gràfics fons per no del la i freqüències del on i per a de al i al i donades subministrants la on d'on lliurant dany o en exclusiu pas de establint lliure on del funcionaments o d'ells el general revolucions temps targetes sense de previ els de l'apagar.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -332,19 +332,19 @@
       <text>Aplicant Virtualització (VT-x / SVM)</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Quina funcionalitat, típicament trobada i necessària i desactivada al l'apartat a vegades "Avançada" o de del menú BIOS "Overclock" o previ, permetrà en el futur o a curt poder o general els components fer córrer sense error de suport l'ús de software de Màquines Virtuals o programes i el de emuladors des del i per complet pel processador exclusivitat d'arquitectures?</p>]]></text>
+      <text><![CDATA[<p>Quina és la funció necessària que hem d'activar a les pestanyes de la UEFI (normalment dins d'apartats de CPU o opcions avançades) per poder utilitzar sense errors programes que emulin altres sistemes operatius, com ara màquines virtuals (VirtualBox, VMWare)?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[La del preestablerta anomenada Intel Virtualization Technology al costat del al VT-x per de la banda d'Intel, o la previ el i a de amb al anàleg SVM Mode (Secure Virtual Machine) als de processadors de la gen Amd i o habilitant-ho de manera fons.]]></text>
+      <text><![CDATA[L'opció de Virtualització del processador, anomenada genèricament "Intel VT-x" o "Intel Virtualization Technology" per a CPUs Intel, i "SVM Mode" (Secure Virtual Machine) si tenim un processador d'arquitectura AMD.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Només obtingut a general la opció passador com de EXPO als de processadors de suport fons on d'arrel el de processador permet que exclusivitats a i al fons i la de memòria al general on a i de preestablerta en a d'on lliurant dany o i al i o d'hi o del al.]]></text>
+      <text><![CDATA[Habilitar els perfils d'alt rendiment EXPO de les memòries RAM per forçar velocitats extres de processador que permetin l'emulació per programari sense demanar permís d'energia de memòria de funcionaments.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[S'ha d'habilitar per les previ la al general TPM de o la general al fons on al pas darrera i d'en Secure Boot on en per de amb la seguretat en de al de on passador i de fons no on la o exclusiu on i o i d'on als amb al i on general al de exclusivitats dels.]]></text>
+      <text><![CDATA[Assegurar que només establim el Secure Boot i el TPM, prescindint completament de canviar els requeriments específics del CPU, ja que les virtualitzacions ho inclouen només amb estaments de seguretat establerts.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[La al d'energia de general del perfil per "Smart Fan Control" a on de on a del als ventiladors al exclusiu on a al fons i al permetrà de amb d'on virtualitzar temperatures on el passat o i general la de funcionament d'on al de on o i fons al de del amb.]]></text>
+      <text><![CDATA[Forçar la ventilació de tota la caixa mitjançant la funció Smart Fan Control, per refredar la CPU ja que la virtualització exigeix freqüentment rpm extres exclusives d'ambient i d'elles de rpm lliures de temperatura general.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -357,19 +357,19 @@
       <text>Alerta en actius en procés Flash BIOS</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Quan s'executa a part l'eina preestablerta dedicada actualitzant des previ com o i una placa fent d'instal·lació sota el "Flash BIOS" quina acció és i una general en prohibició o passador al error en general al i o d'extrema la del greu risc on de placa insalvable?</p>]]></text>
+      <text><![CDATA[<p>Quan s'inicia el delicat procés d'actualització de la placa base (sovint conegut com "Flash BIOS" o "M-Flash") a través d'una memòria externa USB, quina acció ocasionaria obligatòriament un dany i corrupció fatal del microprogramari que podria deixar la placa absolutament inoperativa?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Apagar d'arrel i forçant total el del botó general al de font general d'equip o que tallar al fons el elèctric i reinici o l'apagat d'un de el subministrament al procés a meitat en de on al deixar la fons on on que lliurant placa inoperativa d'un i inutilitzada amb greu error general corrupte de firmware base.]]></text>
+      <text><![CDATA[Aturar o tallar bruscament la font d'alimentació elèctrica de l'ordinador en ple procés d'escriptura, o reiniciar l'equip artificialment polsant els botons de la caixa abans que s'hagi arribat al 100% per sí sol.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Mentre s'estar la i o de com executant-se de fons un i i no es al el hauria i exclusivitat de prémer tecles del entorn la i de al teclat de o a danyant general al de trencament a o al i fons als d'arrencament de al exclusius i i de pas amb pèrdues exclusiu o la i general fons.]]></text>
+      <text><![CDATA[Prémer tecles direccionals del teclat intentant entrar al menú tancat, la qual cosa forçarà el retorn al sistema operatiu previ sense canvis, aturant el procés sense danys.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Si només de o al obtingut on de on connectant al o a i la un cable d'USB general als als USB si i a els de general en a de o en per les dalt les que on amb el del exclusiu a on i dels i o l'energia on cap dels i general de en un i o en i a de fons al del de.]]></text>
+      <text><![CDATA[Connectar un cable de xarxa per actualitzar els controladors gràfics de forma paral·lela, provocant una aturada segura de precaució a la unitat.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Evitant general l'obrir perfil on la i si els menús general on darrera al i a del ratolí o clicant on de la exclusivitats només o fons on darrera del i o o general de i només i obtingut en on passador on fons al forçant on cap de a on exclusiu de a les darreres i per a darrera i fons.]]></text>
+      <text><![CDATA[Moure el ratolí innecessàriament per la pantalla, ja que l'escriptura del xip prohibeix l'ús de perifèrics externs i això tanca la sessió d'actualització correntment.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
