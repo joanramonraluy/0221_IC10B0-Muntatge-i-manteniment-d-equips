@@ -1,0 +1,59 @@
+<!-- 🔷 LLIÇÓ 1 - OA1: TIPUS DE PROGRAMARI I INSTAL·LACIÓ BÀSICA -->
+<div style="line-height: 1.6; text-align: justify;">
+    <div
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; background-color: rgb(247, 247, 247); padding: 10px; border-left: 4px solid rgb(153, 153, 153); margin: 15px 0px;">
+        🧭 <strong>Durada estimada:</strong> 5 hores
+    </div>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 20px;">
+        <strong>Sistemes Operatius: Convencionals vs. Live</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        En aquesta primera lliçó de la unitat 4 s'estableixen els fonaments del desplegament de programari, començant
+        per la distinció estructural entre els sistemes operatius convencionals i els sistemes Live. Es defineix que,
+        mentre els sistemes convencionals resideixen de manera persistent als dispositius d'emmagatzematge i
+        constitueixen l'entorn de producció de l'usuari, els sistemes Live s'executen íntegrament a la memòria RAM,
+        oferint un entorn volàtil que desapareix en reiniciar l'equip. Aquesta característica converteix els sistemes
+        Live en una eina de diagnòstic indispensable per al manteniment tècnic, ja que permeten auditar el maquinari,
+        recuperar dades o eliminar programari maliciós sense interaccionar amb el sistema operatiu amfitrió ni deixar
+        rastre de la intervenció.
+    </p>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Particionament i Post-instal·lació</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        En lloc de confiar en automatismes, treballarem la gestió manual del particionament de disc, especialment en
+        entorns GNU/Linux, on s'estructura lògicament l'emmagatzematge separant l'arrel del sistema, la memòria
+        d'intercanvi (swap) i les dades d'usuari (home). Veurem també que el procés d'instal·lació no finalitza amb
+        l'arrencada de l'escriptori, sinó que requereix una fase crítica de post-instal·lació per integrar els
+        controladors de dispositius específics i actualitzar el nucli del sistema, assegurant així el màxim rendiment
+        del maquinari disponible.
+    </p>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Clonació i Gestió d'Imatges (Golden Image)</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        Per donar resposta a la gestió de parcs informàtics extensos, veurem les tècniques de clonació de discs i gestió
+        d'imatges com a alternativa eficient a la instal·lació unitària. Estudiarem el concepte d'Equip Mestre o Golden
+        Image com a model optimitzat i net de dades personals, i detallarem l'ús d'eines com Clonezilla per replicar
+        aquesta configuració bit a bit. Un altre aspecte que veurem és l'anàlisi dels conflictes d'identitat de xarxa on
+        explicarem que la clonació duplica els identificadors únics (UUIDs, SIDs i noms de màquina), fet que obliga a
+        executar un protocol de post-clonació per regenerar aquestes credencials i evitar col·lisions en connectar els
+        clons a la mateixa xarxa local.
+    </p>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Instal·lació per Xarxa (PXE)</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        Finalment, explorarem la instal·lació a través de la xarxa mitjançant l'estàndard PXE (Preboot eXecution
+        Environment), una tecnologia que permet prescindir dels suports físics. També analitzarem la seqüència de
+        negociació entre el client i la infraestructura, on el servidor DHCP assigna direcció i ruta, i el servidor TFTP
+        subministra el fitxer d'arrencada inicial. Des de la perspectiva del manteniment, el focus recau en la
+        capacitació de l'equip client, habilitant la pila de xarxa (Network Stack) a la BIOS/UEFI, i en la interpretació
+        dels codis d'error durant l'arrencada per diagnosticar fallades en la connectivitat física o en la configuració
+        del servidor remot.
+    </p>
+</div>

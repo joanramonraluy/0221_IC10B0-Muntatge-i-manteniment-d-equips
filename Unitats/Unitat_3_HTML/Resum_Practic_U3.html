@@ -1,0 +1,121 @@
+<!-- 🔷 RESUM PRÀCTIC UNITAT 3 -->
+<div style="line-height: 1.6; text-align: justify;">
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 20px;">
+        <strong>Tipus de Manteniment</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        No tots els manteniments són iguals. Es divideixen segons el moment en què s'actua:
+    </p>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            <strong>Manteniment Preventiu:</strong> Es fa abans que aparegui el problema per allargar la vida de l'equip
+            (neteja de pols, canvi de pasta tèrmica cada 2-3 anys, actualització de drivers).
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Manteniment Predictiu:</strong> Basat en eines de monitoratge que ens avisen abans que un component
+            falli (ex: revisar l'estat de salut d'un disc amb l'atribut S.M.A.R.T.).
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Manteniment Correctiu:</strong> Es realitza quan l'equip ja ha fallat. Inclou la reparació o
+            substitució de peces.
+        </li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Eines de Diagnosi i Monitoratge</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        Per no treballar a cegues, utilitzem programari especialitzat:
+    </p>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            <strong>Temperatura i voltatges:</strong> Eines com HWMonitor o Open Hardware Monitor. Ens permeten detectar
+            si hi ha <em>thermal throttling</em> (baixada de rendiment per excés de calor).
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Estat dels Discs:</strong> CrystalDiskInfo per llegir les dades S.M.A.R.T. (estat Bo, Alerta o
+            Crític).
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Memòria RAM:</strong> MemTest86 (s'executa des d'un USB abans que carregui el sistema operatiu) per
+            detectar mòduls defectuosos.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Estrès del sistema:</strong> OCCT o Prime95 per forçar l'equip i veure si és estable sota càrrega
+            màxima.
+        </li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Metodologia de Resolució d'Avaries (Troubleshooting)</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        Davant d'un error, cal seguir un ordre lògic per estalviar temps:
+    </p>
+    <ol
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            <strong>Identificar el problema:</strong> Recollir informació (què feia l'usuari?, hi ha missatges d'error?,
+            xiulets?).
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Teoria de causes probables:</strong> Començar per les més evidents (està endollat?, el monitor està
+            encès?).
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Provar la teoria:</strong> Si pensem que és la RAM, provar amb un sol mòdul o canviar-lo de ranura.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Pla d'acció:</strong> Fer la reparació definitiva.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Verificar el sistema:</strong> Comprovar que tot funciona i que no hem provocat un nou problema.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Documentar:</strong> Registrar què ha passat i com s'ha solucionat (molt important en entorns
+            professionals).
+        </li>
+    </ol>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Avaries Comunes i Solucions</strong>
+    </h4>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            <strong>L'equip no encén:</strong> Possible fallada de la font d'alimentació o del cable de corrent.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>L'equip encén, però no hi ha imatge:</strong> Problema de RAM (netejar contactes), GPU o placa base.
+            Escolta els Beep Codes.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Pantalles Blaves (BSOD):</strong> Solen ser causades per drivers incompatibles, actualitzacions de
+            Windows corruptes o fallades físiques de la RAM/Disc.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Sorolls estranys:</strong> Ventiladors obstruïts per pols o un disc dur mecànic (HDD) a punt de
+            morir.
+        </li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Gestió de Residus</strong>
+    </h4>
+    <p style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px;">
+        Com a tècnics, tenim una responsabilitat ambiental:
+    </p>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            Els components informàtics contenen metalls pesants i substàncies tòxiques.
+        </li>
+        <li style="margin-bottom: 10px;">
+            Mai s'han de llençar a les escombraries convencionals. Cal portar-los a un Punt Net o centre de reciclatge
+            especialitzat (RAEE - Residus d'Aparells Elèctrics i Electrònics).
+        </li>
+    </ul>
+</div>
