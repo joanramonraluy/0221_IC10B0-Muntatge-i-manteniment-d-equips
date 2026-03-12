@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- Question 1: Eines diagnosi -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q01 Eines de diagnosi professional</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la diferència principal entre el mètode de treball d'un aficionat i el d'un tècnic professional davant d'una avaria?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[El professional basa les decisions en evidències quantificables i mètodes seqüencials, no en la intuïció o "prova i error".]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[L'aficionat utilitza programari de diagnòstic i el professional només eines de maquinari físiques.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El professional canvia totes les peces de l'equip fins que troba la que estava avariada per assegurar el resultat.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[L'aficionat cobra per hores i el professional cobra un preu tancat segons la dificultat percebuda.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 2: Testador fonts -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q02 Testador de fonts d'alimentació</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és el marge de tolerància acceptat per l'estàndard ATX en els voltatges lliurats per una font d'alimentació segons un testador digital?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[±5% sobre els valors nominals de 12V, 5V i 3,3V.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[±10% per garantir que l'equip no s'apagui per manca de potència.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Exactament 0% de variació, qualsevol desviació implica canviar la font.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[±2% només en el carril de 12V que alimenta la CPU.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 3: Polímetre i pila CMOS -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q03 Diagnosi de la pila CMOS</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Utilitzant un polímetre en mode Voltatge DC, a partir de quin valor es considera que una pila de botó CR2032 ha de ser substituïda per evitar la pèrdua de configuració de la BIOS?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Per sota de 2,8 V.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per sota de 1,5 V.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Sempre que el valor no sigui exactament 3,3 V.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Quan el polímetre no marca continuïtat entre els pols.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 4: Live USB -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q04 Avantatges dels entorns Live USB</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què un tècnic professional utilitza entorns Live USB (com Hiren's o Medicat) per a la diagnosi en comptes del Windows instal·lat?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Proporciona un entorn "net" aïllat de virus o controladors corruptes del disc dur i permet accés a les dades.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè els Live USB s'executen des del processador directament sense usar memòria RAM.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Són els únics sistemes capaços de reparar físicament els sectors defectuosos d'un SSD.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Evita que el maquinari s'escalfi durant les proves d'estrès de la CPU.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 5: MemTest86 -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q05 Diagnosi de RAM amb MemTest86</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què ens indica l'aparició d'una sola línia de color vermell durant una prova amb MemTest86?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Que el mòdul de memòria té un defecte físic i ha de ser substituït obligatòriament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Que el sistema ha detectat una incompatibilitat temporal que es soluciona reiniciant.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Simplement que el test ha finalitzat la primera passada amb èxit.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Que el disc dur no té prou espai per desar el fitxer de registre del test.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 6: S.M.A.R.T. -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q06 Paràmetres S.M.A.R.T. crítics</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin paràmetre S.M.A.R.T. ens indica generalment que un cable SATA podria estar defectuós en comptes del propi disc?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Errors de CRC UltraDMA.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Sectors Reassignats.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Hores d'encesa (Power-On Hours).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Temperatura del flux d'aire.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 7: Test estrès seguretat -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q07 Seguretat en tests d'estrès</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Davant d'un test d'estrès com FurMark o Prime95, en quin llindar de temperatura ha d'avortar manualment la prova el tècnic si el sistema no s'apaga sol?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Al voltant dels 90-95 °C.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Superats els 70 °C.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Quan el ventilador arriba a la seva velocitat màxima.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Mai s'ha d'aturar, cal deixar que el component arribi al seu límit físic de fusió.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 8: Seqüència POST -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q08 Ordre de la seqüència POST</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és l'ordre jeràrquic d'inicialització durant el Power-On Self-Test (POST)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[CPU -> RAM -> GPU -> Storage.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[RAM -> CPU -> Storage -> GPU.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Storage -> GPU -> CPU -> RAM.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[GPU -> CPU -> RAM -> Storage.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 9: Beep Codes RAM -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q09 Interpretació de xiulets</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què indica generalment una seqüència repetitiva de xiulets llargs en la majoria de BIOS del mercat?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Error de memòria RAM mal inserida o defectuosa.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El sistema ha arrencat correctament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Error en la inicialització de la targeta gràfica dedicar.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[La CPU s'ha sobreescalfat immediatament després de l'encesa.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 10: Debug LEDs -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q10 Diagnosi per Debug LEDs</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si en encendre l'equip la seqüència de llums s'atura i el LED etiquetat com a "VGA" es queda encès fixament, on ha de buscar l'avaria el tècnic?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[A la targeta gràfica, la seva alimentació o la connexió del monitor.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Als mòduls de memòria RAM.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Al processador principal.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Al disc dur que conté el sistema operatiu.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 11: Breadboarding -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q11 Mètode del Breadboarding</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En què consisteix la tècnica de la "Configuració Mínima" o breadboarding?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Muntar l'equip fora de la caixa sobre una superfície aïllant només amb CPU, placa base, font i brunzidor.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Instal·lar un sistema operatiu lleuger en un disc dur extern per provar l'equip.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Limitar la velocitat del processador a la BIOS per reduir el consum de la font.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Substituir tots els cables SATA per cables nous per descartar interferències.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 12: Clear CMOS -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q12 Utilitat del Clear CMOS</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és l'objectiu principal de realitzar un "Clear CMOS" davant d'un equip que no fa el POST?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Corta l'energia al xip de configuració per restaurar els valors de fàbrica (Fail-Safe Defaults).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Esborrar el sistema operatiu per forçar el PC a demanar un mitjà d'arrencada.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Actualitzar el microprogramari BIOS a la darrera versió disponible.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Descarregar l'electricitat estàtica de tots els condensadors de la font d'alimentació.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 13: Artifacts -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q13 Identificació d'Artefactes</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si un monitor mostra línies de colors aleatòries o formes geomètriques corruptes inclús dins de la BIOS, què estem observant probablement?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Artefactes físics causats per una VRAM defectuosa o sobreescalfament de la GPU.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Un problema de configuració de la resolució dins de Windows.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Una infecció per virus que ha corromput el controlador del monitor.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Un "píxel encallat" que s'ha estès per tota la superfície del panell.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 14: Píxels morts vs encallats -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q14 Diagnosi de Píxels</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la diferència entre un "píxel mort" i un "píxel encallat" (stuck pixel)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[El mort és sempre negre i irreparable; l'encallat té color (vermell/verd/blau) i pot reactivar-se amb programari.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El mort es soluciona amb una neteja profunda; l'encallat indica que cal canviar tot el panell.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El mort només apareix en monitors OLED; l'encallat és exclusiu dels HDR.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Són exactament el mateix, segons la normativa ISO de garantia de panells.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 15: Concepte EDID -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q15 Protocol EDID</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la funció de la informació EDID (Extended Display Identification Data)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Permetre que el monitor comuniqui al PC la seva marca, model i resolució nativa.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Xifrar el senyal de vídeo per evitar la còpia il·legal de continguts.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Controlar el voltatge que la placa base envia al monitor a través del cable HDMI.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Gestionar la freqüència de refresc en temps real segons la temperatura de la GPU.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 13: Protocol DDU -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q16 Protocol de neteja de drivers (DDU)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Abans d'utilitzar l'eina DDU (Display Driver Uninstaller), quin pas de seguretat és és mandatori realitzar per evitar interferències?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Desconnectar Internet (Ethernet/Wi-Fi) per evitar que Windows Update torni a instal·lar el driver automàticament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Desmuntar físicament la targeta gràfica del sòcol de la placa base.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Fer una prova d'estrès prèvia amb FurMark per escalfar el nucli GPU.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Formatà el disc dur completament abans d'obrir l'eina DDU.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 17: Saturació USB -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q17 Limitacions elèctriques dels ports USB</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és el corrent màxim que pot lliurar un port USB 3.0 estàndard abans de saturar-se?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[900 mA.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[500 mA (corresponent a l'USB 2.0).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[2 Amperis.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[No hi ha límit, la placa base subministra tot l'amperatge que el dispositiu demani.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 18: Informe SAT Recepció -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q18 Importància del Full de Recepció</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què és vital anotar desperfectes físics (esgarrapades, cargols faltants) durant la recepció de l'equip al SAT?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Per evitar que el taller sigui considerat responsable d'aquests danys preexistents a la sortida de l'equip.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè el fabricant exigeix aquestes dades per acceptar qualsevol tràmit de garantia (RMA).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per decidir el preu del pressupost segons el nivell de cura de l'usuari.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Només serveix per identificar l'equip en cas que hi hagi models idèntics al taller.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 19: Taxa de diagnòstic -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q19 Concepte de Tarifa de Diagnòstic</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la pràctica professional habitual si un client rebutja un pressupost de reparació complex?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Cobrar una tarifa mínima (ex: 1h de mà d'obra) per compensar el temps dedicat a localitzar l'avaria.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[No cobrar res, ja que la nostra feina només té valor si l'equip es repara finalment.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Quedar-se el component avariat com a pagament pel temps invertit.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Denunciar al client per incompliment de contracte verbal d'intervenció.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 20: BER -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L2 Q20 Criteri BER (Beyond Economical Repair)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Dins de l'ètica professional informàtica, quan s'aplica el concepte BER (més enllà de la reparació econòmica)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Quan el cost de la reparació supera el valor residual de l'equip o el 50-60% d'un equip nou equivalent.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Sempre que calgui esperar més d'una setmana per rebre les peces de recanvi.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Quan la reparació requereix l'ús d'un entorn Live USB per fer el diagnòstic final.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Si el client ens demana que la reparació inclogui una llicència oficial de Windows nova.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+</quiz>

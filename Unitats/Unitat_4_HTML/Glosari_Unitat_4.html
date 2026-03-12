@@ -1,0 +1,139 @@
+<!-- 🔷 GLOSARI UNITAT 4 -->
+<div style="line-height: 1.6; text-align: justify;">
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 20px;">
+        <strong>Tipus de Sistemes i Instal·lació</strong>
+    </h4>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            <strong>Sistema Operatiu Convencional:</strong> Programari que resideix de manera persistent al disc dur
+            (SSD/HDD). Conserva les dades després d'apagar l'equip i requereix instal·lació prèvia. Exemples: Windows,
+            macOS, GNU/Linux.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Live OS (Sistema Live):</strong> Sistema operatiu que s'executa íntegrament a la memòria RAM des
+            d'un mitjà extern (USB/DVD) sense tocar el disc dur intern. És volàtil (els canvis es perden en reiniciar) i
+            ideal per a diagnosi i recuperació de dades.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Instal·lació Neta (Clean Install):</strong> Procediment que implica esborrar qualsevol rastre
+            anterior al disc dur i implantar una còpia fresca del sistema operatiu. Garanteix l'eliminació de virus i
+            errors heretats.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Particionament:</strong> Divisió lògica del disc dur. En Linux, és habitual separar l'arrel (/), la
+            memòria d'intercanvi (SWAP) i les dades d'usuari (/home) per seguretat i gestió.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Sistema de Fitxers:</strong> Mètode d'organització de les dades al disc. Els més comuns són NTFS
+            (Windows) i EXT4 (Linux).
+        </li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Desplegament i Clonació (Empresarial)</strong>
+    </h4>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            <strong>Clonació de Disc (Disk Imaging):</strong> Tècnica que crea una còpia exacta bit a bit d'un disc dur,
+            incloent-hi particions i sectors d'arrencada, per replicar-la en altres equips.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Equip Mestre (Golden Image / Maqueta):</strong> Ordinador configurat a la perfecció amb el sistema,
+            controladors i programari corporatiu, que serveix de model per crear la imatge que es clonarà a la resta
+            d'equips.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Sysprep / Regeneració d'IDs:</strong> Procés de post-clonació necessari per canviar els
+            identificadors únics (com el SID a Windows o Machine-ID a Linux) i evitar conflictes quan diversos equips
+            clonats es connecten a la mateixa xarxa.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>PXE (Preboot eXecution Environment):</strong> Estàndard que permet arrencar un ordinador a través de
+            la targeta de xarxa, descarregant el sistema operatiu des d'un servidor remot sense necessitat de
+            dispositius d'emmagatzematge físic locals.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>NBP (Network Bootstrap Program):</strong> Petit fitxer executable que el client descarrega via TFTP
+            durant l'arrencada PXE per iniciar el procés d'instal·lació.
+        </li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Manteniment de Programari i Controladors</strong>
+    </h4>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            <strong>Controlador (Driver):</strong> Peça de codi que actua de pont entre el nucli del sistema operatiu i
+            el component físic (maquinari), permetent que funcionin correctament.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Firmware (BIOS/UEFI):</strong> Programari allotjat en un xip de memòria no volàtil de la placa base.
+            La seva actualització (flashing) és crítica i de risc, necessària per corregir vulnerabilitats o admetre
+            nous processadors.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Bloatware (Crapware):</strong> Programari preinstal·lat pel fabricant (demos d'antivirus, jocs,
+            utilitats redundants) que consumeix recursos innecessàriament i que cal eliminar per optimitzar el
+            rendiment.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Repositoris:</strong> Magatzems centralitzats i verificats de programari (típics en Linux i botigues
+            d'aplicacions) que milloren la seguretat respecte a la descàrrega d'executables des de webs de tercers.
+        </li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Eines de Diagnosi i Seguretat Lògica</strong>
+    </h4>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            <strong>Programari Portable:</strong> Aplicacions que s'executen sense instal·lació prèvia, ideals per
+            portar en un "USB tècnic" i no deixar rastre a l'ordinador del client.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Punt de Restauració:</strong> "Fotografia" de la configuració del sistema (registre, controladors)
+            en un moment donat, que permet revertir canvis sense afectar els fitxers personals.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Regla 3-2-1:</strong> Estratègia de còpies de seguretat: 3 còpies de les dades, en 2 tipus de suport
+            diferents, i 1 còpia ubicada fora del lloc físic habitual (núvol o altre edifici).
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Hardware ID:</strong> Codi únic (Vendor ID + Device ID) que permet identificar un dispositiu
+            desconegut a l'Administrador de Dispositius per buscar-ne el controlador correcte.
+        </li>
+    </ul>
+
+    <h4 style="color: rgb(0, 74, 153); font-family: 'Segoe UI', Roboto, sans-serif; margin-top: 30px;">
+        <strong>Noves Tendències i Tecnologies</strong>
+    </h4>
+    <ul
+        style="color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; margin-left: 20px;">
+        <li style="margin-bottom: 10px;">
+            <strong>SoC (System on Chip):</strong> Arquitectura on processador, gràfica i memòria s'integren en un sol
+            xip, comú en mòbils i portàtils ultralleugers, dificultant-ne l'ampliació.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>NPU (Neural Processing Unit):</strong> Coprocessador dedicat exclusivament a accelerar tasques
+            d'intel·ligència artificial localment, alliberant la CPU i la GPU.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>SBC (Single Board Computer):</strong> Ordinadors complets en una sola placa de la mida d'una targeta
+            de crèdit (ex: Raspberry Pi), utilitzats en entorns industrials o educatius.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Undervolting:</strong> Tècnica d'optimització que consisteix a reduir el voltatge del processador
+            sense baixar-ne la velocitat, millorant l'eficiència energètica i reduint la temperatura.
+        </li>
+        <li style="margin-bottom: 10px;">
+            <strong>Manteniment Predictiu:</strong> Ús de dades en temps real i IA (sensors IoT) per detectar patrons
+            anòmals i predir fallades abans que es produeixin.
+        </li>
+    </ul>
+
+</div>

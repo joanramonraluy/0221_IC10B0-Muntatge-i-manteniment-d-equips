@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- Question 1: Coll d'ampolla -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q01 Identificació de colls d'ampolla</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si en l'Administrador de Tasques observem que l'activitat del disc està constantment al 100% mentre la CPU i la RAM tenen una càrrega baixa, quin tipus d'actualització és la més recomanable?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Substituir el disc dur mecànic (HDD) per una unitat d'estat sòlid (SSD).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Ampliar la memòria RAM per reduir el "paging" del sistema.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Substituir el processador per un amb més nuclis.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Instal·lar una targeta gràfica dedicada per alliberar el bus de dades.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 2: SSD M.2 -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q02 Instal·lació de SSD M.2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és el procediment correcte per inserir una unitat NVMe M.2 a la placa base?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Inserir-la amb un angle de 30 graus i fixar-la amb el seu cargol mil·limètric procurant que quedi plana.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Pressionar-la horitzontalment fins que les pestanyes laterals facin "clic" automàticament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Col·locar-la verticalment i després tancar una palanca de seguretat similar a la de la CPU.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[S'ha de soldar directament als pins de la ranura PCIe per evitar pèrdues de velocitat.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 3: RAM SPD -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q03 Programari de diagnosi de RAM</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Cita quina eina de programari ens permet llegir la informació SPD (Serial Presence Detect) dels mòduls de RAM instal·lats per verificar-ne la compatibilitat sense haver d'obrir l'equip.</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[CPU-Z.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[CrystalDiskMark.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[FurMark.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[DDU (Display Driver Uninstaller).]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 4: Dual Channel -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q04 Configuració Dual Channel</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En una placa base amb 4 sòcols de RAM, on s'han d'instal·lar normalment dos mòduls idèntics per activar la tecnologia Dual Channel?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[En els sòcols alterns (habitualment el 2 i el 4, o A2/B2).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[En els dos primers sòcols (1 i 2) per mantenir-los el més a prop possible de la CPU.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[És indiferent, el sistema ho detecta i ho activa automàticament en qualsevol posició.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Només es pot activar si s'omplen els 4 sòcols simultàniament.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 5: Seguretat elèctrica portàtil -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q05 Protocol de seguretat en portàtils</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què és crític desconnectar el cable de la bateria interna d'un portàtil abans de manipular-ne qualsevol component?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Per evitar curtcircuits accidentals en línies de la placa base que romanen amb tensió (habitualment 19V).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè la bateria es podria descarregar completament si toquem els pins amb les mans.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per evitar que el sistema operatiu enviï un senyal de bloqueig de seguretat CID.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Només és necessari si tenim previst fer una neteja amb aire comprimit.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 6: Cargoleria portàtil -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q06 El risc del "cargol llarg"</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina conseqüència pot tenir utilitzar un cargol massa llarg en la carcassa superior (reposamans) d'un portàtil?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Pot perforar la placa base o traspassar el plàstic deixant un bony o forat visible a l'exterior.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Simplement quedarà una mica fluix i l'equip farà cruixits al moure'l.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Provocarà una pèrdua de velocitat en el bus de dades del teclat per inducció.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Cap, els forats dels portàtils estan dissenyats amb un límit físic de profunditat.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 7: Spudgers -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q07 Eines de palanca professionals</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què els tècnics utilitzen palanques de plàstic o niló (spudgers) en comptes de tornavisos plans per separar les carcases d'un portàtil?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Per no deixar marques estètiques permanents ("marques de guerra") al xassís de l'equip.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè el plàstic transmet millor la calor necessària per alliberar les pestanyes.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè les carcases estan magnetitzades i el metall interferiria en el tancament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per garantir que no entri pols durant el procés d'obertura.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 8: Teclats moderns -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q08 Substitució de teclats reblats</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En molts portàtils moderns el teclat està fixat amb reblons de plàstic. Quina és la solució professional recomanada si el teclat falla?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Substituir el "Top Case" sencer (teclat, plàstic i trackpad).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Arrencar els reblons i tornar-los a enganxar amb silicona tèrmica.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Pintar les pistes del teclat amb pintura conductora sense obrir l'equip.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Instal·lar un teclat extern USB i bloquejar el teclat intern per programari.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 9: Connectors ZIF -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q09 Riscos en connectors ZIF</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què sol passar si un tècnic intenta obrir un connector de pestanya de corredissa (Slide-Lock) aixecant-lo verticalment com si fos un Flip-Lock?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Es trenquen les guies laterals de plàstic, deixant el connector inservible per fer pressió.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El cable flex llisca automàticament cap a fora per seguretat.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[S'activa un sensor de manipulació que bloqueja el xip TPM.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Res, la majoria de connectors són Dual-Mode i suporten els dos moviments.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 10: Ventiladors blower -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q10 Manteniment de ventiladors</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Dins d'un manteniment preventiu del sistema tèrmic d'un portàtil, per què hem de subjectar les aspes del ventilador quan apliquem aire comprimit?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Per evitar que girin lliurement i generin voltatge invers que podria danyar la placa base.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per evitar que l'aire fred de l'esprai congeli els coixinets del motor.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè si giren massa ràpid poden desequilibrar el pes de l'equip.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per garantir que la pols s'expulsi només cap a la sortida del darrere.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 11: Direct Die -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q11 Manipulació de xips "Direct Die"</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la precaució principal al muntar un dissipador sobre un processador d'un portàtil ("silici nu")?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[No aplicar pressió excessiva ni torta per evitar esquerdar el xip (mort de la CPU).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Utilitzar sempre metall líquid per maximitzar la conductivitat.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[No utilitzar cap tipus de pasta tèrmica per no embrutar el vidre protector.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Aplicar calor prèvia al dissipador per facilitar l'adherència.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 12: Bateries inflades -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L3 Q12 Seguretat amb bateries de liti</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què hem de fer si en obrir un portàtil detectem que la bateria de liti està inflada com un "coixí"?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Extreure-la amb màxima cura i portar-la a un punt de reciclatge especialitzat; és un risc d'explosió o incendi.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Punxar-la amb una agulla fina per alliberar la pressió de gasos acumulada.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Prémer-la fort per tornar-la al seu estat original i tancar la carcassa.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[No cal fer res, és un procés normal de desgast per cicles de càrrega.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+</quiz>

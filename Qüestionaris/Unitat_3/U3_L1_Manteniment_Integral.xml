@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- Question 1: Definició manteniment -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q01 Definició de Manteniment</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Com es defineix el manteniment en un entorn professional informàtic?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Conjunt d'activitats tècniques i administratives orientades a conservar un actiu o restaurar-lo al seu estat operatiu.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[L'acció d'ampliar la potència d'un ordinador cada cop que surt un nou model al mercat.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Únicament la reparació de components quan aquests deixen de funcionar totalment.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[La neteja estètica exterior del xassís i els perifèrics d'entrada.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 2: Manteniment Preventiu -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q02 Manteniment Preventiu</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la característica principal que defineix el manteniment preventiu?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Es realitza de forma programada i cíclica (per calendari o hores d'ús) abans que aparegui l'avaria.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[S'executa només quan l'usuari detecta un soroll estrany al ventilador.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[S'aplica quan el sistema ha perdut la capacitat operativa parcialment.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Es basa en l'anàlisi de dades en temps real dels sensors del sistema.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 3: Corba de la banyera -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q03 Corba de la banyera (Bathub Curve)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Dins de l'enginyeria de fiabilitat, què representa la fase central plana de la gravadora en "U" (corba de la banyera)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[El període de vida útil estable on la probabilitat de fallada és mínima i constant.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El moment de fallades per defecte de fabricació (Mortalitat Infantil).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[La fase final on l'equip queda obsolet i cal un manteniment evolutiu.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[La zona de desgast final on les fallades augmenten exponencialment.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 4: Manteniment Correctiu -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q04 Manteniment Correctiu</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En quin escenari parlem de manteniment correctiu "immediat"?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Quan l'avaria és crítica i paralitza totalment l'activitat de l'usuari (ex: font d'alimentació cremada).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Quan decidim esperar que arribi una peça de recanvi perquè l'equip encara funciona.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Quan fem una neteja programada aprofitant les vacances del personal.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Quan l'avaria no afecta el rendiment principal, com un port USB danyat.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 5: Viabilitat reparació -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q05 Viabilitat de la reparació</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Segons els criteris professionals, quan es sol desaconsellar la reparació d'un equip (manteniment correctiu)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Si el cost supera el 50-60% del valor d'un equip nou o si té més de 5-6 anys d'antiguitat.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Sempre que el temps de reparació superi les 2 hores de mà d'obra.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Només si el fabricant ja no ofereix suport de drivers.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Si cal obrir la font d'alimentació per canviar un condensador.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 6: Manteniment Predictiu -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q06 Manteniment Predictiu</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina d'aquestes tecnologies és un exemple d'aplicació de manteniment predictiu?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[El sistema S.M.A.R.T. de les unitats d'emmagatzematge que alerta de fallades incipients.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[L'ús d'aire comprimit per treure boles de pols del xassís cada sis mesos.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[L'ampliació de la memòria RAM per poder obrir més pestanyes del navegador.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[La substitució d'una targeta gràfica que ha deixat de donar senyal de vídeo.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 7: Manteniment Evolutiu -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q07 Manteniment Evolutiu</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és l'objectiu principal del manteniment evolutiu o adaptatiu?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Millorar les prestacions originals per combatre l'obsolescència tecnològica.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Reparar components que han patit un dany elèctric extern.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Monitorar la temperatura de la CPU per evitar que es cremi.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Netejar els filtres antipols per millorar el flux d'aire.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 8: Colls d'ampolla -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q08 Detecció de Colls d'Ampolla</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si un equip triga molt a arrencar (minuts), però un cop oberts els programes funcionen amb fluïdesa, quin és el coll d'ampolla probable?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Emmagatzematge (HDD mecànic en comptes de SSD).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Falta de memòria RAM disponible per a la multitasca.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Degradació de la pasta tèrmica del processador.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Excés de pols als filtres antipols frontals.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 9: Concepte RMA -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q09 Procediment RMA</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què és un codi RMA (Return Merchandise Authorization)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[L'autorització formal del fabricant per acceptar el retorn d'un producte defectuós.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El número de sèrie únic gravat al PCB de cada component.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Un tiquet de descompte per a futures compres pel mal servei rebut.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[La garantia de transport de l'empresa de missatgeria.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 10: Protocol D.O.A. -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q10 Protocol D.O.A.</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin benefici aporta la tramitació d'una incidència com a D.O.A. (Dead On Arrival)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Permet la substitució directa del component (Advanced Swap) en lloc d'una reparació llarga.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Evita haver de pagar les despeses d'enviament de l'RMA.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Allarga la garantia del component un any addicional automàticament.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Permet retornar el producte encara que hagin passat 4 anys.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 11: CID (Customer Induced Damage) -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q11 Criteris d'Exclusió (CID)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin d'aquests exemples es considera CID (Customer Induced Damage) i invalida la garantia?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Pins del sòcol de la CPU (LGA) doblegats per una mala col·locació.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Un error de lectura reassignat detectat pel sistema S.M.A.R.T.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[La degradació natural de la pasta tèrmica després de 3 anys.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Un error de firmware que impedeix l'arrencada de l'equip.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 12: EOS (Electrical Overstress) -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q12 Sobretensió Elèctrica (EOS)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina evidència visual permet al fabricant rebutjar una garantia per EOS (Sobretensió Elèctrica)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Zones ennegrides, olor d'ozó o condensadors esclatats al PCB.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Pols acumulada a l'interior dels ventiladors de la gràfica.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Absència del número de sèrie a la caixa original del producte.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Pistes seccionades per l'ús accidental d'un tornavís.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 13: Risc NDF -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q13 Risc de diagnòstic NDF</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què succeeix si el fabricant rep un component en garantia i no pot reproduir l'error (NDF)?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Es retorna el component i es pot carregar al taller les despeses d'enviament i diagnòstic.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[El fabricant canvia el component per un de nou de totes maneres per cortesia.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Es queda el component per a reciclatge i no retorna res.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[S'activa automàticament el protocol D.O.A. per a una substitució avançada.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 14: Alcohol Isopropílic -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q14 Alcohol Isopropílic</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què s'utilitza Alcohol Isopropílic (Isopropanol) en neteja electrònica en comptes de l'etílic normal?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[S'evapora gairebé instantàniament sense deixar residus conductors ni oxidar contactes.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[És capaç de conduir l'electricitat estàtica i alliberar la placa base.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Neteja millor les pantalles LCD amb recobriments antireflectants.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Té un preu molt més baix que qualsevol altre dissolvent de farmaciola.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 15: Ordre de neteja -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q15 Ordre lògic de neteja</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és l'ordre d'actuació estricte recomanat per a la neteja d'un sistema de ventilació?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Filtres antipols externs -> Expulsió general interna -> Detall de ventiladors i placa.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Placa base -> Ventiladors -> Filtres externs del xassís.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Expulsió general interna de baix a dalt -> Filtres antipols.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Neteja estètica exterior -> Detall de ventiladors -> Filtres externs.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 16: Risc Back EMF -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q16 Risc de Back EMF</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què el tècnic ha de bloquejar les aspes d'un ventilador abans d'aplicar aire comprimit?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Perquè el ventilador pot actuar com un generador i enviar corrent invers (Back EMF) a la placa.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per evitar que el motor es refredi massa ràpid per l'aire gelat.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Per permetre que l'aire arribi directament als rodaments interns del ventilador.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè si gira massa s'accelerarà i aspirarà l'alcohol isopropílic del drap.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 17: Funció pasta tèrmica -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q17 Funció de la pasta tèrmica (TIM)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la funció real de la pasta tèrmica entre el CPU i el dissipador?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Omplir les imperfeccions microscòpiques de les superfícies per eliminar l'aire (aïllant).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Actuar com l'element principal que transporta tota la calor fins al ventilador.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Pegar el dissipador al processador perquè no es mogui durant el transport.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Protegir el processador de possibles descàrregues electrostàtiques del xassís.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 18: Aplicació pasta tèrmica -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q18 Aplicació de la pasta tèrmica</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és el mètode d'aplicació més acceptat per a CPU d'escriptori i per què?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Una gota al centre (gra d'arròs), ja que la pressió l'escampa evitant bombolles d'aire.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Escampar-la manualment amb una espàtula per cobrir absolutament totes les cantonades.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Dibuixar una X fina de punta a punta i aixecar el dissipador un cop col·locat per revisar.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Aplicar una capa d'uns 2 mm de gruix per assegurar una transferència tèrmica massiva.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 19: Neteja de pantalles -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q19 Neteja de pantalles LCD/OLED</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què no s'ha de pulveritzar líquid directament sobre la superfície d'un monitor?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[El líquid llisca cap va i pot penetrar pels marcs danyant els circuits de control (PCB Driver).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè l'alcohol pot congelar el panell de vidre trempat i trencar-lo.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè la pressió de l'esprai pot ratllar el recobriment antireflectant.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Perquè la humitat residual modifica la freqüència de refresc (Hertz) del monitor.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+<!-- Question 20: Substitució pasta tèrmica -->
+  <question type="multichoice">
+    <name>
+      <text>U3 L1 Q20 Quan substituir la pasta tèrmica?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Cada quan es recomana realitzar la substitució de la pasta tèrmica com a manteniment preventiu?</p>]]></text>
+    </questiontext>
+    <answer fraction="100">
+      <text><![CDATA[Cada 2-3 anys, o abans si es detecten tendències alcistes en el monitoratge predictiu.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Cada mes durant la neteja rutinària del xassís i els filtres.]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Només quan el processador ha assolit la temperatura de seguretat (Thermal Throttling).]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Un cop cada 10 anys, ja que els compostos de silicona no es degraden mai.]]></text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+
+</quiz>

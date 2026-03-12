@@ -1,0 +1,141 @@
+<!-- 🔷 UNITAT 3 - ACTIVITATS D'AUTOESTUDI -->
+<div
+    style="line-height: 1.6; text-align: justify; color: rgb(34, 34, 34); font-family: 'Segoe UI', Roboto, sans-serif;">
+
+    <h2 style="color: rgb(0, 74, 153);">Activitats d'autoestudi: Unitat 3</h2>
+    <p>Aquest fitxer recull les pràctiques de manteniment, diagnosi i ampliació per garantir la vida útil i fiabilitat
+        dels equips informàtics.</p>
+
+    <div
+        style="background-color: rgb(255, 250, 230); padding: 10px; border-left: 4px solid rgb(255, 200, 0); margin: 15px 0px;">
+        <p><strong>⚠️ Recorda:</strong> Aquestes activitats no són puntuables. El seu objectiu és ajudar-te a practicar
+            els conceptes de diagnosi i manteniment de manera autònoma. Trobaràs les EAC's puntuables al campus.</p>
+    </div>
+
+    <hr style="margin: 30px 0;">
+
+    <!-- 🔷 LLIÇÓ 1 -->
+    <h3 style="color: rgb(0, 74, 153);">Activitat 1: Tipus de manteniment i RMA</h3>
+    <p>Diferenciar els protocols d'actuació segons l'estat de l'equip (Lliçó 1).</p>
+
+    <ol>
+        <li>Classifica aquestes accions com a <strong>Preventiu</strong>, <strong>Correctiu</strong> o
+            <strong>Predictiu</strong>:
+            <ul>
+                <li>Canviar la pasta tèrmica d'un PC que s'escalfa una mica però funciona.</li>
+                <li>Substituir una font d'alimentació que s'ha cremat.</li>
+                <li>Monitoritzar el disc amb S.M.A.R.T. per preveure una fallada.</li>
+            </ul>
+        </li>
+        <li>Investiga què és el número <strong>RMA</strong> i per què és important no obrir un component si encara està
+            en garantia.</li>
+    </ol>
+
+    <div
+        style="background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        <p><strong>Reflexió:</strong> Quin tipus de manteniment creus que estalvia més diners a una empresa a llarg
+            termini? El que evita que les coses s'espatllin o el que les repara ràpidament?</p>
+    </div>
+
+    <details
+        style="background-color: rgb(245, 245, 245); padding: 10px; border-radius: 5px; cursor: pointer; margin-bottom: 20px;">
+        <summary><strong>✅ Clica per comprovar les respostes</strong></summary>
+        <div style="margin-top: 10px; padding: 10px; border-top: 1px solid #ccc;">
+            <ul>
+                <li><strong>Manteniment:</strong> Pasta tèrmica = Preventiu. Font cremada = Correctiu. S.M.A.R.T. =
+                    Predictiu.</li>
+                <li><strong>RMA:</strong> És l'autorització del fabricant per retornar un producte defectuós.</li>
+                <li><strong>Garantia:</strong> Trencar els segells de "Warranty Void if Removed" invalida el dret a
+                    reparació gratuïta.</li>
+            </ul>
+        </div>
+    </details>
+
+    <hr style="margin: 30px 0;">
+
+    <!-- 🔷 LLIÇÓ 2 -->
+    <h3 style="color: rgb(0, 74, 153);">Activitat 2.1: El S.M.A.R.T. del teu disc</h3>
+    <p>Utilitzar eines de diagnosi per conèixer la salut de l'emmagatzematge (Lliçó 2).</p>
+
+    <ul>
+        <li>Descarrega una eina gratuïta com <strong>CrystalDiskInfo</strong> (Windows) o usa
+            <strong>Smartmontools</strong> (Linux).</li>
+        <li>Identifica l'estat de salut (Bo, Risc o Dolent).</li>
+        <li>Mira el nombre d'<strong>Hores encès</strong> i la <strong>Temperatura</strong> actual.</li>
+    </ul>
+
+    <div
+        style="background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        <p><strong>Reflexió:</strong> Quina temperatura es considera "normal" per a un disc HDD vs un SSD NVMe? Si el
+            teu disc estigués a 60ºC constantment, què faries?</p>
+    </div>
+
+    <details
+        style="background-color: rgb(245, 245, 245); padding: 10px; border-radius: 5px; cursor: pointer; margin-bottom: 20px;">
+        <summary><strong>✅ Clica per veure valors de referència</strong></summary>
+        <div style="margin-top: 10px; padding: 10px; border-top: 1px solid #ccc;">
+            <ul>
+                <li><strong>Temperatura ideal:</strong> Entre 30ºC i 45ºC. Per sobre de 55-60ºC es considera perillós.
+                </li>
+                <li><strong>Valors S.M.A.R.T. crítics:</strong> "Reallocated Sectors Count" (Sectors reassignats). Si
+                    aquest valor puja, el disc és a punts de morir.</li>
+            </ul>
+        </div>
+    </details>
+
+    <h3 style="color: rgb(0, 74, 153);">Activitat 2.2: Escolta l'equip (Codis de diagnosi)</h3>
+    <p>Interpretació de senyals acústics o visuals durant l'arrencada (Lliçó 2).</p>
+
+    <ul>
+        <li>Busca la taula de "Beep Codes" del fabricant del teu BIOS (AMI, Award, etc.).</li>
+        <li>Què indica un xiulet llarg seguit de dos de curts en la majoria d'equips?</li>
+        <li>Si la placa base té "Debug LEDs", identifica per a què serveixen els leds de CPU, RAM, VGA i BOOT.</li>
+    </ul>
+
+    <details
+        style="background-color: rgb(245, 245, 245); padding: 10px; border-radius: 5px; cursor: pointer; margin-bottom: 20px;">
+        <summary><strong>✅ Clica per veure codis comuns</strong></summary>
+        <div style="margin-top: 10px; padding: 10px; border-top: 1px solid #ccc;">
+            <ul>
+                <li><strong>1 xiulet curt:</strong> POST correcte (tot ok).</li>
+                <li><strong>Xiulets constants:</strong> Normalment indica error de memòria RAM.</li>
+                <li><strong>1 llarg i 2 curts:</strong> Error de la targeta gràfica (VGA).</li>
+            </ul>
+        </div>
+    </details>
+
+    <hr style="margin: 30px 0;">
+
+    <!-- 🔷 LLIÇÓ 3 -->
+    <h3 style="color: rgb(0, 74, 153);">Activitat 3: Particions i upgrades de portàtils</h3>
+    <p>Gestió de l'espai i reptes del maquinari compacte (Lliçó 3).</p>
+
+    <ul>
+        <li>Obre l'<strong>Administració de discs</strong> del teu sistema.</li>
+        <li>Identifica quina és la partició del sistema (C:) i si el disc és tipus <strong>GPT</strong> o
+            <strong>MBR</strong>.</li>
+        <li>Investiga si el teu portàtil permet ampliar la RAM (té ranures SO-DIMM) o si va soldada a la placa.</li>
+    </ul>
+
+    <div
+        style="background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        <p><strong>Reflexió:</strong> Per què molts portàtils ultralleugers tenen la RAM soldada? Com afecta això a la
+            reparabilitat i a la vida útil de l'equip?</p>
+    </div>
+
+    <details
+        style="background-color: rgb(245, 245, 245); padding: 10px; border-radius: 5px; cursor: pointer; margin-bottom: 20px;">
+        <summary><strong>✅ Clica per veure dades sobre particions</strong></summary>
+        <div style="margin-top: 10px; padding: 10px; border-top: 1px solid #ccc;">
+            <ul>
+                <li><strong>MBR:</strong> Antic, màxim 4 particions primàries i discs de fins a 2TB.</li>
+                <li><strong>GPT:</strong> Modern (obligatori per UEFI), particions gairebé il·limitades i discs de gran
+                    capacitat.</li>
+                <li><strong>Upgrades:</strong> Molts portàtils moderns ja no permeten ampliar RAM, però sí canviar el
+                    disc M.2.</li>
+            </ul>
+        </div>
+    </details>
+
+</div>
+<!-- 🔷 FI ACTIVITATS UNITAT 3 -->

@@ -1,0 +1,178 @@
+<div style="line-height: 1.6; text-align: justify;">
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Un cop validada la
+        integritat física i elèctrica de la infraestructura de maquinari (Unitats 1, 2 i 3), la Unitat 4 aborda la
+        implementació de la capa lògica necessària per a l'explotació dels recursos computacionals.</p>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">En aquesta Unitat,
+        analitzarem l'arquitectura del Sistema Operatiu (SO) entenent-lo no com una simple interfície d'usuari, sinó com
+        un nucli (Kernel) encarregat de la planificació de processos, la gestió de memòria virtual i el control de les
+        interrupcions d'E/S.</p>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Examinarem la dicotomia
+        del mercat actual, adquirint competències d'administració tant en entorns Microsoft Windows (dominants en
+        estacions de treball i directrius actives) com en arquitectures GNU/Linux (estàndard en servidors i sistemes
+        crítics), aprofundint en els seus respectius sistemes de fitxers (NTFS, EXT4) i models de permisos.</p>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Així mateix,
+        professionalitzarem els procediments de posada en marxa, superant la instal·lació manual unitària per dominar
+        estratègies de desplegament automatitzat. S'estudiaran tècniques de clonació de discs (Disk Imaging) i arrencada
+        remota (PXE) per a la provisió massiva d'equips en entorns corporatius. Finalment, introduirem els paradigmes
+        que estan redefinint el sector: la Virtualització (mitjançant Hipervisors de Tipus 1 i 2) i els serveis al Núvol
+        (Cloud Computing), on el manteniment evoluciona cap a la gestió d'infraestructures definides per programari
+        (IaaS), completant així el perfil tècnic de l'alumne.</p>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;"><span
+            style="font-size: 0.9375rem;">El desenvolupament de la unitat s'articula en tres blocs seqüencials:</span>
+    </p>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;"><strong>Lliçó 1: Tipus de
+            Programari i Desplegament de Sistemes:</strong> S'estableix el marc teòric sobre l'arquitectura del
+        programari, classificant els sistemes operatius (Windows i Linux) i els seus models de llicència. El focus
+        pràctic recau en les metodologies d'instal·lació: des del procediment tradicional (clean install) fins a les
+        tècniques avançades de desplegament corporatiu mitjançant clonació d'imatges de disc i arrencada per xarxa
+        (PXE).</p>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;"><strong>Lliçó 2:
+            Manteniment, Optimització i Seguretat Lògica:</strong> Es desenvolupen les competències per a la gestió del
+        cicle de vida del programari un cop instal·lat. S'aprofundeix en l'actualització de controladors (drivers) i
+        firmware, l'optimització del rendiment del sistema i l'ús d'utilitats de recuperació. Així mateix, es defineixen
+        les bones pràctiques en seguretat bàsica per protegir l'entorn de treball contra amenaces externes.</p>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;"><strong>Lliçó 3: Noves
+            Tendències i Entorns Emergents:</strong>&nbsp;S'analitza l'evolució del sector cap a nous paradigmes
+        tecnològics que superen el concepte clàssic de PC. S'estudien les arquitectures compactes i mòbils, i
+        s'introdueixen conceptes clau com la virtualització de sistemes i el Cloud Computing. Finalment, s'exploren
+        aplicacions disruptives com l'ús de la Intel·ligència Artificial (IA) i l'IoT en el manteniment predictiu.</p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        🖥️ <strong>Objectiu general de la unitat:</strong> Muntar, configurar i verificar un equip microinformàtic
+        aplicant criteris tècnics, de qualitat i de seguretat professional.
+    </div>
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Resultats d’aprenentatge
+        relacionats</h3>
+
+    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
+        <li><strong>RA5:</strong> Instal·la programari en un equip informàtic utilitzant una imatge emmagatzemada en un
+            suport de memòria i justificant el procediment a seguir.</li>
+        <li><strong>RA6:</strong> Reconeix noves tendències en l’acoblament d’equips microinformàtics descrivint-ne els
+            avantatges i adaptant-les a les característiques d’ús dels equips.</li>
+    </ul>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Estructura de la unitat
+    </h3>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        Aquesta unitat es divideix en quatre lliçons amb activitats pràctiques orientades a simular un muntatge real.
+    </p>
+
+    <ul style="margin-left: 20px;">
+        <li style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;"><strong>Lliçó
+                1.</strong> Tipus de programari i instal·lació bàsica (5 h)</li>
+        <ul style="">
+            <li style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Tipus de
+                programari i sistemes operatius habituals.</li>
+            <li style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Instal·lació
+                tradicional.</li>
+            <li style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Instal·lació a
+                partir d’imatge o clonació</li>
+            <li style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Instal·lació des
+                de xarxa.</li>
+        </ul>
+
+        <li style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;"><strong>Lliçó
+                2.</strong>&nbsp;Actualització i manteniment del programari (5 h)</li>
+        <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+            <li>Manteniment del sistema operatiu i optimització.</li>
+            <li>Actualització de programari, drivers i firmware.</li>
+            <li>Utilitats pel manteniment i reparació.</li>
+            <li>Bones pràctiques i seguretat bàsica en el manteniment.</li>
+        </ul>
+
+        <li style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;"><strong>Lliçó
+                3.</strong> Noves tendències i entorns tecnològics emergents (4 h)</li>
+        <ul style="">
+            <li style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Sistemes
+                compactes i informàtica mòbil.</li>
+            <li style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Ordinadors
+                multimèdia, modding i eficiència energètica.</li>
+            <li style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Aplicacions
+                emergents: IA, IoT i manteniment predictiu.</li>
+        </ul>
+        <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        </ul>
+    </ul>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(247, 247, 247); padding: 10px; border-left: 4px solid rgb(153, 153, 153); margin: 15px 0px;">
+        🧭 <strong>Durada total:</strong>&nbsp;14 hores (teoria, pràctiques guiades i autoavaluacions).
+    </div>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Metodologia de treball
+    </h3>
+
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        El desenvolupament de la unitat combinarà explicacions teòriques amb pràctiques reals d'Instal·lació i
+        configuració de programari.
+        Es fomentarà el treball ordenat, la documentació del procés i la verificació sistemàtica dels resultats.
+    </p>
+
+    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
+        <li>Sigues metodic amb els procediments.</li>
+        <li>Documenta incidències i solucions aplicades.</li>
+        <li>Realitza les autoavaluacions abans de continuar.</li>
+    </ul>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(238, 246, 255); padding: 10px; border-left: 4px solid rgb(58, 123, 213); margin: 15px 0px;">
+        💡 <strong>Recorda:</strong> Utiltza les guies i la documentació tècnica de les enies que utilizes.
+    </div>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Recursos i eines</h3>
+
+    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
+        <li>Guies tècniques de programari.</li>
+        <li>Vídeos demostratius d'Instal·lació i configuració de programari.</li>
+    </ul>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Avaluació i seguiment
+    </h3>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        L’avaluació serà contínua i basada en l’execució pràctica correcta del muntatge i configuració.
+        Al final de la unitat es realitzarà una <strong>EAC</strong> consistent en el muntatge complet i verificació
+        funcional d’un equip.
+    </p>
+
+    <div
+        style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; background-color: rgb(232, 245, 233); padding: 10px; border-left: 4px solid rgb(76, 175, 80); margin: 15px 0px;">
+        🧩 <strong>Consell:</strong> Un bon tècnic és aquell que és proactiu i prioritza la seguretat de les dades i
+        l'eficiència per anticipar-te a les fallades abans que es produeixin..
+    </div>
+
+    <hr style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+
+    <h3 style="color: rgb(0, 74, 153); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">Resultat esperat</h3>
+    <p style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif;">
+        En acabar aquesta unitat, seràs capaç de:
+    </p>
+    <ul style="color: rgb(34, 34, 34); font-family: &quot;Segoe UI&quot;, Roboto, sans-serif; margin-left: 20px;">
+        <li><strong>Dominar el desplegament de sistemes</strong>: Saber triar i executar instal·lacions netes,
+            clonacions massives (imatges de disc) o arrencades per xarxa (PXE) segons l'entorn.</li>
+        <li><strong>Gestionar programari i firmware</strong>: Mantenir l'estabilitat i seguretat del sistema mitjançant
+            l'optimització de controladors (drivers) i l'actualització crítica de la BIOS/UEFI.</li>
+        <li><strong>Implementar seguretat lògica i protecció de dades</strong>: Aplicar la regla 3-2-1 de còpies de
+            seguretat i protegir la xarxa corporativa aïllant dispositius IoT vulnerables.</li>
+        <li><strong>Optimitzar el rendiment i l'eficiència</strong>: Millorar la vida útil dels components amb tècniques
+            com l'undervolting i la gestió eficaç de les aplicacions d'arrencada.</li>
+    </ul>
+
+</div>
+<!-- 🔷 FI UNITAT 2 -->
