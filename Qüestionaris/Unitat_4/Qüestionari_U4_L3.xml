@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Unitat 4/Lliçó 3</text>
+    </category>
+    <info format="html">
+      <text>Preguntes de la Llicó 3 de la Unitat 4</text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P1 Miniaturització</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin fenomen ha transformat la potència de càlcul des de les grans torres cap a dispositius compactes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[La miniaturització]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La fragmentació de xarxes]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[L'obsolescència programada]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La centralització de dades]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 2  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P2 Nou ecosistema</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin d'aquests escenaris NO forma part del present i futur immediat tractat a la lliçó sobre nous ecosistemes d'equips?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Ordinadors de sobretaula exclusivament aïllats sense connexió]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La virtualització de múltiples sistemes simultanis]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[L'arquitectura del núvol]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[L'ús de la Intel·ligència Artificial en el diagnòstic d'avaries]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 3  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P3 Concepte SoC</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què signifiquen les sigles SoC en l'arquitectura d'equips de mobilitat i alta integració?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[System on Chip]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Software on Component]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[State of Circuit]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Security of Core]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 4  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P4 Arquitectura mòbil</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina arquitectura de processador ha estat dominant i introduïda al lloc de treball gràcies a l'ascens dels smartphones i tauletes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[ARM]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[x86]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[x64]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[MIPS]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 5  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P5 Raspberry Pi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què és una Raspberry Pi?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Un ordinador de placa única (SBC)]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Un programari d'edició multimèdia]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Un tipus de disc dur sòlid extern]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Una targeta gràfica externa per a portàtils]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 6  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P6 Repte SoC</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és el principal repte per al manteniment que imposa l'arquitectura SoC en portàtils ultralleugers?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[La dificultat o impossibilitat d'ampliar o substituir peces com la memòria RAM]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La necessitat de refrigeració extrema per soroll d'alta freqüència]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[El consum excessiu d'electricitat en repòs]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La immensa grandària del xassís necessari per acollir la placa]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 7  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P7 Modding</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A què fa referència el fenomen del "Modding"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A l'art de modificar i personalitzar el xassís i els components originals de l'equip]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A la instal·lació de programari pirata i mods de jocs exclusivament]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A un tipus de connexió sense fils d'augment de velocitat (mesh)]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A la neteja periòdica de la memòria de l'ordinador portàtil]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 8  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P8 Coll d'Ampolla</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què és el fenomen anomenat "Coll d'Ampolla" (Bottleneck) en un equip d'alt rendiment?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Una limitació del rendiment global del sistema degut a un component lent o antiquat]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Un augment de la calor dins el xassís causat per cables desordenats]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Una fallada catastròfica de la xarxa al processar molts errors de dades]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[L'excés de tensió que entrega la font d'alimentació]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 9  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P9 Emmagatzematge NVMe</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin tipus d'emmagatzematge és l'estàndard preferent per a estacions d'edició multimèdia d'alta resolució, per assegurar altes taxes de transferència?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Discos NVMe (Gen4 o Gen5)]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Discos magnètics SATA de 5400 rpm]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A través de cintes magnètiques LTO]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Xarxes Wi-Fi tradicionals de convidats]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 10  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P10 Thermal Throttling</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què és el fenomen de "Thermal Throttling"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Una disminució de la velocitat del processador per protegir-lo de cremades degut a excés de calor]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[L'augment de les revolucions del ventilador gràcies a programari d'IA]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[L'excés de calor provocat per la targeta gràfica durant els jocs en 4K]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La detecció proactiva de sectors de memòria defectuosos]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 11  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P11 Certificació 80 Plus</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A què fa referència la certificació "80 Plus" en el context d'equips d'alt rendiment?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A un estàndard d'eficiència energètica de les fonts d'alimentació per evitar pèrdues en forma de calor]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A la garantia que el processador disposa de més de 80 nuclis interns]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A un marge de transferència de dades mínim per a discos NVMe]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A una memòria RAM recomanada a partir de 80 GB]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 12  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P12 Refrigeració líquida</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina tècnica o solució de refrigeració és sovint necessària en equips d'alt rendiment amb un TDP extremadament alt i overclocking?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[La refrigeració líquida amb bomba i radiador (Custom Loops o AIO)]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La reducció automàtica o manual de l'espai d'emmagatzematge]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[L'aïllament del sistema exclusivament al subsòl o entorns sota zero]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Dissipadors de bloc metàl·lic i un ventilador clàssic, únicament]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 13  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P13 Overclocking</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què s'entén per "overclocking"?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[L'augment de la velocitat de rellotge o freqüència dels components per sobre del valor de fàbrica certs limitacions de disseny]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Una aturada automàtica freqüent de la CPU com a procés d'estalvi energètic]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La divisió artificial de nuclis en una CPU d'Intel·ligència Artificial]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[L'ús d'emmagatzematge lent com el SATA tradicional o SD convencionals]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 14  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P14 Processadors NPU</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quines sigles identifiquen el coprocessador dels equips moderns dissenyat especialment per a accelerar xarxes neuronals d'Intel·ligència Artificial intel·ligentment?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[NPU (Neural Processing Unit)]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[GPU (Graphics Processing Unit)]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[CPU (Central Processing Unit)]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[IoT (Internet of Things Coprocessor)]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 15  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P15 IA Local o Edge AI</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és l'objectiu principal de processar dades d'IA "a la vora" (Edge AI) o localment dins del dispositiu en lloc d'enviar-les fora?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Reduir la dependència del núvol i millorar la privadesa, seguretat i letència en les dades i aplicacions]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Optimitzar la transferència a velocitats constants i sense cost mensual exclusivament mitjançant cables Ethernet]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Poder utilitzar discs NVMe més moderns]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Generar models neuronals grans i de gran processament obert pel sistema extern exclusivament]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 16  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P16 Protocols IoT</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quins elements i protocols són habituals per a connectar dispositius de la "Internet de les Coses" (IoT) de forma autònoma i creant xarxes malla o Mesh?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Zigbee, Z-Wave o Thread]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Únicament Bluetooth i Ethernet 10G limitat]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[SATA i NVMe limitat a sistemes autònoms o tancats]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Protocols TCP/IP d'alta connectivitat només a estacions base de ràdio externa]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 17  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P17 Seguretat IoT</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina de les opcions sota d'aquestes línies és una recomanació primordial de seguretat en utilitzar diversos dispositius IoT domèstics o d'oficina (càmeres, il·luminació intel·ligent)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Aïllar aquests dispositius o segments mitjançant configuracions com xarxa de convidats o VLAN separada al voltant del PC amb dades sensibles]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mantenir les contrasenyes per defecte per millorar l'assistència de programació remota quan es sol·liciti suport avançat remot]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Connectar tots els sistemes sensibles al mateix node principal on hi ha connectades bombetes i sensors autònoms domèstics i intel·ligents ràpidament]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Desactivar periòdicament i temporal tots els sistemes de protecció extern i xarxes obertes globals i privades constantment]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 18  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P18 Risc dispositius IoT</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin dels elements inferiors reflecteix la gran vulnerabilitat respecte la presència creixent destaquen la protecció general en infraestructures i en ús i presència de serveis IoT avui dia en comparació a la xarxa base?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Solen posseeir sistemes operatius amb configuracions i contrasenyes per defecte conegudes i febles]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Generen un volum innecessari d'actualitzacions ininterrompudament forçant els tallafocs]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Eviten sistemàticament les connexions al núvol per bloquejar qualsevol ús legítim]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Utilitzen sistemes físics antiquats que generen interferències a les antenes Wi-Fi locals]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 19  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P19 Manteniment Predictiu</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin tipus de manteniment s'ha vist especialment impulsat per l'ús combinat de sensors IoT i l'anàlisi de dades mitjançant Intel·ligència Artificial?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[El manteniment predictiu]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[El manteniment reactiu tradicional]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[El manteniment preventiu basat exclusivament en el calendari]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[El manteniment correctiu programari]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 20  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L3 P20 Rol del tècnic i Dashboards</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Com ha evolucionat el rol del tècnic de manteniment IT gràcies a la integració d'eines de monitoratge (IoT) i diagnòstic (IA)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>La resposta correcta és l'opció indicada.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>La resposta és parcialment correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>La resposta és incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Passa d'un enfocament reactiu ("apagafocs") a un rol proactiu i d'anàlisi basat en panells de control (dashboards).]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Es converteix exclusivament en un programador de codi per a sensors.]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Delega tot el suport a sistemes totalment automatitzats que no requereixen supervisió humana.]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Retorna a fer només assistència presencial quan un component falla per complet.]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+</quiz>

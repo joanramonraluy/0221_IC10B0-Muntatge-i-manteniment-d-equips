@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Unitat 4/Lliçó 2</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P01 - Controladors genèrics</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què s'han de substituir els controladors genèrics instal·lats per defecte pel sistema operatiu?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Perquè només ofereixen una funcionalitat bàsica i no aprofiten el rendiment òptim ni les funcionalitats avançades del maquinari.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Perquè provoquen que l'ordinador no pugui arrencar de cap manera.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Perquè ocupen massa espai al disc dur i col·lapsen la BIOS.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Perquè són programari maliciós (malware) integrat al sistema.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 2  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P02 - Identificador maquinari</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina és la utilitat principal de l'identificador de maquinari (Hardware ID)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Permet determinar amb exactitud la marca i model d'un component desconegut sense obrir físicament l'ordinador.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Serveix per actualitzar automàticament el sistema operatiu a la darrera versió.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>És un número d'identificació fiscal requerit pel RGPD.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Assigna de forma automàtica utilitats portables a l'ordinador.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 3  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P03 - Fons de descarrega de controladors</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per seguretat i estabilitat, des d'on s'han de descarregar principalment els controladors?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Únicament des de la pàgina web oficial del fabricant de l'equip o del component.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Des de programes gratuïts de tercers que prometen actualitzar tots els controladors automàticament.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Des de portals de descàrrega com Softonic o similars.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Des de qualsevol web d'informàtica que ofereixi el fitxer .exe.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 4  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P04 - Riscos firmware</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin risc principal comporta l'actualització del firmware (BIOS/UEFI) d'una placa base?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Una interrupció durant el procés pot deixar la placa base irreversiblement inservible (bricked).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>L'ordinador funcionarà un 50% més lent de forma permanent.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Elimina immediatament totes les dades del disc dur intern.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Desinstal·la el sistema operatiu Windows per instal·lar-hi Linux.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 5  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P05 - Administrador de dispositius</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina eina utilitza el tècnic a Windows com a "quadre de comandament" per auditar i gestionar els controladors?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>L'Administrador de Dispositius (Device Manager).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>L'Explorador de fitxers.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El Monitor de rendiment de tasques.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El panell de control de la targeta gràfica exclusivament.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 6  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P06 - Repositoris vs Instal·ladors autònoms</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què s'està desplaçant el model de descarregar fitxers executable (.exe) d'internet a favor dels repositoris de programari?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Perquè els repositoris ofereixen aplicacions centralitzades, verificades i signades digitalment, minimitzant el risc de programari maliciós.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Perquè el sistema operatiu windows ja no accepta fitxers executables.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Perquè les aplicacions de repositoris no ocupen espai al disc dur.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Perquè els fitxers executables requereixen un coneixement avançat de línia de comandes.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 7  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P07 - Bloatware</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és l'impacte negatiu del "bloatware" en un ordinador nou?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Ocupa espai al disc i consumeix recursos en segon pla com memòria RAM i processador de manera innecessària.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Esborra les dades personals de l'usuari automàticament.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Inutilitza la connexió a internet per obligar a comprar la llicència.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Substitueix el sistema operatiu original.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 8  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P08 - Importància actualitzacions</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Per què l'aplicació d'actualitzacions del sistema operatiu és una pràctica fonamental?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Perquè solen incloure "pegats" (patches) que resolen vulnerabilitats i forats de seguretat crítics al programari.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Únicament per obtenir millores de disseny visual (com temes i colors nous).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Perquè si no s'actualitza, l'ordinador s'apaga i no es pot utilitzar.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Perquè neteja físicament la pols interior dels components electrònics.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 9  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P09 - Eines de distribució</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A nivell tècnic en Windows, quina eina de línia de comandes actua com a gestor de paquets similar a com interactua APT a Linux?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Winget (Windows Package Manager).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Device Manager (Administrador de Dispositius).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Windows Update.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El registre (Regedit).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 10  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P10 - All-in-one utilitats</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin recurs o eina de tipus "Tot-en-un" és extremadament útil portar en disc extraïble per un analista tècnic en diagnòstics de xarxes i reparacions?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>El disc Hiren's BootCD PE o paquets com PortableApps.com.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>L'antivirus natiu Windows Defender.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Els discos d'instal·lació del sistema Windows de l'any 2000.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Aplicacions integrades (bloatware) preinstal·lades.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 11  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P11 - Principi programari portable</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quin és el principi de funcionament de les aplicacions portables?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Garanteixen una intrusió mínima al sistema base (S.O.) de l’usuari, executant-se de forma autocontinguda des d'unitats USB sense deixar constància ni escriure al registre o dades al SSD.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Actualitzen permanentment el Firmware i el BIOS només començar a ser executades.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Substitueixen el fitxer executiu .exe natiu i es formata i es neteja per a canviar paràmetres de sistema i configuracions.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Deixen l'ordinador inservible al canviar aspectes claus de la seva arquitectura i el firmware o la placa base.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 12  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P12 - Eines de monitorització calòrica de sensors i components</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quines d'aquestes eines serien el programari de monitoratge dels sensors en temps real i per detectar "Throttling"?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>HWiNFO o CPU-Z.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Word o Office.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ccleaner o CleanMyMac.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>El Moodle i programes d'ofimàtica en nuvol de gestió.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 13  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P13 - Identificació d'errors al SSD M.2 HDD CrystalDisk</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>L'atribut en temps de detecció "SMART" permet al programa utilitzat lliurar informes intel·ligents per...:</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Preveure morts imminents en la integració del disc SSD/HDD.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Identificar la placa o motherboard i el CPU / GPU.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Donar detalls acurats i tècnics d'avançament quan es danyen integracions PCI / Pci-E com les memòries de model RAM o ROM.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Netejar la brutícia que detectin virus (Antivirus passius).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 14  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P14 - Restauració sistema (Snapshot/Restore Points)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina finalitat té la generació d'un Punt de Restauració (Restore Point) o "Snapshot"?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Mantenir la configuració operativa i estructural del Sistema Operatiu (registre o programes) sense alterar o canviar un perill de backup per arxius i carpetes privats/de client (DOCS, IMG, Fotos).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Protegir únicament les imatges personals (Fotos), vídeos familiars i altres fitxers "Personals i Privats" als SSD o HHD davant d'una negligència per esborrat d'errors fets amb mala fe o aïllades pel formatatge d'una màquina (ordinador o server) en procés reparatori completament global i/o general (per no perill del disc i part base d'unitat "C:" root central)..</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Recuperar tots els arxius o fitxers "personals" pretenint servir exclusivament a un 100% l'accés sense mirar que el RGPD/LODE marca a l'usuari des d'una partició al USB "Live" que recupera al fer el suport de backup al costat base o en el Drive / Cloud sense ser conscient.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Eliminar de manera permanent el sistema d'arxius base i la seva configuració d'arrel ("root") a mode net ("wipe/clean formating").</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 15  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P15 - Estructura Backup The "3-2-1" Rule</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A què es refereix i quines característiques té l'anomenada o designada "Regla 3-2-1" o norma de Backup?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>3 còpies de dades totals; usant un canvi a 2 tipus separats diferents de mètode / format medi extern informàtic i un total/mínim obligatori "externitzat" lluny, descentralitzat de la unitat física (és a dir 1 al "núvol" / ofshore off-site externalitzat).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Conservar o copiar només dades "crítiques" segons l'importàcia durant un cicle diari o lligat al mes sencer de backup (Ex: Només el "1er, el 2n, o 3r" d'un mes).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Mantenir en una seqüència triple un programa antivirus com Windows Defender al ordinador pre-configurat "Tot el dia o Cada Dia (3 cops) quan es perd un número de connexió al xarxa".</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Còpies de la CPU i components amb 1 model, 2 formats de memòria o plaques bases 3 mides d'ordinadors "Tot En un".</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 16  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P16 - Principi legal RGPD veure sense mirar</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A què obeeix l'anomenat comportament per protocol de tipus legal “Veure sense mirar” d'un integrador expert?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Consisteix o demana no extreure dades personals desautoritzades als dispositius intervinguts i entrar als fitxers i obrir exclusivament o simplement les preu-validacions només quan i on toqui a verificar funcionalitat correcta; per RGPD.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Saber obviar el programari publicatari genèric tipus bloatware que no serveix absolutament o realment cap avantatges.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Llegir només línies al panell de CMD i Winget sense que un analista del software utilitzi sistemes d'exploració genèrics ni "Llista De L'Ordre De Treball".</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Cridar l'atenció de l'usuari amb utilitzacions "Portable App" i "Boot Cds" mentre a través de CMD i Regedit s'arregla la màquina i problemari per a la placa.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 17  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P17 - Disposició de residus</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Segons la protecció ètica d'informació, què cal tenir completament en clar quan el format es descartarà a la vida últil al abocador (e-waste)?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>S'ha d'avisar del destí; per RGPD i seguretat; informant si s'usarà "wiping", destrucció per mètodes de hardware o tipus en programari per no vulnerar el retorn d'Informació Recuperable.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Assegurar-se per protocol al deixar connectat una eina Winget i l'aplicació "Boot Cds Live", a cada PC llençat de forma d'hospici.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Conservar de la persona una còpia backup de totes les Dades (sense dret explícit d'obrir o de signar un RGPD d'esborrament de contracte i un incident Tècnic).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Lliurar als mercats venedors "flea market" a segona mà discos complets si posen a un directori segur o tenen instal·lat punts (restore Points).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 18  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P18 - Importancia documentacio incidencia Work order</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quina conseqüència pràctica evita elaborar un Full de Treball, ordre d'intervenció o de reportar detalladament les tasques resolutives per dany físic del maquinari als ordinadors o portàtils?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Cobreix d’indefensió professional i s’eviten "discrepàncies amb el client" lligats sobre l’estat general prèvia a la intervenció i de la cronologia establerta dels components intervinents o danys perifèrics.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Preveuen actualitzacions programàtiques "pegats (Patches)" de Sistema Automàtiques en Windows mitjançant "Logs" o historials de Linux automàtics.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Permet instal·lar noves utilitats no legals o pirates ("Warez") i versions fora de garanties per aplicacions del repositori genèric i bloatware desats i guardades.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Evita fer servir un SAI i bateries quan treballem al 100%, eliminant necessitats hardware.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 19  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P19 - Integració i neteja components</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A l'hora de desmuntar equips amb multitud de peces, esmenta una pràctica segura respectant o de suport a un protocol tècnic d'intervenció?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Treballar i mantenir estricte organització posicional aplicant components magnètics com caixes imantades per visos en un pla organitzatiu, per no perdre ni barrejar caragols de distàncies variades o parts internes ni introduir-los on forçarien la motherboard del PC.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Utilitzar per sistema el control de dispositius utilitzant identificadors en web de suport (Hardware ids i programes USB per al disseny extern per treure cargols)</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Formatar i instal·lar eines i aplicacions a l'arrencada amb "Hiren's i Pci" Boot i Cds amb el disc de l'usuari amb utilitat Clean per un control o dany a la placa BIOS.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Tancar directament forçosament "a cops de tapa a la carcassa" en lloc d'aprofitar l'eina "Winget o Update de Sistema"</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+<!-- question: 20  -->
+  <question type="multichoice">
+    <name>
+      <text>U4 L2 P20 - Responsabilitats pèrdues de dades</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Què hauria de fer SEMPRE un tècnic informàtic abans de fer una operació complexa o modificar els paràmetres a fons amb risc per al correcte processament del disc operatiu?</p>]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Resposta correcta.</text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text>Resposta incorrecta.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>S'ha de fixar prioritàriament amb còpies de resguard les dades (Backups / Snapshots); i fer els protocols d'eines que prevenguin tot risc general per manipulació errònia d'usuari previ informe.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Entrar obligatòriament a Windows i donar formatures en disc sense advertir problemes i canvis futurs als contractes de suport al registre RGPD.</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Evitar sistemes de repositoris propis com l'APT del Linux o Winget degut al perill que tenen algunes de programes o les "aplicacions de fàbrica o un sistema base que ja porten".</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Netejar exclusivament per estètica del sistema d'un "Live USB/CD" només amb format Ocult (Hidden Mode).</p>]]></text>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+  </question>
+
+</quiz>

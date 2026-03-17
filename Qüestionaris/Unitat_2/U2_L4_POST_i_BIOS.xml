@@ -1,10 +1,6 @@
-
-Resum creat amb IA
-Materials sobre manteniment informàtic, incloent diagnosi i desassemblatge portàtils, amb qüestionaris XML.
-
-U2_L4_POST_i_BIOS.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
+  <question type="category"><category><text><![CDATA[$course$/top/Unitat 2/Lliçó 4]]></text></category></question>
 <!-- Question 1 -->
   <question type="multichoice">
     <name>
@@ -14,16 +10,16 @@ U2_L4_POST_i_BIOS.xml
       <text><![CDATA[<p>Quina és la funció principal de la rutina anomenada POST (Power-On Self-Test) que el microprogramari executa a l'iniciar l'equip?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Executar una rutina seqüencial d'autodiagnòstic per verificar la presència i l'estat bàsic dels components hardware abans de carregar el SO.]]></text>
+      <text><![CDATA[Executar una rutina d'autodiagnòstic per verificar els components hardware abans de carregar el SO.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Descarregar directament del fabricant les darreres actualitzacions abans d'obrir l'usuari.]]></text>
+      <text><![CDATA[Descarregar actualitzacions de firmware del fabricant.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Configurar automàticament els paràmetres visuals del monitor i la freqüència de refresc màxima d'escriptori.]]></text>
+      <text><![CDATA[Configurar els paràmetres visuals del monitor.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Instal·lar ràpidament els drivers del disc dur i el processador en el sistema operatiu.]]></text>
+      <text><![CDATA[Instal·lar automàticament els controladors del maquinari al SO.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -61,19 +57,19 @@ U2_L4_POST_i_BIOS.xml
       <text>Entrenament de memòria DDR5</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Per què la primera arrencada d'un equip de nova generació amb memòria DDR5 podria trigar diversos minuts sense donar imatge prèviament?</p>]]></text>
+      <text><![CDATA[<p>Per què la primera arrencada d'un equip amb memòria DDR5 podria trigar minuts sense donar imatge?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[A causa del procés d'entrenament de memòria (Memory Training), que necessita temps per calibrar senyals elèctrics òptims.]]></text>
+      <text><![CDATA[Pel procés d'entrenament de memòria (Memory Training), necessari per calibrar senyals.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Perquè la placa base ha de formatar els discos durs a baix nivell automàticament per compatibilitat.]]></text>
+      <text><![CDATA[Perquè la placa base formateja els discos durs per compatibilitat.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Com que la font d'alimentació es carrega per primer cop trigarà 5 minuts exactes abans d'enviar el voltatge necessari.]]></text>
+      <text><![CDATA[S'estan carregant els condensadors de la font d'alimentació.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Perquè la CPU i la GPU s'estan sincronitzant per fer "bottleneck" i repartir-se el voltatge PCI Express.]]></text>
+      <text><![CDATA[La CPU i la GPU estan sincronitzant voltatges.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -86,19 +82,19 @@ U2_L4_POST_i_BIOS.xml
       <text>EZ Debug LEDs</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Què ens indica si l'indicador lluminós d'EZ Debug marcat com a "VGA" roman encès fix i la seqüència del POST s'atura?</p>]]></text>
+      <text><![CDATA[<p>Què indica l'indicador lluminós d'EZ Debug marcat com a "VGA" si roman encès fix?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Hi ha un error en la inicialització del dispositiu de sortida de vídeo (GPU) o no s'ha detectat un monitor.]]></text>
+      <text><![CDATA[Error en la inicialització del dispositiu de vídeo (GPU) o no s'ha detectat monitor.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[El sistema no pot trobar o llegir memòria RAM eficaçment als ranures.]]></text>
+      <text><![CDATA[Error en la detecció de la memòria RAM.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[La targeta de xarxa està danyada i no disposa d'internet per inicialitzar el dispositiu visual.]]></text>
+      <text><![CDATA[Error de connexió a la xarxa per inicialitzar gràfics.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[El dispositiu de disc del Boot no conté un Sistema Operatiu Vàlid capaç d'mostrar gràfics 3D d'alta definició.]]></text>
+      <text><![CDATA[El disc d'arrencada no té un sistema operatiu vàlid.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -111,19 +107,19 @@ U2_L4_POST_i_BIOS.xml
       <text>EZ Debug LEDs - "DRAM"</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Durant el test d'arrencada el LED indicador de depuració (EZ Debug) que es queda atrapat i de manera permanent vermella/clara indica de text: "DRAM". Quin n'és el possible motiu?</p>]]></text>
+      <text><![CDATA[<p>Què indica el LED vermell fix al panell EZ Debug etiquetat com a "DRAM" durant l'arrencada?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Mòdul de memòria mal inserit, brutícia als contactes, o per simple incompatibilitat o slot defectuós.]]></text>
+      <text><![CDATA[Mòdul de memòria mal inserit, brutícia als contactes, o slot defectuós.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Només indica l'absència d'un sistema operatiu que permeti desar l'excés en el disc d'arrancada.]]></text>
+      <text><![CDATA[Indica l'absència d'un sistema operatiu al disc d'arrencada.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Complet error massiu del processador que està excessivament cremat.]]></text>
+      <text><![CDATA[Error crític del processador relacionat amb altes temperatures.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Manca l'arrancada directa als connectors polsadors Switch al voltatge general.]]></text>
+      <text><![CDATA[Mala connexió dels polsadors del panell frontal a la placa base.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -261,19 +257,19 @@ U2_L4_POST_i_BIOS.xml
       <text>Ordre d'arrencada (Boot Order)</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Quina és la funció de modificar el "Boot Order" o "Boot Priority" a la BIOS brans d'instal·lar el Sistema Operatiu?</p>]]></text>
+      <text><![CDATA[<p>Quina és la funció de modificar el "Boot Order" o "Boot Priority" a la BIOS abans d'instal·lar el Sistema Operatiu?</p>]]></text>
     </questiontext>
     <answer fraction="100">
-      <text><![CDATA[Redirigir l'execució cap al mitjà d'instal·lació extern (com una unitat USB) per davant del disc dur buit.]]></text>
+      <text><![CDATA[Redirigir l'execució cap al mitjà d'instal·lació extern (com una unitat USB) per davant del disc dur.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Accelerar la velocitat de gir dels plats del disc dur mecànic.]]></text>
+      <text><![CDATA[Accelerar la velocitat de lectura del disc dur principal.]]></text>
     </answer>
     <answer fraction="0">
       <text><![CDATA[Configurar l'ordre en què s'encenen els ventiladors de la caixa.]]></text>
     </answer>
     <answer fraction="0">
-      <text><![CDATA[Establir el temps que triga el monitor a mostrar la primera imatge.]]></text>
+      <text><![CDATA[Establir el temps que triga el monitor a mostrar la primera imatge d'arrencada.]]></text>
     </answer>
     <shuffleanswers>1</shuffleanswers>
     <single>true</single>
@@ -558,7 +554,7 @@ U2_L4_POST_i_BIOS.xml
 <!-- Question 23 -->
   <question type="multichoice">
     <name>
-      <text>Desar canvis i sortir (Save & Exit)</text>
+      <text>Desar canvis i sortir (Save &amp; Exit)</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p>Quina és l'acció obligatòria per aplicar les modificacions realitzades a la BIOS, normalment associada a la tecla F10?</p>]]></text>

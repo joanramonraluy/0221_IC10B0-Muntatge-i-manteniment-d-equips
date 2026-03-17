@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
+  <question type="category"><category><text><![CDATA[$course$/top/Unitat 3/Lliçó 2]]></text></category></question>
 <!-- Question 1: Eines diagnosi -->
   <question type="multichoice">
     <name>
@@ -375,13 +376,13 @@
     <answernumbering>abc</answernumbering>
   </question>
 
-<!-- Question 13: Protocol DDU -->
+<!-- Question 16: Protocol DDU -->
   <question type="multichoice">
     <name>
       <text>U3 L2 Q16 Protocol de neteja de drivers (DDU)</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p>Abans d'utilitzar l'eina DDU (Display Driver Uninstaller), quin pas de seguretat és és mandatori realitzar per evitar interferències?</p>]]></text>
+      <text><![CDATA[<p>Abans d'utilitzar l'eina DDU (Display Driver Uninstaller), quin pas de seguretat és mandatori realitzar per evitar interferències?</p>]]></text>
     </questiontext>
     <answer fraction="100">
       <text><![CDATA[Desconnectar Internet (Ethernet/Wi-Fi) per evitar que Windows Update torni a instal·lar el driver automàticament.]]></text>

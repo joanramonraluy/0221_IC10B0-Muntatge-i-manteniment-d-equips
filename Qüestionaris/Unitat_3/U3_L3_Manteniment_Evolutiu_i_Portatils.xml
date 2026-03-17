@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
+  <question type="category"><category><text><![CDATA[$course$/top/Unitat 3/Lliçó 3]]></text></category></question>
 <!-- Question 1: Coll d'ampolla -->
   <question type="multichoice">
     <name>
